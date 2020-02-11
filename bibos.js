@@ -18,7 +18,7 @@ let bibodaten = [
         ]
     },
     {
-        "name": "Gemeindebibliothek",
+        "name": "Gemeindebibliothek Bad Lausick",
         "str": "Badstraße 35",
         "plz": "04651",
         "coords": [
@@ -72,7 +72,7 @@ let bibodaten = [
         ]
     },
     {
-        "name": "Gemeindebibliothek",
+        "name": "Gemeindebibliothek Ebersbach",
         "str": "Hohndorferstraße 2",
         "plz": "01561",
         "coords": [
@@ -91,11 +91,11 @@ let bibodaten = [
     },
     {
         "name": "OTB Geierswalde",
-        "str": "Geierswalder Landstraße 33",
+        "str": "Landstraße 33",
         "plz": "02979",
         "coords": [
-            39.78373,
-            -100.445882
+            51.49472,
+            14.12381
         ]
     },
     {
@@ -190,7 +190,7 @@ let bibodaten = [
     },
     {
         "name": "Gemeindebibliothek Großharthau",
-        "str": "Mittelweg",
+        "str": "Mittelweg 3",
         "plz": "01909",
         "coords": [
             51.113088,
@@ -225,7 +225,7 @@ let bibodaten = [
         ]
     },
     {
-        "name": "Stadtbibliothek",
+        "name": "Stadtbibliothek Grünhain-Beierfeld",
         "str": "Pestalozzistraße 10",
         "plz": "08344",
         "coords": [
@@ -235,7 +235,7 @@ let bibodaten = [
     },
     {
         "name": "OTB Conradsdorf",
-        "str": "August Bebel Heim",
+        "str": "Alte Dresdner Straße 36",
         "plz": "09633",
         "coords": [
             50.947896,
@@ -285,15 +285,6 @@ let bibodaten = [
         "coords": [
             50.6217,
             12.530757
-        ]
-    },
-    {
-        "name": "Stadtbibliothek",
-        "str": "Wiesbadener Straße 6",
-        "plz": "61462",
-        "coords": [
-            50.181499,
-            8.468009
         ]
     },
     {
@@ -675,15 +666,6 @@ let bibodaten = [
         ]
     },
     {
-        "name": "Gemeindebibliothek Neukieritzsch",
-        "str": "Schulplatz 3",
-        "plz": "04575",
-        "coords": [
-            51.153074,
-            12.409136
-        ]
-    },
-    {
         "name": "Gemeindebibliothek Neukirch",
         "str": "Hauptstraße 62a",
         "plz": "01904",
@@ -756,7 +738,7 @@ let bibodaten = [
         ]
     },
     {
-        "name": "Stadtbibliothek",
+        "name": "Stadtbibliothek Oberwiesenthal",
         "str": "Karlsbader Straße 3",
         "plz": "09484",
         "coords": [
@@ -850,8 +832,8 @@ let bibodaten = [
         "str": "Freiberger Straße 12",
         "plz": "09526",
         "coords": [
-            39.78373,
-            -100.445882
+            50.733411,
+            13.336855
         ]
     },
     {
@@ -874,7 +856,7 @@ let bibodaten = [
     },
     {
         "name": "OTB Hallbach",
-        "str": "Hallbacher Straße",
+        "str": "Hallbacher Straße 118",
         "plz": "09526",
         "coords": [
             50.693866,
@@ -891,7 +873,7 @@ let bibodaten = [
         ]
     },
     {
-        "name": "Vogtlandbibliothek",
+        "name": "Vogtlandbibliothek Plauen",
         "str": "Neundorfer Straße 8",
         "plz": "08523",
         "coords": [
@@ -1027,7 +1009,7 @@ let bibodaten = [
     },
     {
         "name": "Stadt- und Kreisbibliotheken Vogtlandkreis Rodewisch",
-        "str": "Parkstraße 5a / Haus 3 BSZW",
+        "str": "Parkstraße 5a",
         "plz": "08228",
         "coords": [
             50.528103,
@@ -1170,7 +1152,7 @@ let bibodaten = [
         ]
     },
     {
-        "name": "Sehmataler Bibliothek & Internettreff",
+        "name": "Bibliothek & Internettreff Sehmatal",
         "str": "Kalrsbader Straße 173",
         "plz": "09465",
         "coords": [
@@ -1197,7 +1179,7 @@ let bibodaten = [
         ]
     },
     {
-        "name": "Grenzlandbibliothek",
+        "name": "Grenzlandbibliothek Seifhennersdorf",
         "str": "Rathausplatz 1",
         "plz": "02782",
         "coords": [
@@ -1278,15 +1260,6 @@ let bibodaten = [
         ]
     },
     {
-        "name": "GFTE e.V. (Bibliothek) Thalheim",
-        "str": "Äußere Heinrichstraße 1a",
-        "plz": "09380",
-        "coords": [
-            50.699656,
-            12.845249
-        ]
-    },
-    {
         "name": "OTB Herold",
         "str": "Zschopauer Straße 2",
         "plz": "09419",
@@ -1296,7 +1269,7 @@ let bibodaten = [
         ]
     },
     {
-        "name": "Kreisergänzungsbibliothek",
+        "name": "Kreisergänzungsbibliothek Torgau",
         "str": "Puschkinstraße 3",
         "plz": "04860",
         "coords": [
@@ -1491,6 +1464,924 @@ let bibodaten = [
         "coords": [
             50.629312,
             12.811743
+        ]
+    },
+    {
+        "name": "Stadtbibliothek Bad Muskau",
+        "str": "Kirchplatz 9",
+        "plz": "02953",
+        "coords": [
+            51.545118,
+            14.723317
+        ]
+    },
+    {
+        "name": "Bücherei in Bannewitz",
+        "str": "August-Bebel-Straße 1",
+        "plz": "01728",
+        "coords": [
+            50.993842,
+            13.722623
+        ]
+    },
+    {
+        "name": "OTB Schildau",
+        "str": "Bahnhofstraße 17",
+        "plz": "04889",
+        "coords": [
+            51.458328,
+            12.932435
+        ]
+    },
+    {
+        "name": "Bibliothek Bernsdorf",
+        "str": "Dresdner Straße 2",
+        "plz": "02994",
+        "coords": [
+            51.348665,
+            14.01778
+        ]
+    },
+    {
+        "name": "Stadtbibliothek Bernstadt auf dem Eigen",
+        "str": "Kirchgasse 2",
+        "plz": "02748",
+        "coords": [
+            51.047354,
+            14.825884
+        ]
+    },
+    {
+        "name": "Bibliothek Bertsdorf-Hörnitz",
+        "str": "Hauptstraße 115",
+        "plz": "02763",
+        "coords": [
+            50.88557,
+            14.735084
+        ]
+    },
+    {
+        "name": "OTB Oberborbritzsch",
+        "str": "Eschenweg 3",
+        "plz": "09627",
+        "coords": [
+            50.870957,
+            13.456774
+        ]
+    },
+    {
+        "name": "Bibliothek Boxberg",
+        "str": "Diesterwegstraße 38",
+        "plz": "02943",
+        "coords": [
+            51.403838,
+            14.57978
+        ]
+    },
+    {
+        "name": "OTB Reichwalde",
+        "str": "Jahnstraße 4",
+        "plz": "02943",
+        "coords": [
+            51.380582,
+            14.662061
+        ]
+    },
+    {
+        "name": "Gemeindebibliothek Cunewalde",
+        "str": "Hauptstraße 19",
+        "plz": "02733",
+        "coords": [
+            51.099227,
+            14.49784
+        ]
+    },
+    {
+        "name": "OTB Doberschau",
+        "str": "Schulstraße 6",
+        "plz": "02692",
+        "coords": [
+            51.152664,
+            14.39926
+        ]
+    },
+    {
+        "name": "Stadtbibliothek Dohna",
+        "str": "Burgstraße 12a",
+        "plz": "01809",
+        "coords": [
+            50.955982,
+            13.859541
+        ]
+    },
+    {
+        "name": "Zentralbibliothek Dresden",
+        "str": "Schloßstraße 2",
+        "plz": "01067",
+        "coords": [
+            51.050931,
+            13.738381
+        ]
+    },
+    {
+        "name": "Bibliothek Blasewitz",
+        "str": "Tolkewitzer Straße 8",
+        "plz": "01277",
+        "coords": [
+            51.050975,
+            13.807838
+        ]
+    },
+    {
+        "name": "Bibliothek Bühlau",
+        "str": "Bautzner Landstraße 130",
+        "plz": "01324",
+        "coords": [
+            51.061625,
+            13.848828
+        ]
+    },
+    {
+        "name": "Bibliothek Cossebaude",
+        "str": "Dresdner Straße 3",
+        "plz": "01156",
+        "coords": [
+            51.088286,
+            13.630135
+        ]
+    },
+    {
+        "name": "Bibliothek Cotta",
+        "str": "Cossebauder Straße 42",
+        "plz": "01157",
+        "coords": [
+            51.057414,
+            13.685986
+        ]
+    },
+    {
+        "name": "Bibliothek Gorbitz",
+        "str": "Merianplatz 4",
+        "plz": "01169",
+        "coords": [
+            51.045083,
+            13.669006
+        ]
+    },
+    {
+        "name": "Bibliothek Gruna",
+        "str": "Papstdorfer Straße 13",
+        "plz": "01277",
+        "coords": [
+            51.033648,
+            13.784032
+        ]
+    },
+    {
+        "name": "Bibliothek Johannstadt",
+        "str": "Fetscherstraße 23",
+        "plz": "01307",
+        "coords": [
+            51.045482,
+            13.770129
+        ]
+    },
+    {
+        "name": "Bibliothek Klotzsche",
+        "str": "Boltenhagener Straße 66",
+        "plz": "01109",
+        "coords": [
+            51.119194,
+            13.770039
+        ]
+    },
+    {
+        "name": "Bibliothek Langebrück",
+        "str": "Hauptstraße 4",
+        "plz": "01465",
+        "coords": [
+            51.126733,
+            13.844298
+        ]
+    },
+    {
+        "name": "Bibliothek Laubegast",
+        "str": "Österreicher Straße 61",
+        "plz": "01279",
+        "coords": [
+            51.023803,
+            13.83909
+        ]
+    },
+    {
+        "name": "Bibliothek Leubnitz-Neuostra",
+        "str": "Corinthstraße 8",
+        "plz": "01219",
+        "coords": [
+            51.020675,
+            13.762456
+        ]
+    },
+    {
+        "name": "Bibliothek Neustadt",
+        "str": "Königsbrücker Straße 26",
+        "plz": "01099",
+        "coords": [
+            51.06715,
+            13.747565
+        ]
+    },
+    {
+        "name": "Bibliothek Pieschen",
+        "str": "Bürgerstraße 63",
+        "plz": "01127",
+        "coords": [
+            51.077319,
+            13.721351
+        ]
+    },
+    {
+        "name": "Bibliothek Plauen",
+        "str": "Altplauen 1",
+        "plz": "01187",
+        "coords": [
+            51.029375,
+            13.706515
+        ]
+    },
+    {
+        "name": "Bibliothek Prohlis",
+        "str": "Prohliser Allee 10",
+        "plz": "01239",
+        "coords": [
+            51.005406,
+            13.797815
+        ]
+    },
+    {
+        "name": "Bibliothek Strehlen",
+        "str": "Otto-Dix-Ring 61",
+        "plz": "01219",
+        "coords": [
+            51.017944,
+            13.779152
+        ]
+    },
+    {
+        "name": "Bibliothek Südvorstadt",
+        "str": "Münchner Platz 2",
+        "plz": "01187",
+        "coords": [
+            51.030275,
+            13.722097
+        ]
+    },
+    {
+        "name": "Bibliothek Weißig",
+        "str": "Bautzner Landstraße 291",
+        "plz": "01328",
+        "coords": [
+            51.061637,
+            13.885424
+        ]
+    },
+    {
+        "name": "Bibliothek Weixdorf",
+        "str": "Hohenbusch-Markt 1",
+        "plz": "01108",
+        "coords": [
+            51.141504,
+            13.795872
+        ]
+    },
+    {
+        "name": "Schul- und Gemeindebibliothek Dürrröhrsdorf-Dittersbach",
+        "str": "Schulstraße 3",
+        "plz": "01833",
+        "coords": [
+            51.217573,
+            12.525189
+        ]
+    },
+    {
+        "name": "Stadtbibliothek Elsterberg",
+        "str": "Wallstraße 16",
+        "plz": "07985",
+        "coords": [
+            50.608294,
+            12.167097
+        ]
+    },
+    {
+        "name": "Gemeindebibliothek Bluno",
+        "str": "Dorfaue 33",
+        "plz": "02979",
+        "coords": [
+            51.524003,
+            14.230418
+        ]
+    },
+    {
+        "name": "OTB Klein Partwitz",
+        "str": "Lindenallee 4",
+        "plz": "02979",
+        "coords": [
+            51.51731,
+            14.188721
+        ]
+    },
+    {
+        "name": "OTB Sabrodt",
+        "str": "Dorfstraße 64",
+        "plz": "02979",
+        "coords": [
+            51.524705,
+            14.282853
+        ]
+    },
+    {
+        "name": "Bibliothek im Kita-Gebäude",
+        "str": "Raubschlösschen 8",
+        "plz": "01612",
+        "coords": [
+            51.322691,
+            13.376563
+        ]
+    },
+    {
+        "name": "OTB Nieska",
+        "str": "Riesaer Straße 26",
+        "plz": "01609",
+        "coords": [
+            51.427045,
+            13.360164
+        ]
+    },
+    {
+        "name": "OTB Bretnig-Hauswalde",
+        "str": "Adolf-Zschiedrich Straße 1",
+        "plz": "01900",
+        "coords": [
+            51.151105,
+            14.057731
+        ]
+    },
+    {
+        "name": "Gemeindebibliothek Großrückerswalde",
+        "str": "Marienberger Straße 72",
+        "plz": "09518",
+        "coords": [
+            50.628418,
+            13.114204
+        ]
+    },
+    {
+        "name": "OTB Obergruna",
+        "str": "Dorfstraße 51",
+        "plz": "09603",
+        "coords": [
+            51.015225,
+            13.317187
+        ]
+    },
+    {
+        "name": "Patientenbibliothek Sächsisches Krankenhaus Großschweidnitz",
+        "str": "Dr.-Marx-Krell-Park 41",
+        "plz": "02708",
+        "coords": [
+            51.075492,
+            14.644081
+        ]
+    },
+    {
+        "name": "Bücherei Großweitzschen",
+        "str": "Untere Str. 4",
+        "plz": "04720",
+        "coords": [
+            51.156739,
+            13.046293
+        ]
+    },
+    {
+        "name": "OTB Niederschöna",
+        "str": "Untere Dorfstraße 21",
+        "plz": "09600",
+        "coords": [
+            50.965384,
+            13.421004
+        ]
+    },
+    {
+        "name": "Bücherei Hartenstein",
+        "str": "Marktplatz 9",
+        "plz": "08118",
+        "coords": [
+            50.661493,
+            12.671984
+        ]
+    },
+    {
+        "name": "Zentralbibliothek im Gildenhaus",
+        "str": "Bahnhofstraße 9",
+        "plz": "02747",
+        "coords": [
+            50.951774,
+            14.724913
+        ]
+    },
+    {
+        "name": "Gemeindebibliothek Jonsdorf",
+        "str": "Auf der Heide 1",
+        "plz": "02796",
+        "coords": [
+            50.853924,
+            14.704057
+        ]
+    },
+    {
+        "name": "Stadtbibliothek Kirchberg",
+        "str": "Meisterhaus 1",
+        "plz": "08107",
+        "coords": [
+            50.621347,
+            12.531563
+        ]
+    },
+    {
+        "name": "OTB Niedercunnersdorf",
+        "str": "Niedere Hauptstraße 37",
+        "plz": "02708",
+        "coords": [
+            51.054938,
+            14.657956
+        ]
+    },
+    {
+        "name": "OTB Obercunnersdorf",
+        "str": "Hauptstraße 65",
+        "plz": "02708",
+        "coords": [
+            50.983977,
+            14.66054
+        ]
+    },
+    {
+        "name": "OTB Ottenhain",
+        "str": "Am Gemeindeamt 3",
+        "plz": "02708",
+        "coords": [
+            51.062947,
+            14.68657
+        ]
+    },
+    {
+        "name": "Gemeindebibliothek Kubschütz",
+        "str": "Mittelweg 3",
+        "plz": "02627",
+        "coords": [
+            51.168226,
+            14.506219
+        ]
+    },
+    {
+        "name": "Gemeindebibliothek Lampertswalde",
+        "str": "Am Bergsportplatz 3",
+        "plz": "01561",
+        "coords": [
+            51.310619,
+            13.678254
+        ]
+    },
+    {
+        "name": "Stadtbibliothek Lauta",
+        "str": "Mittelstraße 36",
+        "plz": "02991",
+        "coords": [
+            51.459623,
+            14.097536
+        ]
+    },
+    {
+        "name": "Gemeindebibliothek Lichtenberg",
+        "str": "Bahnhofstraße 3a",
+        "plz": "09638",
+        "coords": [
+            52.544884,
+            13.497094
+        ]
+    },
+    {
+        "name": "Bibliothek im Schützenhaus",
+        "str": "Sachsenplatz 3",
+        "plz": "01623",
+        "coords": [
+            51.199669,
+            13.305784
+        ]
+    },
+    {
+        "name": "Bibliothek Markneukirchen",
+        "str": "Straße des Friedens 26",
+        "plz": "08258",
+        "coords": [
+            50.311593,
+            12.33261
+        ]
+    },
+    {
+        "name": "OTB Oberseifersdorf",
+        "str": "Willi-Gall-Straße 3",
+        "plz": "02763",
+        "coords": [
+            50.945822,
+            14.799478
+        ]
+    },
+    {
+        "name": "Gemeindebibliothek Moritzburg",
+        "str": "Bahnhofstraße 9",
+        "plz": "01468",
+        "coords": [
+            51.157285,
+            13.687575
+        ]
+    },
+    {
+        "name": "Bibliothek Mulda",
+        "str": "Jahnstraße 7",
+        "plz": "09619",
+        "coords": [
+            50.809344,
+            13.406865
+        ]
+    },
+    {
+        "name": "Gemeindebibliothek Nebelschütz",
+        "str": "Hauptstraße 9",
+        "plz": "01920",
+        "coords": [
+            51.264736,
+            14.156421
+        ]
+    },
+    {
+        "name": "Gemeindebibliothek Neukieritzsch",
+        "str": "Schulplatz 3",
+        "plz": "04575",
+        "coords": [
+            51.153074,
+            12.409136
+        ]
+    },
+    {
+        "name": "Gemeindebibliothek Neumark",
+        "str": "Markt 3",
+        "plz": "08496",
+        "coords": [
+            50.656657,
+            12.354614
+        ]
+    },
+    {
+        "name": "Stadtbibliothek Neusalza-Spremberg",
+        "str": "Kirchstraße 17",
+        "plz": "02742",
+        "coords": [
+            51.035094,
+            14.527139
+        ]
+    },
+    {
+        "name": "Gemeindebibliothek Oberpirk",
+        "str": "Talstraße 9",
+        "plz": "08539",
+        "coords": [
+            50.547263,
+            12.011597
+        ]
+    },
+    {
+        "name": "Gemeindebibliothek Ohorn",
+        "str": "Schulstraße 2",
+        "plz": "01896",
+        "coords": [
+            51.175888,
+            14.04898
+        ]
+    },
+    {
+        "name": "Gemeindebibliothek Oßling",
+        "str": "Schulstraße 10",
+        "plz": "01920",
+        "coords": [
+            51.360433,
+            14.17213
+        ]
+    },
+    {
+        "name": "Gemeindebibliothek Ostrau",
+        "str": "Ernst-Thälmann-Straße 29",
+        "plz": "04749",
+        "coords": [
+            51.205991,
+            13.158824
+        ]
+    },
+    {
+        "name": "OTB Schrebitz",
+        "str": "Schulweg 4",
+        "plz": "04749",
+        "coords": [
+            51.203464,
+            13.070936
+        ]
+    },
+    {
+        "name": "Gemeindebibliothek Hermsdorf",
+        "str": "Else-Sommer-Straße 3",
+        "plz": "01458",
+        "coords": [
+            51.168008,
+            13.822679
+        ]
+    },
+    {
+        "name": "OTB Lückendorf",
+        "str": "Am Parkplatz Kurhaus",
+        "plz": "02797",
+        "coords": [
+            50.841253,
+            14.742387
+        ]
+    },
+    {
+        "name": "Gemeindebücherei Oybin",
+        "str": "Hauptstraße 15",
+        "plz": "02797",
+        "coords": [
+            50.842447,
+            14.74093
+        ]
+    },
+    {
+        "name": "Bibliothek Mühltroff",
+        "str": "Markt 16",
+        "plz": "07919",
+        "coords": [
+            50.569222,
+            11.965339
+        ]
+    },
+    {
+        "name": "Gemeindebibliothek Neundorf",
+        "str": "Kobitzschwalder Straße 9",
+        "plz": "08523",
+        "coords": [
+            50.490148,
+            12.072412
+        ]
+    },
+    {
+        "name": "Gemeindebibliothek Poppengrün",
+        "str": "Oelsnitzer Straße 3",
+        "plz": "08223",
+        "coords": [
+            50.452282,
+            12.326944
+        ]
+    },
+    {
+        "name": "Gemeindebibliothek Rietschen",
+        "str": "Rothenburger Straße 14a",
+        "plz": "02956",
+        "coords": [
+            51.395782,
+            14.796756
+        ]
+    },
+    {
+        "name": "Stadtbücherei Sayda",
+        "str": "Am Markt 2",
+        "plz": "09619",
+        "coords": [
+            50.711895,
+            13.420343
+        ]
+    },
+    {
+        "name": "OTB Crostau",
+        "str": "Am Park 1",
+        "plz": "02681",
+        "coords": [
+            51.082613,
+            14.453877
+        ]
+    },
+    {
+        "name": "Stadtbibliothek Kirschau",
+        "str": "Bautzener Straße 50",
+        "plz": "02681",
+        "coords": [
+            51.097746,
+            14.435273
+        ]
+    },
+    {
+        "name": "Gemeindebücherei Schmölln-Putzkau",
+        "str": "Zittauer Straße 21a",
+        "plz": "01877",
+        "coords": [
+            51.100311,
+            14.240026
+        ]
+    },
+    {
+        "name": "Gemeindebibliothek Schönfeld",
+        "str": "Straße der MTS 11",
+        "plz": "01561",
+        "coords": [
+            51.298531,
+            13.697698
+        ]
+    },
+    {
+        "name": "Bibliothek Schwepnitz",
+        "str": "Dresdner Straße 8",
+        "plz": "01936",
+        "coords": [
+            51.330481,
+            13.95674
+        ]
+    },
+    {
+        "name": "OTB Taubenheim/Spree",
+        "str": "Sohlander Straße 31",
+        "plz": "02689",
+        "coords": [
+            51.044076,
+            14.479214
+        ]
+    },
+    {
+        "name": "Peter Sodann Bibliothek",
+        "str": "Thomas-Mützer-Platz 8",
+        "plz": "01594",
+        "coords": [
+            51.223308,
+            13.224281
+        ]
+    },
+    {
+        "name": "Ortsteilbibliothek Wernesgrün",
+        "str": "Brauereistraße 39",
+        "plz": "08237",
+        "coords": [
+            50.53171,
+            12.474609
+        ]
+    },
+    {
+        "name": "Ortsteilbibliothek Wildenau",
+        "str": "Am Bahnhof 3",
+        "plz": "08237",
+        "coords": [
+            50.538229,
+            12.501904
+        ]
+    },
+    {
+        "name": "OTB Ringenhain",
+        "str": "Alte Schule-Schulweg",
+        "plz": "01904",
+        "coords": [
+            51.076849,
+            14.334917
+        ]
+    },
+    {
+        "name": "Gemeindebibliothek Steinigtwolmsdorf",
+        "str": "Am Markt 1",
+        "plz": "01904",
+        "coords": [
+            51.063579,
+            14.346914
+        ]
+    },
+    {
+        "name": "Stadtbibliothek Stolpen",
+        "str": "Markt 26",
+        "plz": "01833",
+        "coords": [
+            51.04877,
+            14.082666
+        ]
+    },
+    {
+        "name": "Gemeindebibliothek Syrau",
+        "str": "Höhlenberg 10",
+        "plz": "08545",
+        "coords": [
+            50.542437,
+            12.082072
+        ]
+    },
+    {
+        "name": "Gemeindebibliothek Tannenbergsthal",
+        "str": "Klingenthaler Straße",
+        "plz": "08262",
+        "coords": [
+            50.453498,
+            12.456482
+        ]
+    },
+    {
+        "name": "Gemeindebibliothek Taura",
+        "str": "Köthensdorfer Straße 2a",
+        "plz": "04425",
+        "coords": [
+            50.912921,
+            12.854541
+        ]
+    },
+    {
+        "name": "Stadtbibliothek Torgau",
+        "str": "Ritterstraße 10",
+        "plz": "04860",
+        "coords": [
+            51.559794,
+            13.005086
+        ]
+    },
+    {
+        "name": "Gemeindebibliothek Trebendorf",
+        "str": "Tiergartenstraße 3",
+        "plz": "02959",
+        "coords": [
+            51.52855,
+            14.55612
+        ]
+    },
+    {
+        "name": "OTB Leppersdorf",
+        "str": "Alte Hauptstraße 4",
+        "plz": "01454",
+        "coords": [
+            51.153121,
+            13.961617
+        ]
+    },
+    {
+        "name": "OTB Seifersdorf",
+        "str": "Tina-von-Brühl-Straße 33",
+        "plz": "01454",
+        "coords": [
+            51.15883,
+            13.882853
+        ]
+    },
+    {
+        "name": "Bibliothek Wechselburg",
+        "str": "Bahnhofstraße 16",
+        "plz": "09306",
+        "coords": [
+            51.002768,
+            12.77811
+        ]
+    },
+    {
+        "name": "Bibliothek Weißenborn",
+        "str": "Frauensteiner Straße 9",
+        "plz": "09600",
+        "coords": [
+            50.872428,
+            13.40021
+        ]
+    },
+    {
+        "name": "OTB Luppa",
+        "str": "An der Hubertusburg 63",
+        "plz": "04779",
+        "coords": [
+            51.274481,
+            12.942007
+        ]
+    },
+    {
+        "name": "Bücherei Lüttewitz",
+        "str": "Hohlweg 4",
+        "plz": "04720",
+        "coords": [
+            51.166622,
+            13.178713
+        ]
+    },
+    {
+        "name": "Bücherei Ottewig",
+        "str": "Im Gut 10",
+        "plz": "04720",
+        "coords": [
+            51.177284,
+            13.191104
         ]
     }
 ]

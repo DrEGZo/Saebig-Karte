@@ -45,9 +45,17 @@ function main() {
         style: 'https://api.maptiler.com/maps/streets/style.json?key=R7Y2sHW2hgzFomqlOY4W'
     }).addTo(map);
 
+    // Erstellen des Marker Icons
+    let icon = L.icon({
+        iconUrl: 'icon.svg',
+        iconSize: [40, 48],
+        iconAnchor: [20, 48],
+        popupAnchor: [0, -28]
+    });
+
     // Hinzufügen der Marker mit Popup (vorerst unsichtbar)
     for (let i = 0; i < bibodaten.length; i++) {
-        let marker = L.marker(bibodaten[i].coords);
+        let marker = L.marker(bibodaten[i].coords, {icon: icon});
         let markertext = '<b>' + bibodaten[i].name + '</b><br>' + bibodaten[i].str + '<br>' + bibodaten[i].plz;
         marker.bindPopup(markertext);
         markers.push(marker);
