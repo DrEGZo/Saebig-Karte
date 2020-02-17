@@ -48,9 +48,9 @@ function main() {
     // Erstellen des Marker Icons
     let icon = L.icon({
         iconUrl: 'icon.svg',
-        iconSize: [40, 48],
-        iconAnchor: [20, 48],
-        popupAnchor: [0, -28]
+        iconSize: [30, 36],
+        iconAnchor: [15, 36],
+        popupAnchor: [0, -21]
     });
 
     // Hinzufügen der Marker mit Popup (vorerst unsichtbar)
