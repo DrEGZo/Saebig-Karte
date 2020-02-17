@@ -39,3 +39,8 @@
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+/* Popup Schriftart */
+.leaflet-popup-content {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
