@@ -6,7 +6,8 @@ let bibodaten = [
         "coords": [
             50.057433,
             12.18807
-        ]
+        ],
+        "lk": ""
     },
     {
         "name": "Stadtbibliothek Augustusburg",
@@ -15,7 +16,8 @@ let bibodaten = [
         "coords": [
             50.810518,
             13.101239
-        ]
+        ],
+        "lk": "Landkreis Mittelsachsen"
     },
     {
         "name": "Gemeindebibliothek Bad Lausick",
@@ -24,7 +26,8 @@ let bibodaten = [
         "coords": [
             51.148452,
             12.650559
-        ]
+        ],
+        "lk": "Landkreis Leipzig"
     },
     {
         "name": "Bibliothek Beilrode",
@@ -33,7 +36,8 @@ let bibodaten = [
         "coords": [
             51.575623,
             13.067274
-        ]
+        ],
+        "lk": "Landkreis Nordsachsen"
     },
     {
         "name": "OTB Dautzschen",
@@ -42,7 +46,8 @@ let bibodaten = [
         "coords": [
             51.634111,
             13.004865
-        ]
+        ],
+        "lk": "Landkreis Nordsachsen"
     },
     {
         "name": "OTB Hilbersdorf",
@@ -51,7 +56,8 @@ let bibodaten = [
         "coords": [
             50.910811,
             13.393602
-        ]
+        ],
+        "lk": "Landkreis Mittelsachsen"
     },
     {
         "name": "Gemeinde Bücherei Börnichen",
@@ -60,7 +66,8 @@ let bibodaten = [
         "coords": [
             50.750365,
             13.142687
-        ]
+        ],
+        "lk": "Landkreis Erzgebirgskreis"
     },
     {
         "name": "Gemeindebibliothek Demitz-Thumitz",
@@ -69,7 +76,8 @@ let bibodaten = [
         "coords": [
             51.138179,
             14.244393
-        ]
+        ],
+        "lk": "Landkreis Bautzen"
     },
     {
         "name": "Gemeindebibliothek Ebersbach",
@@ -78,7 +86,8 @@ let bibodaten = [
         "coords": [
             51.250222,
             13.65822
-        ]
+        ],
+        "lk": "Landkreis Meißen"
     },
     {
         "name": "Stadtbibliothek Ehrenfriedersdorf",
@@ -87,7 +96,8 @@ let bibodaten = [
         "coords": [
             50.647296,
             12.966266
-        ]
+        ],
+        "lk": "Landkreis Erzgebirgskreis"
     },
     {
         "name": "OTB Geierswalde",
@@ -96,7 +106,8 @@ let bibodaten = [
         "coords": [
             51.49472,
             14.12381
-        ]
+        ],
+        "lk": "Landkreis Bautzen"
     },
     {
         "name": "Gemeindebibliothek Eppendorf",
@@ -105,7 +116,8 @@ let bibodaten = [
         "coords": [
             50.79899,
             13.227279
-        ]
+        ],
+        "lk": "Landkreis Mittelsachsen"
     },
     {
         "name": "OTB Großwaltersdorf",
@@ -114,7 +126,8 @@ let bibodaten = [
         "coords": [
             50.784686,
             13.269122
-        ]
+        ],
+        "lk": "Landkreis Mittelsachsen"
     },
     {
         "name": "Stadtbücherei Frankenthal",
@@ -123,7 +136,8 @@ let bibodaten = [
         "coords": [
             49.533968,
             8.352228
-        ]
+        ],
+        "lk": ""
     },
     {
         "name": "OTB Burkersdorf",
@@ -132,7 +146,8 @@ let bibodaten = [
         "coords": [
             50.817238,
             13.480374
-        ]
+        ],
+        "lk": "Landkreis Mittelsachsen"
     },
     {
         "name": "OTB Kleinwaltersdorf",
@@ -141,7 +156,8 @@ let bibodaten = [
         "coords": [
             50.932132,
             13.302206
-        ]
+        ],
+        "lk": "Landkreis Mittelsachsen"
     },
     {
         "name": "Bücherei Gaußig",
@@ -150,7 +166,8 @@ let bibodaten = [
         "coords": [
             51.136298,
             14.315738
-        ]
+        ],
+        "lk": "Landkreis Bautzen"
     },
     {
         "name": "Stadtbücherei Geringswalde",
@@ -159,7 +176,8 @@ let bibodaten = [
         "coords": [
             51.076882,
             12.903968
-        ]
+        ],
+        "lk": "Landkreis Mittelsachsen"
     },
     {
         "name": "Gemeindebibliothek Gersdorf",
@@ -168,7 +186,8 @@ let bibodaten = [
         "coords": [
             50.759196,
             12.708227
-        ]
+        ],
+        "lk": "Landkreis Zwickau"
     },
     {
         "name": "OTB Hausdorf",
@@ -177,7 +196,8 @@ let bibodaten = [
         "coords": [
             50.892167,
             13.757214
-        ]
+        ],
+        "lk": "Landkreis Sächsische Schweiz<br>Osterzgebirge"
     },
     {
         "name": "Gemeindebibliothek Gornsdorf",
@@ -186,7 +206,8 @@ let bibodaten = [
         "coords": [
             50.706915,
             12.883479
-        ]
+        ],
+        "lk": "Landkreis Erzgebirgskreis"
     },
     {
         "name": "Gemeindebibliothek Großharthau",
@@ -195,7 +216,8 @@ let bibodaten = [
         "coords": [
             51.113088,
             14.103984
-        ]
+        ],
+        "lk": "Landkreis Bautzen"
     },
     {
         "name": "Gemeindebücherei Großhartmannsdorf",
@@ -204,7 +226,8 @@ let bibodaten = [
         "coords": [
             50.799419,
             13.322774
-        ]
+        ],
+        "lk": "Landkreis Mittelsachsen"
     },
     {
         "name": "OTB Großnaundorf",
@@ -213,7 +236,8 @@ let bibodaten = [
         "coords": [
             51.203617,
             13.936795
-        ]
+        ],
+        "lk": "Landkreis Bautzen"
     },
     {
         "name": "Gemeindebibliotehk Großschirma",
@@ -222,7 +246,8 @@ let bibodaten = [
         "coords": [
             50.96603,
             13.272762
-        ]
+        ],
+        "lk": "Landkreis Mittelsachsen"
     },
     {
         "name": "Stadtbibliothek Grünhain-Beierfeld",
@@ -231,7 +256,8 @@ let bibodaten = [
         "coords": [
             50.563335,
             12.787104
-        ]
+        ],
+        "lk": "Landkreis Erzgebirgskreis"
     },
     {
         "name": "OTB Conradsdorf",
@@ -240,7 +266,8 @@ let bibodaten = [
         "coords": [
             50.947896,
             13.374384
-        ]
+        ],
+        "lk": "Landkreis Mittelsachsen"
     },
     {
         "name": "Gemeindebibliothek Halsbrücke",
@@ -249,7 +276,8 @@ let bibodaten = [
         "coords": [
             50.954615,
             13.352576
-        ]
+        ],
+        "lk": "Landkreis Mittelsachsen"
     },
     {
         "name": "OTB Hetzdorf",
@@ -258,7 +286,8 @@ let bibodaten = [
         "coords": [
             50.970403,
             13.461806
-        ]
+        ],
+        "lk": "Landkreis Mittelsachsen"
     },
     {
         "name": "Gemeindebücherei Hochkirch",
@@ -267,7 +296,8 @@ let bibodaten = [
         "coords": [
             51.149045,
             14.567114
-        ]
+        ],
+        "lk": "Landkreis Bautzen"
     },
     {
         "name": "Zentralbibliothek Jesewitz",
@@ -276,7 +306,8 @@ let bibodaten = [
         "coords": [
             51.422666,
             12.565383
-        ]
+        ],
+        "lk": "Landkreis Nordsachsen"
     },
     {
         "name": "Stadtbibliothek Kirchberg",
@@ -285,7 +316,8 @@ let bibodaten = [
         "coords": [
             50.6217,
             12.530757
-        ]
+        ],
+        "lk": "Landkreis Zwickau"
     },
     {
         "name": "Gemeindebibliothek Königswalde",
@@ -294,7 +326,8 @@ let bibodaten = [
         "coords": [
             50.544724,
             13.050506
-        ]
+        ],
+        "lk": "Landkreis Erzgebirgskreis"
     },
     {
         "name": "Bücherei Lauenstein",
@@ -303,7 +336,8 @@ let bibodaten = [
         "coords": [
             50.782626,
             13.821524
-        ]
+        ],
+        "lk": "Landkreis Sächsische Schweiz<br>Osterzgebirge"
     },
     {
         "name": "Stadtbibliothek Leisnig",
@@ -312,7 +346,8 @@ let bibodaten = [
         "coords": [
             51.16118,
             12.925882
-        ]
+        ],
+        "lk": "Landkreis Mittelsachsen"
     },
     {
         "name": "Stadtbibliothek Lengefeld",
@@ -321,7 +356,8 @@ let bibodaten = [
         "coords": [
             50.719106,
             13.193134
-        ]
+        ],
+        "lk": "Landkreis Erzgebirgskreis"
     },
     {
         "name": "Stadtbibliothek Lengenfeld",
@@ -330,7 +366,8 @@ let bibodaten = [
         "coords": [
             50.569752,
             12.364761
-        ]
+        ],
+        "lk": "Landkreis Vogtlandkreis"
     },
     {
         "name": "OTB Hohenfichte",
@@ -339,16 +376,18 @@ let bibodaten = [
         "coords": [
             50.817804,
             13.133304
-        ]
+        ],
+        "lk": "Landkreis Mittelsachsen"
     },
     {
         "name": "Gemeindebibliothek Leubsdorf",
         "str": "Hauptstraße 119",
         "plz": "09537",
         "coords": [
-            50.546302,
-            7.28673
-        ]
+            50.800602,
+            13.166466
+        ],
+        "lk": "Landkreis Mittelsachsen"
     },
     {
         "name": "OTB Marbach",
@@ -357,16 +396,8 @@ let bibodaten = [
         "coords": [
             50.787412,
             13.134056
-        ]
-    },
-    {
-        "name": "Gemeindebibliothek Lichtenberg",
-        "str": "Bahnhofstr 3A",
-        "plz": "09638",
-        "coords": [
-            52.544884,
-            13.497094
-        ]
+        ],
+        "lk": "Landkreis Mittelsachsen"
     },
     {
         "name": "Stadtbibliothek Lichtenstein",
@@ -375,7 +406,8 @@ let bibodaten = [
         "coords": [
             50.75384,
             12.63482
-        ]
+        ],
+        "lk": "Landkreis Zwickau"
     },
     {
         "name": "Gemeindebibliothek Lichtentanne",
@@ -384,7 +416,8 @@ let bibodaten = [
         "coords": [
             50.695366,
             12.421603
-        ]
+        ],
+        "lk": "Landkreis Zwickau"
     },
     {
         "name": "Stadtbibliothek Limbach-Oberfrohna",
@@ -393,7 +426,8 @@ let bibodaten = [
         "coords": [
             50.858594,
             12.763969
-        ]
+        ],
+        "lk": "Landkreis Zwickau"
     },
     {
         "name": "Stadtbibliothek Löbau",
@@ -402,7 +436,8 @@ let bibodaten = [
         "coords": [
             51.096236,
             14.666329
-        ]
+        ],
+        "lk": "Landkreis Görlitz"
     },
     {
         "name": "Gemeindebibliothek Lohmen",
@@ -411,7 +446,8 @@ let bibodaten = [
         "coords": [
             50.990444,
             13.994253
-        ]
+        ],
+        "lk": "Landkreis Sächsische Schweiz<br>Osterzgebirge"
     },
     {
         "name": "Gemeindebibliothek Lohsa",
@@ -420,7 +456,8 @@ let bibodaten = [
         "coords": [
             51.383921,
             14.403678
-        ]
+        ],
+        "lk": "Landkreis Bautzen"
     },
     {
         "name": "Gemeindebibliothek Hohburg",
@@ -429,7 +466,8 @@ let bibodaten = [
         "coords": [
             51.410519,
             12.806745
-        ]
+        ],
+        "lk": "Landkreis Leipzig"
     },
     {
         "name": "Stadtbibliothek Lößnitz",
@@ -438,7 +476,8 @@ let bibodaten = [
         "coords": [
             50.621977,
             12.731985
-        ]
+        ],
+        "lk": "Landkreis Erzgebirgskreis"
     },
     {
         "name": "Stadtbibliothek  Lugau",
@@ -447,7 +486,8 @@ let bibodaten = [
         "coords": [
             50.741709,
             12.747013
-        ]
+        ],
+        "lk": "Landkreis Erzgebirgskreis"
     },
     {
         "name": "Städtische Bibliothek Lunzenau",
@@ -456,7 +496,8 @@ let bibodaten = [
         "coords": [
             50.96097,
             12.756099
-        ]
+        ],
+        "lk": "Landkreis Mittelsachsen"
     },
     {
         "name": "Gemeindebücherei Machern",
@@ -465,7 +506,8 @@ let bibodaten = [
         "coords": [
             51.360859,
             12.628211
-        ]
+        ],
+        "lk": "Landkreis Leipzig"
     },
     {
         "name": "Bibliothek Makersbach",
@@ -474,7 +516,8 @@ let bibodaten = [
         "coords": [
             50.532793,
             12.870083
-        ]
+        ],
+        "lk": "Landkreis Erzgebirgskreis"
     },
     {
         "name": "Stadtbibliothek Marienberg",
@@ -483,7 +526,8 @@ let bibodaten = [
         "coords": [
             50.649385,
             13.155701
-        ]
+        ],
+        "lk": "Landkreis Erzgebirgskreis"
     },
     {
         "name": "Ortsteilbibliothek Rübenau",
@@ -492,7 +536,8 @@ let bibodaten = [
         "coords": [
             50.649339,
             13.301097
-        ]
+        ],
+        "lk": "Landkreis Erzgebirgskreis"
     },
     {
         "name": "OTB Zöblitz",
@@ -501,7 +546,8 @@ let bibodaten = [
         "coords": [
             50.65784,
             13.231704
-        ]
+        ],
+        "lk": "Landkreis Erzgebirgskreis"
     },
     {
         "name": "Stadtbibliothek Markkleeberg",
@@ -510,7 +556,8 @@ let bibodaten = [
         "coords": [
             51.278451,
             12.362338
-        ]
+        ],
+        "lk": "Landkreis Leipzig"
     },
     {
         "name": "Stadtbibliothek Markranstädt",
@@ -519,7 +566,8 @@ let bibodaten = [
         "coords": [
             51.304658,
             12.220585
-        ]
+        ],
+        "lk": "Landkreis Leipzig"
     },
     {
         "name": "Stadtbibliothek Meerane",
@@ -528,7 +576,8 @@ let bibodaten = [
         "coords": [
             50.849728,
             12.466949
-        ]
+        ],
+        "lk": "Landkreis Zwickau"
     },
     {
         "name": "Stadtbibliothek Meißen",
@@ -537,7 +586,8 @@ let bibodaten = [
         "coords": [
             51.163007,
             13.47257
-        ]
+        ],
+        "lk": "Landkreis Meißen"
     },
     {
         "name": "Stadtbibliothek Mittweida",
@@ -546,7 +596,8 @@ let bibodaten = [
         "coords": [
             50.984683,
             12.981875
-        ]
+        ],
+        "lk": "Landkreis Mittelsachsen"
     },
     {
         "name": "Gemeindebibliothek Mockrehna",
@@ -555,7 +606,8 @@ let bibodaten = [
         "coords": [
             51.506051,
             12.810146
-        ]
+        ],
+        "lk": "Landkreis Nordsachsen"
     },
     {
         "name": "Stadtbibliothek Mügeln",
@@ -564,7 +616,8 @@ let bibodaten = [
         "coords": [
             51.23665,
             13.048153
-        ]
+        ],
+        "lk": "Landkreis Nordsachsen"
     },
     {
         "name": "Gemeindebibliothek Mülsen",
@@ -573,7 +626,8 @@ let bibodaten = [
         "coords": [
             50.73142,
             12.578859
-        ]
+        ],
+        "lk": "Landkreis Zwickau"
     },
     {
         "name": "Gemeindebibliothek Thurm",
@@ -582,7 +636,8 @@ let bibodaten = [
         "coords": [
             50.764693,
             12.542803
-        ]
+        ],
+        "lk": "Landkreis Zwickau"
     },
     {
         "name": "Stadtbibliothek Mylau",
@@ -591,16 +646,18 @@ let bibodaten = [
         "coords": [
             50.617747,
             12.267308
-        ]
+        ],
+        "lk": "Landkreis Vogtlandkreis"
     },
     {
         "name": "OTB Hof",
-        "str": "Dorfplatz 5",
+        "str": "Am Dorfplatz 5",
         "plz": "04758",
         "coords": [
-            51.478456,
-            12.034358
-        ]
+            51.236702,
+            13.190289
+        ],
+        "lk": "Landkreis Nordsachsen"
     },
     {
         "name": "Gemeindebibliothek Naundorf",
@@ -609,7 +666,8 @@ let bibodaten = [
         "coords": [
             51.257944,
             13.102765
-        ]
+        ],
+        "lk": "Landkreis Nordsachsen"
     },
     {
         "name": "Stadtbibliothek Naunhof",
@@ -618,7 +676,8 @@ let bibodaten = [
         "coords": [
             51.278097,
             12.589178
-        ]
+        ],
+        "lk": "Landkreis Leipzig"
     },
     {
         "name": "Stadtbibliothek Nerchau",
@@ -627,7 +686,8 @@ let bibodaten = [
         "coords": [
             51.269342,
             12.788904
-        ]
+        ],
+        "lk": "Landkreis Leipzig"
     },
     {
         "name": "Gemeindebibliothek Neschwitz",
@@ -636,7 +696,8 @@ let bibodaten = [
         "coords": [
             51.271213,
             14.325452
-        ]
+        ],
+        "lk": "Landkreis Bautzen"
     },
     {
         "name": "Stadtbibliothek Netzschkau",
@@ -645,7 +706,8 @@ let bibodaten = [
         "coords": [
             50.613209,
             12.249266
-        ]
+        ],
+        "lk": "Landkreis Vogtlandkreis"
     },
     {
         "name": "Gemeindebibliothek Neuhausen",
@@ -654,7 +716,8 @@ let bibodaten = [
         "coords": [
             50.675537,
             13.467726
-        ]
+        ],
+        "lk": "Landkreis Mittelsachsen"
     },
     {
         "name": "Gemeindebibliothek Neukieritzsch",
@@ -663,7 +726,8 @@ let bibodaten = [
         "coords": [
             51.153074,
             12.409136
-        ]
+        ],
+        "lk": "Landkreis Leipzig"
     },
     {
         "name": "Gemeindebibliothek Neukirch",
@@ -672,7 +736,8 @@ let bibodaten = [
         "coords": [
             51.098464,
             14.304363
-        ]
+        ],
+        "lk": "Landkreis Bautzen"
     },
     {
         "name": "Gemeindebibliothek Neukirchen",
@@ -681,7 +746,8 @@ let bibodaten = [
         "coords": [
             50.777666,
             12.870037
-        ]
+        ],
+        "lk": "Landkreis Erzgebirgskreis"
     },
     {
         "name": "Stadtbibliothek Neustadt",
@@ -690,7 +756,8 @@ let bibodaten = [
         "coords": [
             51.024717,
             14.213098
-        ]
+        ],
+        "lk": "Landkreis Sächsische Schweiz<br>Osterzgebirge"
     },
     {
         "name": "Gemeindebibliothek Niederwiesa",
@@ -699,7 +766,8 @@ let bibodaten = [
         "coords": [
             50.865034,
             13.021996
-        ]
+        ],
+        "lk": "Landkreis Mittelsachsen"
     },
     {
         "name": "Stadtbibliothek Niesky",
@@ -708,7 +776,8 @@ let bibodaten = [
         "coords": [
             51.292653,
             14.823398
-        ]
+        ],
+        "lk": "Landkreis Görlitz"
     },
     {
         "name": "Stadtbibliothek Nossen",
@@ -717,7 +786,8 @@ let bibodaten = [
         "coords": [
             51.057869,
             13.297728
-        ]
+        ],
+        "lk": "Landkreis Meißen"
     },
     {
         "name": "Öffentliche Schulbibliothek Nünchritz",
@@ -726,7 +796,8 @@ let bibodaten = [
         "coords": [
             51.306384,
             13.384475
-        ]
+        ],
+        "lk": "Landkreis Meißen"
     },
     {
         "name": "Stadtbibliothek Oberlungwitz",
@@ -735,7 +806,8 @@ let bibodaten = [
         "coords": [
             50.78958,
             12.731294
-        ]
+        ],
+        "lk": "Landkreis Zwickau"
     },
     {
         "name": "Stadtbibliothek Oberwiesenthal",
@@ -744,7 +816,8 @@ let bibodaten = [
         "coords": [
             50.419232,
             12.969079
-        ]
+        ],
+        "lk": "Landkreis Erzgebirgskreis"
     },
     {
         "name": "Gemeindebibliothek Oderwitz",
@@ -753,7 +826,8 @@ let bibodaten = [
         "coords": [
             50.954482,
             14.739308
-        ]
+        ],
+        "lk": "Landkreis Görlitz"
     },
     {
         "name": "Stadtbibliothek Oederan",
@@ -762,7 +836,8 @@ let bibodaten = [
         "coords": [
             50.861733,
             13.167894
-        ]
+        ],
+        "lk": "Landkreis Mittelsachsen"
     },
     {
         "name": "Stadtbibliothek Oelsnitz/Erzgebirge",
@@ -771,7 +846,8 @@ let bibodaten = [
         "coords": [
             50.722141,
             12.696159
-        ]
+        ],
+        "lk": "Landkreis Erzgebirgskreis"
     },
     {
         "name": "Stadtbibliothek Oelsnitz",
@@ -780,7 +856,8 @@ let bibodaten = [
         "coords": [
             50.414917,
             12.168845
-        ]
+        ],
+        "lk": "Landkreis Vogtlandkreis"
     },
     {
         "name": "Stadtbibliothek Olbernhau",
@@ -789,7 +866,8 @@ let bibodaten = [
         "coords": [
             50.660341,
             13.33484
-        ]
+        ],
+        "lk": "Landkreis Erzgebirgskreis"
     },
     {
         "name": "Gemeindebibliothek Olbersdorf",
@@ -798,7 +876,8 @@ let bibodaten = [
         "coords": [
             50.866748,
             14.76693
-        ]
+        ],
+        "lk": "Landkreis Görlitz"
     },
     {
         "name": "Kreisergänzungsbibliothek Oschatz",
@@ -807,7 +886,8 @@ let bibodaten = [
         "coords": [
             51.294413,
             13.108143
-        ]
+        ],
+        "lk": "Landkreis Nordsachsen"
     },
     {
         "name": "Stadtbibliothek Oschatz",
@@ -816,7 +896,8 @@ let bibodaten = [
         "coords": [
             51.294413,
             13.108143
-        ]
+        ],
+        "lk": "Landkreis Nordsachsen"
     },
     {
         "name": "Gemeindebibliothek  Ottendorf-Okrilla",
@@ -825,7 +906,8 @@ let bibodaten = [
         "coords": [
             51.183431,
             13.824906
-        ]
+        ],
+        "lk": "Landkreis Bautzen"
     },
     {
         "name": "Bibliothek Dörnthal",
@@ -834,7 +916,8 @@ let bibodaten = [
         "coords": [
             50.733411,
             13.336855
-        ]
+        ],
+        "lk": "Landkreis Erzgebirgskreis"
     },
     {
         "name": "Stadtbibliothek Pegau",
@@ -843,7 +926,8 @@ let bibodaten = [
         "coords": [
             51.167229,
             12.253025
-        ]
+        ],
+        "lk": "Landkreis Leipzig"
     },
     {
         "name": "Stadtbibliothek Penig",
@@ -852,7 +936,8 @@ let bibodaten = [
         "coords": [
             50.934414,
             12.706425
-        ]
+        ],
+        "lk": "Landkreis Mittelsachsen"
     },
     {
         "name": "OTB Hallbach",
@@ -861,7 +946,8 @@ let bibodaten = [
         "coords": [
             50.693866,
             13.322305
-        ]
+        ],
+        "lk": "Landkreis Erzgebirgskreis"
     },
     {
         "name": "Stadtbibliothek Pirna",
@@ -870,7 +956,8 @@ let bibodaten = [
         "coords": [
             50.962994,
             13.939555
-        ]
+        ],
+        "lk": "Landkreis Sächsische Schweiz<br>Osterzgebirge"
     },
     {
         "name": "Vogtlandbibliothek Plauen",
@@ -879,7 +966,8 @@ let bibodaten = [
         "coords": [
             50.495759,
             12.121547
-        ]
+        ],
+        "lk": "Landkreis Vogtlandkreis"
     },
     {
         "name": "Stadtbibliothek Pulsnitz",
@@ -888,7 +976,8 @@ let bibodaten = [
         "coords": [
             51.182676,
             14.013077
-        ]
+        ],
+        "lk": "Landkreis Bautzen"
     },
     {
         "name": "Gemeindebibliothek Rabenau",
@@ -897,7 +986,8 @@ let bibodaten = [
         "coords": [
             50.962425,
             13.641439
-        ]
+        ],
+        "lk": "Landkreis Sächsische Schweiz<br>Osterzgebirge"
     },
     {
         "name": "Gemeindebibliothek Rackwitz",
@@ -906,7 +996,8 @@ let bibodaten = [
         "coords": [
             51.440972,
             12.371701
-        ]
+        ],
+        "lk": "Landkreis Nordsachsen"
     },
     {
         "name": "OTB Zschortau",
@@ -915,7 +1006,8 @@ let bibodaten = [
         "coords": [
             51.480857,
             12.360672
-        ]
+        ],
+        "lk": "Landkreis Nordsachsen"
     },
     {
         "name": "Stadtbibliothek Radeberg",
@@ -924,7 +1016,8 @@ let bibodaten = [
         "coords": [
             51.118074,
             13.922048
-        ]
+        ],
+        "lk": "Landkreis Bautzen"
     },
     {
         "name": "Stadtbibliothek Radebeul",
@@ -933,7 +1026,8 @@ let bibodaten = [
         "coords": [
             51.09915,
             13.679257
-        ]
+        ],
+        "lk": "Landkreis Meißen"
     },
     {
         "name": "Stadt- und Zentralbibliothek Radeburg",
@@ -942,7 +1036,8 @@ let bibodaten = [
         "coords": [
             51.214546,
             13.721163
-        ]
+        ],
+        "lk": "Landkreis Meißen"
     },
     {
         "name": "Gemeindebibliothek Rammenau",
@@ -951,7 +1046,8 @@ let bibodaten = [
         "coords": [
             51.153605,
             14.135216
-        ]
+        ],
+        "lk": "Landkreis Bautzen"
     },
     {
         "name": "Stadtbibliothek Regis-Breitingen",
@@ -960,7 +1056,8 @@ let bibodaten = [
         "coords": [
             51.085946,
             12.431274
-        ]
+        ],
+        "lk": "Landkreis Leipzig"
     },
     {
         "name": "Stadt- und Kreisbibliothek Reichenbach",
@@ -969,7 +1066,8 @@ let bibodaten = [
         "coords": [
             51.141496,
             14.800129
-        ]
+        ],
+        "lk": "Landkreis Görlitz"
     },
     {
         "name": "Jürgen-Fuchs-Bibliothek Reichenbach",
@@ -978,7 +1076,8 @@ let bibodaten = [
         "coords": [
             50.621473,
             12.303952
-        ]
+        ],
+        "lk": "Landkreis Vogtlandkreis"
     },
     {
         "name": "Gemeindebibliothek Reinsdorf",
@@ -987,7 +1086,8 @@ let bibodaten = [
         "coords": [
             50.700114,
             12.556151
-        ]
+        ],
+        "lk": "Landkreis Zwickau"
     },
     {
         "name": "Stadtbibliothek Riesa",
@@ -996,7 +1096,8 @@ let bibodaten = [
         "coords": [
             51.298766,
             13.316036
-        ]
+        ],
+        "lk": "Landkreis Meißen"
     },
     {
         "name": "Stadt- u. Kreisbibliothek Rochlitz",
@@ -1005,7 +1106,8 @@ let bibodaten = [
         "coords": [
             51.04893,
             12.807382
-        ]
+        ],
+        "lk": "Landkreis Mittelsachsen"
     },
     {
         "name": "Stadt- und Kreisbibliotheken Vogtlandkreis Rodewisch",
@@ -1014,7 +1116,8 @@ let bibodaten = [
         "coords": [
             50.528103,
             12.402744
-        ]
+        ],
+        "lk": "Landkreis Vogtlandkreis"
     },
     {
         "name": "Stadtbibliothek Rodewisch",
@@ -1023,7 +1126,8 @@ let bibodaten = [
         "coords": [
             50.529618,
             12.405274
-        ]
+        ],
+        "lk": "Landkreis Vogtlandkreis"
     },
     {
         "name": "Stadtbibliothek Rosswein",
@@ -1032,7 +1136,8 @@ let bibodaten = [
         "coords": [
             51.065328,
             13.181492
-        ]
+        ],
+        "lk": "Landkreis Mittelsachsen"
     },
     {
         "name": "Stadtbibliothek Rötha",
@@ -1041,7 +1146,8 @@ let bibodaten = [
         "coords": [
             51.193457,
             12.464177
-        ]
+        ],
+        "lk": "Landkreis Leipzig"
     },
     {
         "name": "Stadtbibliothek Rothenburg",
@@ -1050,7 +1156,8 @@ let bibodaten = [
         "coords": [
             51.335684,
             14.969244
-        ]
+        ],
+        "lk": "Landkreis Görlitz"
     },
     {
         "name": "Stadtbibliothek Schkeuditz",
@@ -1059,7 +1166,8 @@ let bibodaten = [
         "coords": [
             51.39808,
             12.221638
-        ]
+        ],
+        "lk": "Landkreis Nordsachsen"
     },
     {
         "name": "Ortsteilbibliothek Glesien",
@@ -1068,7 +1176,8 @@ let bibodaten = [
         "coords": [
             51.444271,
             12.22551
-        ]
+        ],
+        "lk": "Landkreis Nordsachsen"
     },
     {
         "name": "Bibliothek \"Lorenc-Zaléski\"",
@@ -1077,7 +1186,8 @@ let bibodaten = [
         "coords": [
             51.54343,
             14.528366
-        ]
+        ],
+        "lk": "Landkreis Görlitz"
     },
     {
         "name": "Gemeindebücherei Schlema",
@@ -1086,7 +1196,8 @@ let bibodaten = [
         "coords": [
             50.599499,
             12.665159
-        ]
+        ],
+        "lk": "Landkreis Erzgebirgskreis"
     },
     {
         "name": "Stadtbibliothek Schlettau",
@@ -1095,7 +1206,8 @@ let bibodaten = [
         "coords": [
             50.560789,
             12.951434
-        ]
+        ],
+        "lk": "Landkreis Erzgebirgskreis"
     },
     {
         "name": "Zweigstelle Schmiedeberg",
@@ -1104,7 +1216,8 @@ let bibodaten = [
         "coords": [
             50.837569,
             13.67531
-        ]
+        ],
+        "lk": "Landkreis Sächsische Schweiz<br>Osterzgebirge"
     },
     {
         "name": "Stadtbibliothek Schneeberg",
@@ -1113,7 +1226,8 @@ let bibodaten = [
         "coords": [
             50.596158,
             12.639759
-        ]
+        ],
+        "lk": "Landkreis Erzgebirgskreis"
     },
     {
         "name": "Gemeindebibliothek Schönheide",
@@ -1122,7 +1236,8 @@ let bibodaten = [
         "coords": [
             50.503435,
             12.53577
-        ]
+        ],
+        "lk": "Landkreis Erzgebirgskreis"
     },
     {
         "name": "Stadtbibliothek Schwarzenberg",
@@ -1131,7 +1246,8 @@ let bibodaten = [
         "coords": [
             50.536768,
             12.782163
-        ]
+        ],
+        "lk": "Landkreis Erzgebirgskreis"
     },
     {
         "name": "OTB Grüngräbchen",
@@ -1140,7 +1256,8 @@ let bibodaten = [
         "coords": [
             51.356243,
             13.97456
-        ]
+        ],
+        "lk": "Landkreis Bautzen"
     },
     {
         "name": "Stadtbibliothek Sebnitz",
@@ -1149,7 +1266,8 @@ let bibodaten = [
         "coords": [
             50.97138,
             14.270203
-        ]
+        ],
+        "lk": "Landkreis Sächsische Schweiz<br>Osterzgebirge"
     },
     {
         "name": "Bibliothek & Internettreff Sehmatal",
@@ -1158,7 +1276,8 @@ let bibodaten = [
         "coords": [
             50.480449,
             12.974658
-        ]
+        ],
+        "lk": "Landkreis Erzgebirgskreis"
     },
     {
         "name": "Geimeindebibliothek Deutschneudorf",
@@ -1167,7 +1286,8 @@ let bibodaten = [
         "coords": [
             50.648289,
             13.452651
-        ]
+        ],
+        "lk": "Landkreis Erzgebirgskreis"
     },
     {
         "name": "Bibliothek Seiffen",
@@ -1176,7 +1296,8 @@ let bibodaten = [
         "coords": [
             50.648289,
             13.452651
-        ]
+        ],
+        "lk": "Landkreis Erzgebirgskreis"
     },
     {
         "name": "Grenzlandbibliothek Seifhennersdorf",
@@ -1185,7 +1306,8 @@ let bibodaten = [
         "coords": [
             50.934926,
             14.609414
-        ]
+        ],
+        "lk": "Landkreis Görlitz"
     },
     {
         "name": "Gemeindebibliothek Sohnland",
@@ -1194,7 +1316,8 @@ let bibodaten = [
         "coords": [
             51.046537,
             14.427935
-        ]
+        ],
+        "lk": "Landkreis Bautzen"
     },
     {
         "name": "Stadtbibliothek Stollberg",
@@ -1203,7 +1326,8 @@ let bibodaten = [
         "coords": [
             50.710519,
             12.776692
-        ]
+        ],
+        "lk": "Landkreis Erzgebirgskreis"
     },
     {
         "name": "Stadtbibliothek Stolpen",
@@ -1212,7 +1336,8 @@ let bibodaten = [
         "coords": [
             51.04877,
             14.082666
-        ]
+        ],
+        "lk": "Landkreis Sächsische Schweiz<br>Osterzgebirge"
     },
     {
         "name": "Stadtbibliothek Stolpen",
@@ -1221,7 +1346,8 @@ let bibodaten = [
         "coords": [
             51.04877,
             14.082666
-        ]
+        ],
+        "lk": "Landkreis Sächsische Schweiz<br>Osterzgebirge"
     },
     {
         "name": "Stadtbibliothek Strehla",
@@ -1230,7 +1356,8 @@ let bibodaten = [
         "coords": [
             51.354389,
             13.218879
-        ]
+        ],
+        "lk": "Landkreis Meißen"
     },
     {
         "name": "Gemeindebibliothek Stützengrün",
@@ -1239,7 +1366,8 @@ let bibodaten = [
         "coords": [
             50.531937,
             12.537355
-        ]
+        ],
+        "lk": "Landkreis Erzgebirgskreis"
     },
     {
         "name": "Stadtbibliothek Taucha",
@@ -1248,7 +1376,8 @@ let bibodaten = [
         "coords": [
             51.380782,
             12.501481
-        ]
+        ],
+        "lk": "Landkreis Nordsachsen"
     },
     {
         "name": "GFTE Thalheim",
@@ -1257,7 +1386,8 @@ let bibodaten = [
         "coords": [
             50.699656,
             12.845249
-        ]
+        ],
+        "lk": "Landkreis Erzgebirgskreis"
     },
     {
         "name": "OTB Herold",
@@ -1266,7 +1396,8 @@ let bibodaten = [
         "coords": [
             50.676843,
             12.978352
-        ]
+        ],
+        "lk": "Landkreis Erzgebirgskreis"
     },
     {
         "name": "Kreisergänzungsbibliothek Torgau",
@@ -1275,7 +1406,8 @@ let bibodaten = [
         "coords": [
             51.56143,
             13.000675
-        ]
+        ],
+        "lk": "Landkreis Nordsachsen"
     },
     {
         "name": "Stadtbibliothek Trebsen",
@@ -1284,7 +1416,8 @@ let bibodaten = [
         "coords": [
             51.287947,
             12.755924
-        ]
+        ],
+        "lk": "Landkreis Leipzig"
     },
     {
         "name": "Stadt- und Schulbibliothek Treuen",
@@ -1293,7 +1426,8 @@ let bibodaten = [
         "coords": [
             50.539842,
             12.306177
-        ]
+        ],
+        "lk": "Landkreis Vogtlandkreis"
     },
     {
         "name": "Stadtbibliothek Waldenburg",
@@ -1302,7 +1436,8 @@ let bibodaten = [
         "coords": [
             50.874932,
             12.597616
-        ]
+        ],
+        "lk": "Landkreis Zwickau"
     },
     {
         "name": "Stadtbibliothek Waldheim",
@@ -1311,7 +1446,8 @@ let bibodaten = [
         "coords": [
             51.071022,
             13.02475
-        ]
+        ],
+        "lk": "Landkreis Mittelsachsen"
     },
     {
         "name": "Bibliothek Weinböhla",
@@ -1320,7 +1456,8 @@ let bibodaten = [
         "coords": [
             51.161471,
             13.562943
-        ]
+        ],
+        "lk": "Landkreis Meißen"
     },
     {
         "name": "OTB Berthelsdorf",
@@ -1329,7 +1466,8 @@ let bibodaten = [
         "coords": [
             50.867915,
             13.371819
-        ]
+        ],
+        "lk": "Landkreis Mittelsachsen"
     },
     {
         "name": "Stadtbibliothek Weißwasser",
@@ -1338,7 +1476,8 @@ let bibodaten = [
         "coords": [
             51.507271,
             14.641487
-        ]
+        ],
+        "lk": "Landkreis Görlitz"
     },
     {
         "name": "Stadtbibliothek Werdau",
@@ -1347,7 +1486,8 @@ let bibodaten = [
         "coords": [
             50.736329,
             12.350877
-        ]
+        ],
+        "lk": "Landkreis Zwickau"
     },
     {
         "name": "Stadtbibliothek Wildenfels",
@@ -1356,7 +1496,8 @@ let bibodaten = [
         "coords": [
             50.664519,
             12.604649
-        ]
+        ],
+        "lk": "Landkreis Zwickau"
     },
     {
         "name": "Stadtbibliothek Wilkau-Hasslau",
@@ -1365,7 +1506,8 @@ let bibodaten = [
         "coords": [
             50.667722,
             12.525971
-        ]
+        ],
+        "lk": "Landkreis Zwickau"
     },
     {
         "name": "Stadtbibliothek Wilsdruff",
@@ -1374,7 +1516,8 @@ let bibodaten = [
         "coords": [
             51.051261,
             13.534564
-        ]
+        ],
+        "lk": "Landkreis Sächsische Schweiz<br>Osterzgebirge"
     },
     {
         "name": "Stadtbibliothek Wilthen",
@@ -1383,7 +1526,8 @@ let bibodaten = [
         "coords": [
             51.095278,
             14.388611
-        ]
+        ],
+        "lk": "Landkreis Bautzen"
     },
     {
         "name": "Stadtbibliothek Wittichenau",
@@ -1392,7 +1536,8 @@ let bibodaten = [
         "coords": [
             51.384836,
             14.244782
-        ]
+        ],
+        "lk": "Landkreis Bautzen"
     },
     {
         "name": "Stadtbibliothek Wolkenstein",
@@ -1401,7 +1546,8 @@ let bibodaten = [
         "coords": [
             50.655702,
             13.066072
-        ]
+        ],
+        "lk": "Landkreis Erzgebirgskreis"
     },
     {
         "name": "Stadtbibliothek Wurzen",
@@ -1410,7 +1556,8 @@ let bibodaten = [
         "coords": [
             51.369342,
             12.735304
-        ]
+        ],
+        "lk": "Landkreis Leipzig"
     },
     {
         "name": "Christian-Weise-Bibliothek Zittau",
@@ -1419,7 +1566,8 @@ let bibodaten = [
         "coords": [
             50.895772,
             14.810337
-        ]
+        ],
+        "lk": "Landkreis Görlitz"
     },
     {
         "name": "Stadtbibliothek \"Jacob Georg Bodemer\" Zschopau",
@@ -1428,7 +1576,8 @@ let bibodaten = [
         "coords": [
             50.745932,
             13.068406
-        ]
+        ],
+        "lk": "Landkreis Erzgebirgskreis"
     },
     {
         "name": "Gemeindebibliothek Zschorlau",
@@ -1437,7 +1586,8 @@ let bibodaten = [
         "coords": [
             50.567981,
             12.650517
-        ]
+        ],
+        "lk": "Landkreis Erzgebirgskreis"
     },
     {
         "name": "Stadtbibliothek Zwenkau",
@@ -1446,7 +1596,8 @@ let bibodaten = [
         "coords": [
             51.218176,
             12.324447
-        ]
+        ],
+        "lk": "Landkreis Leipzig"
     },
     {
         "name": "Stadtbibliothek Zwickau",
@@ -1455,7 +1606,8 @@ let bibodaten = [
         "coords": [
             50.721451,
             12.499383
-        ]
+        ],
+        "lk": "Landkreis Zwickau"
     },
     {
         "name": "Stadtbibliothek Zwönitz",
@@ -1464,7 +1616,8 @@ let bibodaten = [
         "coords": [
             50.629312,
             12.811743
-        ]
+        ],
+        "lk": "Landkreis Erzgebirgskreis"
     },
     {
         "name": "Stadtbibliothek Bad Muskau",
@@ -1473,7 +1626,8 @@ let bibodaten = [
         "coords": [
             51.545118,
             14.723317
-        ]
+        ],
+        "lk": "Landkreis Görlitz"
     },
     {
         "name": "Bücherei in Bannewitz",
@@ -1482,7 +1636,8 @@ let bibodaten = [
         "coords": [
             50.993842,
             13.722623
-        ]
+        ],
+        "lk": "Landkreis Sächsische Schweiz<br>Osterzgebirge"
     },
     {
         "name": "OTB Schildau",
@@ -1491,7 +1646,8 @@ let bibodaten = [
         "coords": [
             51.458328,
             12.932435
-        ]
+        ],
+        "lk": "Landkreis Nordsachsen"
     },
     {
         "name": "Bibliothek Bernsdorf",
@@ -1500,7 +1656,8 @@ let bibodaten = [
         "coords": [
             51.348665,
             14.01778
-        ]
+        ],
+        "lk": "Landkreis Bautzen"
     },
     {
         "name": "Stadtbibliothek Bernstadt auf dem Eigen",
@@ -1509,7 +1666,8 @@ let bibodaten = [
         "coords": [
             51.047354,
             14.825884
-        ]
+        ],
+        "lk": "Landkreis Görlitz"
     },
     {
         "name": "Bibliothek Bertsdorf-Hörnitz",
@@ -1518,7 +1676,8 @@ let bibodaten = [
         "coords": [
             50.88557,
             14.735084
-        ]
+        ],
+        "lk": "Landkreis Görlitz"
     },
     {
         "name": "OTB Oberborbritzsch",
@@ -1527,7 +1686,8 @@ let bibodaten = [
         "coords": [
             50.870957,
             13.456774
-        ]
+        ],
+        "lk": "Landkreis Mittelsachsen"
     },
     {
         "name": "Bibliothek Boxberg",
@@ -1536,7 +1696,8 @@ let bibodaten = [
         "coords": [
             51.403838,
             14.57978
-        ]
+        ],
+        "lk": "Landkreis Görlitz"
     },
     {
         "name": "OTB Reichwalde",
@@ -1545,7 +1706,8 @@ let bibodaten = [
         "coords": [
             51.380582,
             14.662061
-        ]
+        ],
+        "lk": "Landkreis Görlitz"
     },
     {
         "name": "Gemeindebibliothek Cunewalde",
@@ -1554,7 +1716,8 @@ let bibodaten = [
         "coords": [
             51.099227,
             14.49784
-        ]
+        ],
+        "lk": "Landkreis Bautzen"
     },
     {
         "name": "OTB Doberschau",
@@ -1563,7 +1726,8 @@ let bibodaten = [
         "coords": [
             51.152664,
             14.39926
-        ]
+        ],
+        "lk": "Landkreis Bautzen"
     },
     {
         "name": "Stadtbibliothek Dohna",
@@ -1572,7 +1736,8 @@ let bibodaten = [
         "coords": [
             50.955982,
             13.859541
-        ]
+        ],
+        "lk": "Landkreis Sächsische Schweiz<br>Osterzgebirge"
     },
     {
         "name": "Zentralbibliothek Dresden",
@@ -1581,7 +1746,8 @@ let bibodaten = [
         "coords": [
             51.050931,
             13.738381
-        ]
+        ],
+        "lk": "Kreisfreie Stadt Dresden"
     },
     {
         "name": "Bibliothek Blasewitz",
@@ -1590,7 +1756,8 @@ let bibodaten = [
         "coords": [
             51.050975,
             13.807838
-        ]
+        ],
+        "lk": "Kreisfreie Stadt Dresden"
     },
     {
         "name": "Bibliothek Bühlau",
@@ -1599,7 +1766,8 @@ let bibodaten = [
         "coords": [
             51.061625,
             13.848828
-        ]
+        ],
+        "lk": "Kreisfreie Stadt Dresden"
     },
     {
         "name": "Bibliothek Cossebaude",
@@ -1608,7 +1776,8 @@ let bibodaten = [
         "coords": [
             51.088286,
             13.630135
-        ]
+        ],
+        "lk": "Kreisfreie Stadt Dresden"
     },
     {
         "name": "Bibliothek Cotta",
@@ -1617,7 +1786,8 @@ let bibodaten = [
         "coords": [
             51.057414,
             13.685986
-        ]
+        ],
+        "lk": "Kreisfreie Stadt Dresden"
     },
     {
         "name": "Bibliothek Gorbitz",
@@ -1626,7 +1796,8 @@ let bibodaten = [
         "coords": [
             51.045083,
             13.669006
-        ]
+        ],
+        "lk": "Kreisfreie Stadt Dresden"
     },
     {
         "name": "Bibliothek Gruna",
@@ -1635,7 +1806,8 @@ let bibodaten = [
         "coords": [
             51.033648,
             13.784032
-        ]
+        ],
+        "lk": "Kreisfreie Stadt Dresden"
     },
     {
         "name": "Bibliothek Johannstadt",
@@ -1644,7 +1816,8 @@ let bibodaten = [
         "coords": [
             51.045482,
             13.770129
-        ]
+        ],
+        "lk": "Kreisfreie Stadt Dresden"
     },
     {
         "name": "Bibliothek Klotzsche",
@@ -1653,7 +1826,8 @@ let bibodaten = [
         "coords": [
             51.119194,
             13.770039
-        ]
+        ],
+        "lk": "Kreisfreie Stadt Dresden"
     },
     {
         "name": "Bibliothek Langebrück",
@@ -1662,7 +1836,8 @@ let bibodaten = [
         "coords": [
             51.126733,
             13.844298
-        ]
+        ],
+        "lk": "Kreisfreie Stadt Dresden"
     },
     {
         "name": "Bibliothek Laubegast",
@@ -1671,7 +1846,8 @@ let bibodaten = [
         "coords": [
             51.023803,
             13.83909
-        ]
+        ],
+        "lk": "Kreisfreie Stadt Dresden"
     },
     {
         "name": "Bibliothek Leubnitz-Neuostra",
@@ -1680,7 +1856,8 @@ let bibodaten = [
         "coords": [
             51.020675,
             13.762456
-        ]
+        ],
+        "lk": "Kreisfreie Stadt Dresden"
     },
     {
         "name": "Bibliothek Neustadt",
@@ -1689,7 +1866,8 @@ let bibodaten = [
         "coords": [
             51.06715,
             13.747565
-        ]
+        ],
+        "lk": "Kreisfreie Stadt Dresden"
     },
     {
         "name": "Bibliothek Pieschen",
@@ -1698,7 +1876,8 @@ let bibodaten = [
         "coords": [
             51.077319,
             13.721351
-        ]
+        ],
+        "lk": "Kreisfreie Stadt Dresden"
     },
     {
         "name": "Bibliothek Plauen",
@@ -1707,7 +1886,8 @@ let bibodaten = [
         "coords": [
             51.029375,
             13.706515
-        ]
+        ],
+        "lk": "Kreisfreie Stadt Dresden"
     },
     {
         "name": "Bibliothek Prohlis",
@@ -1716,7 +1896,8 @@ let bibodaten = [
         "coords": [
             51.005406,
             13.797815
-        ]
+        ],
+        "lk": "Kreisfreie Stadt Dresden"
     },
     {
         "name": "Bibliothek Strehlen",
@@ -1725,7 +1906,8 @@ let bibodaten = [
         "coords": [
             51.017944,
             13.779152
-        ]
+        ],
+        "lk": "Kreisfreie Stadt Dresden"
     },
     {
         "name": "Bibliothek Südvorstadt",
@@ -1734,7 +1916,8 @@ let bibodaten = [
         "coords": [
             51.030275,
             13.722097
-        ]
+        ],
+        "lk": "Kreisfreie Stadt Dresden"
     },
     {
         "name": "Bibliothek Weißig",
@@ -1743,7 +1926,8 @@ let bibodaten = [
         "coords": [
             51.061637,
             13.885424
-        ]
+        ],
+        "lk": "Kreisfreie Stadt Dresden"
     },
     {
         "name": "Bibliothek Weixdorf",
@@ -1752,7 +1936,8 @@ let bibodaten = [
         "coords": [
             51.141504,
             13.795872
-        ]
+        ],
+        "lk": "Kreisfreie Stadt Dresden"
     },
     {
         "name": "Schul- und Gemeindebibliothek Dürrröhrsdorf-Dittersbach",
@@ -1761,7 +1946,8 @@ let bibodaten = [
         "coords": [
             51.217573,
             12.525189
-        ]
+        ],
+        "lk": "Landkreis Leipzig"
     },
     {
         "name": "Stadtbibliothek Elsterberg",
@@ -1770,7 +1956,8 @@ let bibodaten = [
         "coords": [
             50.608294,
             12.167097
-        ]
+        ],
+        "lk": "Landkreis Vogtlandkreis"
     },
     {
         "name": "Gemeindebibliothek Bluno",
@@ -1779,7 +1966,8 @@ let bibodaten = [
         "coords": [
             51.524003,
             14.230418
-        ]
+        ],
+        "lk": "Landkreis Bautzen"
     },
     {
         "name": "OTB Klein Partwitz",
@@ -1788,7 +1976,8 @@ let bibodaten = [
         "coords": [
             51.51731,
             14.188721
-        ]
+        ],
+        "lk": "Landkreis Bautzen"
     },
     {
         "name": "OTB Sabrodt",
@@ -1797,7 +1986,8 @@ let bibodaten = [
         "coords": [
             51.524705,
             14.282853
-        ]
+        ],
+        "lk": "Landkreis Bautzen"
     },
     {
         "name": "Bibliothek im Kita-Gebäude",
@@ -1806,7 +1996,8 @@ let bibodaten = [
         "coords": [
             51.322691,
             13.376563
-        ]
+        ],
+        "lk": "Landkreis Meißen"
     },
     {
         "name": "OTB Nieska",
@@ -1815,7 +2006,8 @@ let bibodaten = [
         "coords": [
             51.427045,
             13.360164
-        ]
+        ],
+        "lk": "Landkreis Meißen"
     },
     {
         "name": "OTB Bretnig-Hauswalde",
@@ -1824,7 +2016,8 @@ let bibodaten = [
         "coords": [
             51.151105,
             14.057731
-        ]
+        ],
+        "lk": "Landkreis Bautzen"
     },
     {
         "name": "Gemeindebibliothek Großrückerswalde",
@@ -1833,7 +2026,8 @@ let bibodaten = [
         "coords": [
             50.628418,
             13.114204
-        ]
+        ],
+        "lk": "Landkreis Erzgebirgskreis"
     },
     {
         "name": "OTB Obergruna",
@@ -1842,7 +2036,8 @@ let bibodaten = [
         "coords": [
             51.015225,
             13.317187
-        ]
+        ],
+        "lk": "Landkreis Mittelsachsen"
     },
     {
         "name": "Patientenbibliothek Sächsisches Krankenhaus Großschweidnitz",
@@ -1851,7 +2046,8 @@ let bibodaten = [
         "coords": [
             51.075492,
             14.644081
-        ]
+        ],
+        "lk": "Landkreis Görlitz"
     },
     {
         "name": "Bücherei Großweitzschen",
@@ -1860,7 +2056,8 @@ let bibodaten = [
         "coords": [
             51.156739,
             13.046293
-        ]
+        ],
+        "lk": "Landkreis Mittelsachsen"
     },
     {
         "name": "OTB Niederschöna",
@@ -1869,7 +2066,8 @@ let bibodaten = [
         "coords": [
             50.965384,
             13.421004
-        ]
+        ],
+        "lk": "Landkreis Mittelsachsen"
     },
     {
         "name": "Bücherei Hartenstein",
@@ -1878,7 +2076,8 @@ let bibodaten = [
         "coords": [
             50.661493,
             12.671984
-        ]
+        ],
+        "lk": "Landkreis Zwickau"
     },
     {
         "name": "Zentralbibliothek im Gildenhaus",
@@ -1887,7 +2086,8 @@ let bibodaten = [
         "coords": [
             50.951774,
             14.724913
-        ]
+        ],
+        "lk": "Landkreis Görlitz"
     },
     {
         "name": "Gemeindebibliothek Jonsdorf",
@@ -1896,7 +2096,8 @@ let bibodaten = [
         "coords": [
             50.853924,
             14.704057
-        ]
+        ],
+        "lk": "Landkreis Görlitz"
     },
     {
         "name": "Stadtbibliothek Kirchberg",
@@ -1905,7 +2106,8 @@ let bibodaten = [
         "coords": [
             50.621347,
             12.531563
-        ]
+        ],
+        "lk": "Landkreis Zwickau"
     },
     {
         "name": "OTB Niedercunnersdorf",
@@ -1914,7 +2116,8 @@ let bibodaten = [
         "coords": [
             51.054938,
             14.657956
-        ]
+        ],
+        "lk": "Landkreis Görlitz"
     },
     {
         "name": "OTB Obercunnersdorf",
@@ -1923,7 +2126,8 @@ let bibodaten = [
         "coords": [
             50.983977,
             14.66054
-        ]
+        ],
+        "lk": "Landkreis Görlitz"
     },
     {
         "name": "OTB Ottenhain",
@@ -1932,7 +2136,8 @@ let bibodaten = [
         "coords": [
             51.062947,
             14.68657
-        ]
+        ],
+        "lk": "Landkreis Görlitz"
     },
     {
         "name": "Gemeindebibliothek Kubschütz",
@@ -1941,7 +2146,8 @@ let bibodaten = [
         "coords": [
             51.168226,
             14.506219
-        ]
+        ],
+        "lk": "Landkreis Bautzen"
     },
     {
         "name": "Gemeindebibliothek Lampertswalde",
@@ -1950,7 +2156,8 @@ let bibodaten = [
         "coords": [
             51.310619,
             13.678254
-        ]
+        ],
+        "lk": "Landkreis Meißen"
     },
     {
         "name": "Stadtbibliothek Lauta",
@@ -1959,7 +2166,8 @@ let bibodaten = [
         "coords": [
             51.459623,
             14.097536
-        ]
+        ],
+        "lk": "Landkreis Bautzen"
     },
     {
         "name": "Gemeindebibliothek Lichtenberg",
@@ -1968,7 +2176,8 @@ let bibodaten = [
         "coords": [
             52.544884,
             13.497094
-        ]
+        ],
+        "lk": ""
     },
     {
         "name": "Bibliothek im Schützenhaus",
@@ -1977,7 +2186,8 @@ let bibodaten = [
         "coords": [
             51.199669,
             13.305784
-        ]
+        ],
+        "lk": "Landkreis Meißen"
     },
     {
         "name": "Bibliothek Markneukirchen",
@@ -1986,7 +2196,8 @@ let bibodaten = [
         "coords": [
             50.311593,
             12.33261
-        ]
+        ],
+        "lk": "Landkreis Vogtlandkreis"
     },
     {
         "name": "OTB Oberseifersdorf",
@@ -1995,7 +2206,8 @@ let bibodaten = [
         "coords": [
             50.945822,
             14.799478
-        ]
+        ],
+        "lk": "Landkreis Görlitz"
     },
     {
         "name": "Gemeindebibliothek Moritzburg",
@@ -2004,7 +2216,8 @@ let bibodaten = [
         "coords": [
             51.157285,
             13.687575
-        ]
+        ],
+        "lk": "Landkreis Meißen"
     },
     {
         "name": "Bibliothek Mulda",
@@ -2013,7 +2226,8 @@ let bibodaten = [
         "coords": [
             50.809344,
             13.406865
-        ]
+        ],
+        "lk": "Landkreis Mittelsachsen"
     },
     {
         "name": "Gemeindebibliothek Nebelschütz",
@@ -2022,7 +2236,8 @@ let bibodaten = [
         "coords": [
             51.264736,
             14.156421
-        ]
+        ],
+        "lk": "Landkreis Bautzen"
     },
     {
         "name": "Gemeindebibliothek Neukieritzsch",
@@ -2031,7 +2246,8 @@ let bibodaten = [
         "coords": [
             51.153074,
             12.409136
-        ]
+        ],
+        "lk": "Landkreis Leipzig"
     },
     {
         "name": "Gemeindebibliothek Neumark",
@@ -2040,7 +2256,8 @@ let bibodaten = [
         "coords": [
             50.656657,
             12.354614
-        ]
+        ],
+        "lk": "Landkreis Vogtlandkreis"
     },
     {
         "name": "Stadtbibliothek Neusalza-Spremberg",
@@ -2049,7 +2266,8 @@ let bibodaten = [
         "coords": [
             51.035094,
             14.527139
-        ]
+        ],
+        "lk": "Landkreis Görlitz"
     },
     {
         "name": "Gemeindebibliothek Oberpirk",
@@ -2058,7 +2276,8 @@ let bibodaten = [
         "coords": [
             50.547263,
             12.011597
-        ]
+        ],
+        "lk": "Landkreis Vogtlandkreis"
     },
     {
         "name": "Gemeindebibliothek Ohorn",
@@ -2067,7 +2286,8 @@ let bibodaten = [
         "coords": [
             51.175888,
             14.04898
-        ]
+        ],
+        "lk": "Landkreis Bautzen"
     },
     {
         "name": "Gemeindebibliothek Oßling",
@@ -2076,7 +2296,8 @@ let bibodaten = [
         "coords": [
             51.360433,
             14.17213
-        ]
+        ],
+        "lk": "Landkreis Bautzen"
     },
     {
         "name": "Gemeindebibliothek Ostrau",
@@ -2085,7 +2306,8 @@ let bibodaten = [
         "coords": [
             51.205991,
             13.158824
-        ]
+        ],
+        "lk": "Landkreis Mittelsachsen"
     },
     {
         "name": "OTB Schrebitz",
@@ -2094,7 +2316,8 @@ let bibodaten = [
         "coords": [
             51.203464,
             13.070936
-        ]
+        ],
+        "lk": "Landkreis Mittelsachsen"
     },
     {
         "name": "Gemeindebibliothek Hermsdorf",
@@ -2103,7 +2326,8 @@ let bibodaten = [
         "coords": [
             51.168008,
             13.822679
-        ]
+        ],
+        "lk": "Landkreis Bautzen"
     },
     {
         "name": "OTB Lückendorf",
@@ -2112,7 +2336,8 @@ let bibodaten = [
         "coords": [
             50.841253,
             14.742387
-        ]
+        ],
+        "lk": "Landkreis Görlitz"
     },
     {
         "name": "Gemeindebücherei Oybin",
@@ -2121,7 +2346,8 @@ let bibodaten = [
         "coords": [
             50.842447,
             14.74093
-        ]
+        ],
+        "lk": "Landkreis Görlitz"
     },
     {
         "name": "Bibliothek Mühltroff",
@@ -2130,7 +2356,8 @@ let bibodaten = [
         "coords": [
             50.569222,
             11.965339
-        ]
+        ],
+        "lk": "Landkreis Vogtlandkreis"
     },
     {
         "name": "Gemeindebibliothek Neundorf",
@@ -2139,7 +2366,8 @@ let bibodaten = [
         "coords": [
             50.490148,
             12.072412
-        ]
+        ],
+        "lk": "Landkreis Vogtlandkreis"
     },
     {
         "name": "Gemeindebibliothek Poppengrün",
@@ -2148,7 +2376,8 @@ let bibodaten = [
         "coords": [
             50.452282,
             12.326944
-        ]
+        ],
+        "lk": "Landkreis Vogtlandkreis"
     },
     {
         "name": "Gemeindebibliothek Rietschen",
@@ -2157,7 +2386,8 @@ let bibodaten = [
         "coords": [
             51.395782,
             14.796756
-        ]
+        ],
+        "lk": "Landkreis Görlitz"
     },
     {
         "name": "Stadtbücherei Sayda",
@@ -2166,7 +2396,8 @@ let bibodaten = [
         "coords": [
             50.711895,
             13.420343
-        ]
+        ],
+        "lk": "Landkreis Mittelsachsen"
     },
     {
         "name": "OTB Crostau",
@@ -2175,7 +2406,8 @@ let bibodaten = [
         "coords": [
             51.082613,
             14.453877
-        ]
+        ],
+        "lk": "Landkreis Bautzen"
     },
     {
         "name": "Stadtbibliothek Kirschau",
@@ -2184,7 +2416,8 @@ let bibodaten = [
         "coords": [
             51.097746,
             14.435273
-        ]
+        ],
+        "lk": "Landkreis Bautzen"
     },
     {
         "name": "Gemeindebücherei Schmölln-Putzkau",
@@ -2193,7 +2426,8 @@ let bibodaten = [
         "coords": [
             51.100311,
             14.240026
-        ]
+        ],
+        "lk": "Landkreis Bautzen"
     },
     {
         "name": "Gemeindebibliothek Schönfeld",
@@ -2202,7 +2436,8 @@ let bibodaten = [
         "coords": [
             51.298531,
             13.697698
-        ]
+        ],
+        "lk": "Landkreis Meißen"
     },
     {
         "name": "Bibliothek Schwepnitz",
@@ -2211,7 +2446,8 @@ let bibodaten = [
         "coords": [
             51.330481,
             13.95674
-        ]
+        ],
+        "lk": "Landkreis Bautzen"
     },
     {
         "name": "OTB Taubenheim/Spree",
@@ -2220,7 +2456,8 @@ let bibodaten = [
         "coords": [
             51.044076,
             14.479214
-        ]
+        ],
+        "lk": "Landkreis Bautzen"
     },
     {
         "name": "Peter Sodann Bibliothek",
@@ -2229,7 +2466,8 @@ let bibodaten = [
         "coords": [
             51.223308,
             13.224281
-        ]
+        ],
+        "lk": "Landkreis Meißen"
     },
     {
         "name": "Ortsteilbibliothek Wernesgrün",
@@ -2238,7 +2476,8 @@ let bibodaten = [
         "coords": [
             50.53171,
             12.474609
-        ]
+        ],
+        "lk": "Landkreis Vogtlandkreis"
     },
     {
         "name": "Ortsteilbibliothek Wildenau",
@@ -2247,7 +2486,8 @@ let bibodaten = [
         "coords": [
             50.538229,
             12.501904
-        ]
+        ],
+        "lk": "Landkreis Vogtlandkreis"
     },
     {
         "name": "OTB Ringenhain",
@@ -2256,7 +2496,8 @@ let bibodaten = [
         "coords": [
             51.076849,
             14.334917
-        ]
+        ],
+        "lk": "Landkreis Bautzen"
     },
     {
         "name": "Gemeindebibliothek Steinigtwolmsdorf",
@@ -2265,7 +2506,8 @@ let bibodaten = [
         "coords": [
             51.063579,
             14.346914
-        ]
+        ],
+        "lk": "Landkreis Bautzen"
     },
     {
         "name": "Stadtbibliothek Stolpen",
@@ -2274,7 +2516,8 @@ let bibodaten = [
         "coords": [
             51.04877,
             14.082666
-        ]
+        ],
+        "lk": "Landkreis Sächsische Schweiz<br>Osterzgebirge"
     },
     {
         "name": "Gemeindebibliothek Syrau",
@@ -2283,7 +2526,8 @@ let bibodaten = [
         "coords": [
             50.542437,
             12.082072
-        ]
+        ],
+        "lk": "Landkreis Vogtlandkreis"
     },
     {
         "name": "Gemeindebibliothek Tannenbergsthal",
@@ -2292,7 +2536,8 @@ let bibodaten = [
         "coords": [
             50.453498,
             12.456482
-        ]
+        ],
+        "lk": "Landkreis Vogtlandkreis"
     },
     {
         "name": "Gemeindebibliothek Taura",
@@ -2301,7 +2546,8 @@ let bibodaten = [
         "coords": [
             50.912921,
             12.854541
-        ]
+        ],
+        "lk": "Landkreis Mittelsachsen"
     },
     {
         "name": "Stadtbibliothek Torgau",
@@ -2310,7 +2556,8 @@ let bibodaten = [
         "coords": [
             51.559794,
             13.005086
-        ]
+        ],
+        "lk": "Landkreis Nordsachsen"
     },
     {
         "name": "Gemeindebibliothek Trebendorf",
@@ -2319,7 +2566,8 @@ let bibodaten = [
         "coords": [
             51.52855,
             14.55612
-        ]
+        ],
+        "lk": "Landkreis Görlitz"
     },
     {
         "name": "OTB Leppersdorf",
@@ -2328,7 +2576,8 @@ let bibodaten = [
         "coords": [
             51.153121,
             13.961617
-        ]
+        ],
+        "lk": "Landkreis Bautzen"
     },
     {
         "name": "OTB Seifersdorf",
@@ -2337,7 +2586,8 @@ let bibodaten = [
         "coords": [
             51.15883,
             13.882853
-        ]
+        ],
+        "lk": "Landkreis Bautzen"
     },
     {
         "name": "Bibliothek Wechselburg",
@@ -2346,7 +2596,8 @@ let bibodaten = [
         "coords": [
             51.002768,
             12.77811
-        ]
+        ],
+        "lk": "Landkreis Mittelsachsen"
     },
     {
         "name": "Bibliothek Weißenborn",
@@ -2355,7 +2606,8 @@ let bibodaten = [
         "coords": [
             50.872428,
             13.40021
-        ]
+        ],
+        "lk": "Landkreis Mittelsachsen"
     },
     {
         "name": "OTB Luppa",
@@ -2364,7 +2616,8 @@ let bibodaten = [
         "coords": [
             51.274481,
             12.942007
-        ]
+        ],
+        "lk": "Landkreis Nordsachsen"
     },
     {
         "name": "Bücherei Lüttewitz",
@@ -2373,7 +2626,8 @@ let bibodaten = [
         "coords": [
             51.166622,
             13.178713
-        ]
+        ],
+        "lk": "Landkreis Mittelsachsen"
     },
     {
         "name": "Bücherei Ottewig",
@@ -2382,6 +2636,7 @@ let bibodaten = [
         "coords": [
             51.177284,
             13.191104
-        ]
+        ],
+        "lk": "Landkreis Mittelsachsen"
     }
 ]
