@@ -16,8 +16,8 @@ let streetCover = L.rectangle([[0, 0], [90, 180]], {
     fillOpacity: 1
 });
 
-// Array für gesetzte Marker
-let markers = []
+// Objekt für gesetzte Marker
+let markers = {}
 
 // Die Koordinaten, die nötig sind, um ein Polygon auf der Karte zu invertieren 
 // (wichtig für coverLayer)
@@ -53,12 +53,13 @@ function main() {
         popupAnchor: [0, -21]
     });
 
-    // Hinzufügen der Marker mit Popup (vorerst unsichtbar)
+    // Hinzufügen der Marker sortiert nach Landkreis mit Popup (vorerst unsichtbar)
     for (let i = 0; i < bibodaten.length; i++) {
         let marker = L.marker(bibodaten[i].coords, {icon: icon});
         let markertext = '<b>' + bibodaten[i].name + '</b><br>' + bibodaten[i].str + '<br>' + bibodaten[i].plz;
         marker.bindPopup(markertext);
-        markers.push(marker);
+        if (bibodaten[i].lk in markers) markers[bibodaten[i].lk].push(marker);
+        else if (bibodaten[i].lk != '') markers[bibodaten[i].lk] = [marker];
     }
 
     // Übersichtskarte aller Landkreise initialisieren
@@ -78,7 +79,7 @@ function main() {
     let geojson;
 
     // Definieren der Funktion, die für jedes Lankreis-Polygon ausgeführt wird
-    let forAll = function (feature , layer) {
+    let forAll = function (feature, layer) {
         
         // Beschriftungen der Landkreise als Tooltip einbinden
         layer.bindTooltip(feature.properties.GEN /* LK Name im GeoJSON */, {
@@ -105,7 +106,7 @@ function main() {
             // Klick Event
             click: function(e) {
                 // Detailansicht des Landkreises anzeigen
-                launchDetailedMap(e.target);
+                launchDetailedMap(e.target, feature.properties.BEZ, feature.properties.GEN);
             }
 
         });
@@ -142,7 +143,9 @@ function launchBaseMap() {
     // (das mouseOut Event ist dafür dass der Landkreis seinen unrsprünglichen Style annimmt)
 
     // Marker verstecken
-    for (let i = 0; i < markers.length; i++) markers[i].removeFrom(map);
+    for (let lk in markers) {
+        for (let i = 0; i < markers[lk].length; i++) markers[lk][i].removeFrom(map);
+    }
 
     // Zurück-Knopf verstecken
     document.getElementById('return-button').style.display = 'none';
@@ -151,7 +154,8 @@ function launchBaseMap() {
 
 // Funktion zur Initialisierung der Ansicht eines Landkreises
 // selectedLayer-Parameter ist Layer des gewählten Landkreises
-function launchDetailedMap(selectedLayer) {
+// bez und gen sind die im geoJSON gespeicherten Namen des Landkreises
+function launchDetailedMap(selectedLayer, bez, gen) {
     
     // Zustandsvariable setzen
     zoomedOut = false;
@@ -191,8 +195,14 @@ function launchDetailedMap(selectedLayer) {
     // Straßen sichtbar machen
     streetCover.remove();
 
-    // Marker anzeigen
-    for (let i = 0; i < markers.length; i++) markers[i].addTo(map);
+    // Nur die Marker des Landkreises anzeigen
+    for (let lk in markers) {
+        if (lk == bez + ' ' + gen) {
+            for (let i = 0; i < markers[lk].length; i++) markers[lk][i].addTo(map);
+        } else {
+            for (let i = 0; i < markers[lk].length; i++) markers[lk][i].removeFrom(map);
+        }
+    }
 
     // Zurück-Knopf anzeigen
     document.getElementById('return-button').style.display = 'block';
