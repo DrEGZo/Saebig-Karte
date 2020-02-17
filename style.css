@@ -26,6 +26,24 @@
     font-size: 40px;
 }
 
+#select-all {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    padding: 8px;
+    background-color: #fffa;
+    border-top-right-radius: 10px;
+    user-select: none;
+}
+
+#select-all input {
+    display: inline-block;
+    margin-right: 10px;
+}
+
 /* Die Beschriftungen der Landkreise auf Übersichtskarte */
 .tooltip {
     background-color: #fff8;

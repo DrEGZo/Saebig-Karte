@@ -90,9 +90,6 @@ function main() {
             className: 'tooltip'    // CSS-Klasse für Tooltips, siehe style.css
         });
 
-        // Namen des Landkreis setzen
-        landkreis = feature.properties.BEZ + ' ' + feature.properties.GEN;
-
         // Eventlistener für die Landkreise
         layer.on({
             
@@ -110,6 +107,8 @@ function main() {
 
             // Klick Event
             click: function(e) {
+                // Namen des Landkreis setzen
+                landkreis = feature.properties.BEZ + ' ' + feature.properties.GEN;
                 // Detailansicht des Landkreises anzeigen
                 launchDetailedMap(e.target);
             }
@@ -125,6 +124,36 @@ function main() {
 
     // Zurück-Knopf initialisieren
     document.getElementById('return-button').addEventListener('click', launchBaseMap);
+
+    // Checkbox umschalten, wenn auf Label geklickt
+    document.getElementById('select-all').addEventListener('click', function (e) {
+        if (this == e.target) {
+            this.querySelector('input').checked = !this.querySelector('input').checked;
+            this.querySelector('input').dispatchEvent(new Event('change'));
+        }
+    });
+
+    // Alle Bibos anzeigen wenn Checkbox checked
+    document.querySelector('#select-all input').checked = false;
+    document.querySelector('#select-all input').addEventListener('change', function(e) {
+        if (this.checked) {
+            for (let lk in markers) {
+                for (let i = 0; i < markers[lk].length; i++) markers[lk][i].addTo(map);
+            }
+        } else {
+            if (zoomedOut) launchBaseMap();
+            else {
+                console.log('a')
+                for (let lk in markers) {
+                    if (lk == landkreis) {
+                        for (let i = 0; i < markers[lk].length; i++) markers[lk][i].addTo(map);
+                    } else {
+                        for (let i = 0; i < markers[lk].length; i++) markers[lk][i].removeFrom(map);
+                    }
+                }
+            }
+        }
+    });
 }
 
 
@@ -148,8 +177,10 @@ function launchBaseMap() {
     // (das mouseOut Event ist dafür dass der Landkreis seinen unrsprünglichen Style annimmt)
 
     // Marker verstecken
-    for (let lk in markers) {
-        for (let i = 0; i < markers[lk].length; i++) markers[lk][i].removeFrom(map);
+    if (!document.querySelector('#select-all input').checked) {
+        for (let lk in markers) {
+            for (let i = 0; i < markers[lk].length; i++) markers[lk][i].removeFrom(map);
+        }
     }
 
     // Zurück-Knopf verstecken
@@ -200,11 +231,13 @@ function launchDetailedMap(selectedLayer) {
     streetCover.remove();
 
     // Nur die Marker des Landkreises anzeigen
-    for (let lk in markers) {
-        if (lk == landkreis) {
-            for (let i = 0; i < markers[lk].length; i++) markers[lk][i].addTo(map);
-        } else {
-            for (let i = 0; i < markers[lk].length; i++) markers[lk][i].removeFrom(map);
+    if (!document.querySelector('#select-all input').checked) {
+        for (let lk in markers) {
+            if (lk == landkreis) {
+                for (let i = 0; i < markers[lk].length; i++) markers[lk][i].addTo(map);
+            } else {
+                for (let i = 0; i < markers[lk].length; i++) markers[lk][i].removeFrom(map);
+            }
         }
     }
 
