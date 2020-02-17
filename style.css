@@ -20,12 +20,10 @@
     z-index: 500;
     font-family: sans-serif;
     padding: 10px;
-    margin: 10px;
-    background-color: #fff;
-    border: 3px solid lightskyblue;
-    border-radius: 30px;
+    margin-top: 50px;
     cursor: pointer;
     display: none;
+    font-size: 40px;
 }
 
 /* Die Beschriftungen der Landkreise auf Übersichtskarte */

@@ -29,7 +29,7 @@ function main() {
 
     // Karte in DOM einfügen und Eigenschaften festlegen
     map = L.map('map', {
-        zoomControl: false,             // + / - Knöpfe nicht sichtbar
+        zoomControl: true,             // + / - Knöpfe nicht sichtbar
         zoomSnap: 0.1,                  // Zoomabstufung
         boxZoom: false,                 // deaktiviert Box-Zoom (braucht man eh nicht)
         zoomAnimation: false,           // muss deaktivert werden, sonst funktioniert Responsibilität nicht mehr
