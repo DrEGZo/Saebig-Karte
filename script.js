@@ -10,6 +10,8 @@ let coverLayer;
 // Die Layer des ausgewählten Landkreises (wird versteckt beim reinzoomen)
 let removedLayer;
 
+let landkreis;
+
 // Ein weißes Rechteck, das die Straßenkarte versteckt (im rausgezoomten Zustand)
 let streetCover = L.rectangle([[0, 0], [90, 180]], {
     fillColor: '#fff',
@@ -88,6 +90,9 @@ function main() {
             className: 'tooltip'    // CSS-Klasse für Tooltips, siehe style.css
         });
 
+        // Namen des Landkreis setzen
+        landkreis = feature.properties.BEZ + ' ' + feature.properties.GEN;
+
         // Eventlistener für die Landkreise
         layer.on({
             
@@ -106,7 +111,7 @@ function main() {
             // Klick Event
             click: function(e) {
                 // Detailansicht des Landkreises anzeigen
-                launchDetailedMap(e.target, feature.properties.BEZ, feature.properties.GEN);
+                launchDetailedMap(e.target);
             }
 
         });
@@ -154,8 +159,7 @@ function launchBaseMap() {
 
 // Funktion zur Initialisierung der Ansicht eines Landkreises
 // selectedLayer-Parameter ist Layer des gewählten Landkreises
-// bez und gen sind die im geoJSON gespeicherten Namen des Landkreises
-function launchDetailedMap(selectedLayer, bez, gen) {
+function launchDetailedMap(selectedLayer) {
     
     // Zustandsvariable setzen
     zoomedOut = false;
@@ -197,7 +201,7 @@ function launchDetailedMap(selectedLayer, bez, gen) {
 
     // Nur die Marker des Landkreises anzeigen
     for (let lk in markers) {
-        if (lk == bez + ' ' + gen) {
+        if (lk == landkreis) {
             for (let i = 0; i < markers[lk].length; i++) markers[lk][i].addTo(map);
         } else {
             for (let i = 0; i < markers[lk].length; i++) markers[lk][i].removeFrom(map);
