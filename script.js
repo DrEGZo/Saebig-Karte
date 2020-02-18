@@ -37,7 +37,7 @@ function main() {
         zoomAnimation: false,           // muss deaktivert werden, sonst funktioniert Responsibilität nicht mehr
         maxBoundsViscosity: 0.8,        // [0-1] legt fest, wie sich die Karte verhält, wenn man sie über die Grenze hinauszieht
         bounceAtZoomLimits: false,      // Brauch man nicht, erzeugt ohnehin Bugs auf Mobilgeräten
-        wheelPxPerZoomLevel: 300,       // Wie start wird mit Mausrad gezoomt (je höher, desto langsamer)
+        wheelPxPerZoomLevel: 100        // Wie start wird mit Mausrad gezoomt (je höher, desto langsamer)
     });
 
     // Straßenkarte laden und in Karte einfügen
