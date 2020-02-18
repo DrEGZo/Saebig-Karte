@@ -255,7 +255,7 @@ function launchDetailedMap(selectedLayer) {
 function fitToBounds(bounds, allowZoom) {
 
     // aktuelle Restriktionen entfernen, um Änderungen der Ausrichtung zu ermöglichen
-    map.setMinZoom(0).setMaxZoom(20).setMaxBounds(null);
+    map.setMinZoom(0).setMaxZoom(18).setMaxBounds(null);
 
     // Karte an neuen Bereich ausrichten
     map.fitBounds(bounds);
