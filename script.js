@@ -31,7 +31,7 @@ function main() {
 
     // Karte in DOM einfügen und Eigenschaften festlegen
     map = L.map('map', {
-        zoomControl: true,             // + / - Knöpfe nicht sichtbar
+        zoomControl: true,              // + / - Knöpfe nicht sichtbar
         zoomSnap: 0.1,                  // Zoomabstufung
         boxZoom: false,                 // deaktiviert Box-Zoom (braucht man eh nicht)
         zoomAnimation: false,           // muss deaktivert werden, sonst funktioniert Responsibilität nicht mehr
@@ -41,10 +41,12 @@ function main() {
     });
 
     // Straßenkarte laden und in Karte einfügen
-    L.mapboxGL({
+    L.tileLayer('https://api.maptiler.com/maps/streets/{z}/{x}/{y}.png?key=R7Y2sHW2hgzFomqlOY4W', {
+        tileSize: 512,
+        zoomOffset: -1,
+        minZoom: 1,
         attribution: '<a href="https://www.maptiler.com/copyright/" target="_blank">© MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">© OpenStreetMap contributors</a>',
-        accessToken: 'not-needed',
-        style: 'https://api.maptiler.com/maps/streets/style.json?key=R7Y2sHW2hgzFomqlOY4W'
+        crossOrigin: true
     }).addTo(map);
 
     // Erstellen des Marker Icons
