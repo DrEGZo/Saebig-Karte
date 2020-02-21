@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta author="Konrad, Jan, Peter">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css">
     <link rel="stylesheet" href="https://cdn.maptiler.com/mapbox-gl-js/v0.53.0/mapbox-gl.css">
     <link rel="stylesheet" href="style.css">
@@ -14,10 +15,21 @@
     <script src="bibos.js"></script>
     <script src="script.js"></script>
     <title>Prototyp</title>
+    <style>
+        #but_r {
+            border-radius: 15px;
+            background: rgba(122, 173, 51, 0.7); 
+            width: 60px;
+            height: 50px; 
+        }
+        #return-button{
+            padding-top: 25px;
+        }
+    </style>
 </head>
 <body>
     <div id="map-container">
-        <div id="return-button">&#x2BAA;</div>
+        <div id="return-button"><button id="but_r"><p>Zurück</p></button></div>
         <div id="select-all"><input type="checkbox">Alle Bibliotheken einblenden</div>
         <div id="map"></div>
     </div>
