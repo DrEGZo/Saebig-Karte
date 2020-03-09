@@ -86,11 +86,16 @@ function main() {
     let forAll = function (feature, layer) {
         
         // Beschriftungen der Landkreise als Tooltip einbinden
-        layer.bindTooltip(feature.properties.GEN /* LK Name im GeoJSON */, {
+        let lkName = feature.properties.GEN; /* LK Name im GeoJSON */
+        let lkProps = {
             direction: 'center',    // Zentriert
             permanent: true,        // die ganze Zeit sichtbar
             className: 'tooltip'    // CSS-Klasse für Tooltips, siehe style.css
-        });
+        }
+        if (lkName == 'Görlitz') lkProps.className += ' tooltipG';
+        if (lkName == 'Nordsachsen') lkProps.className += ' tooltipN';
+        if (lkName == 'Leipzig' && feature.properties.BEZ == 'Landkreis') lkName = 'LK Leipzig';
+        layer.bindTooltip(lkName, lkProps);
 
         // Eventlistener für die Landkreise
         layer.on({

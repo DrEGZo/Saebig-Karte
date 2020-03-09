@@ -47,7 +47,7 @@
 
 /* Die Beschriftungen der Landkreise auf Übersichtskarte */
 .tooltip {
-    background-color: #fff8;
+    background: none;
     border: none;
     box-shadow: none;
     color: #000;
@@ -55,10 +55,17 @@
     font-weight: 900;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 3px;
 }
 
 /* Popup Schriftart */
 .leaflet-popup-content {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.tooltipG {
+    margin-left: 16px;
+}
+
+.tooltipN {
+    margin-top: -16px;
 }
