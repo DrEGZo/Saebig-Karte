@@ -69,3 +69,42 @@
 .tooltipN {
     margin-top: -16px;
 }
+
+#search {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 500;
+    padding: 10px 15px;
+    border: 2px solid #aaa;
+    border-radius: 20px;
+}
+
+#search input {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    font-size: 16px;
+    display: inline-block;
+    width: 250px;
+}
+
+#search span {
+    display: inline-block;
+    border: 3px solid #aaa;
+    height: 15px;
+    width: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#search span::before {
+    content: "";
+    display: inline-block;
+    width: 3px;
+    height: 10px;
+    background-color: #aaa;
+    transform: rotate(45deg) translate(2px, 9px);
+}
