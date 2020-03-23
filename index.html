@@ -12,7 +12,8 @@
     <script src="https://cdn.maptiler.com/mapbox-gl-js/v0.53.0/mapbox-gl.js"></script>
     <script src="https://cdn.maptiler.com/mapbox-gl-leaflet/latest/leaflet-mapbox-gl.js"></script>
     <script src="landkreise.js"></script>
-    <script src="bibos.js"></script>
+    <script src="kulturraeume.js"></script>
+    <script src="bibos2.js"></script>
     <script src="script.js"></script>
     <title>Prototyp</title>
     <style>
@@ -29,12 +30,14 @@
 </head>
 <body>
     <div id="map-container">
-        <div id="search">
+        <!-- <div id="search">
             <input type="text" placeholder="Nach Bibliotheken suchen">
             <span></span>
-        </div>
+        </div> -->
         <div id="return-button"><button id="but_r"><p>Zurück</p></button></div>
         <div id="select-all"><input type="checkbox">Alle Bibliotheken einblenden</div>
+        <div id="selectLks"><input checked type="radio" name="lks">Landkreise</div>
+        <div id="selectKrs"><input type="radio" name="lks">Kulturräume</div>
         <div id="map"></div>
     </div>
 </body>

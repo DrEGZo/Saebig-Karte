@@ -25,7 +25,9 @@ let markers = {}
 // (wichtig für coverLayer)
 const vectorInverter = [[0, 90], [180, 90], [180, -90], [0, -90], [-180, -90], [-180, 0], [-180, 90], [0, 90]];
 
-
+// Variable für das GeoJSON (muss vor Event-Listenern definiert sein)
+let geojsonLK;
+let geojsonKR;
 
 function main() {
 
@@ -49,25 +51,59 @@ function main() {
         crossOrigin: true
     }).addTo(map);
 
-    // Erstellen des Marker Icons
-    let icon = L.icon({
-        iconUrl: 'icon.svg',
-        iconSize: [30, 36],
-        iconAnchor: [15, 36],
-        popupAnchor: [0, -21]
-    });
+    // Erstellen der Marker Icons
+    let icons = [
+        [
+            L.icon({
+                iconUrl: 'iconW.svg',
+                iconSize: [16, 19.2],
+                iconAnchor: [8, 19.2],
+                popupAnchor: [0, -21]
+            }),
+            L.icon({
+                iconUrl: 'iconW.svg',
+                iconSize: [22, 26.4],
+                iconAnchor: [12, 26.4],
+                popupAnchor: [0, -21]
+            }),
+            L.icon({
+                iconUrl: 'iconW.svg',
+                iconSize: [30, 36],
+                iconAnchor: [15, 36],
+                popupAnchor: [0, -21]
+            })
+        ],
+        [
+            L.icon({
+                iconUrl: 'iconO.svg',
+                iconSize: [15, 18],
+                iconAnchor: [7.5, 18],
+                popupAnchor: [0, -21]
+            }),
+            L.icon({
+                iconUrl: 'iconO.svg',
+                iconSize: [22, 26.4],
+                iconAnchor: [12, 26.4],
+                popupAnchor: [0, -21]
+            }),
+            L.icon({
+                iconUrl: 'iconO.svg',
+                iconSize: [30, 36],
+                iconAnchor: [15, 36],
+                popupAnchor: [0, -21]
+            })
+        ]
+    ];
 
     // Hinzufügen der Marker sortiert nach Landkreis mit Popup (vorerst unsichtbar)
     for (let i = 0; i < bibodaten.length; i++) {
+        let icon = icons[bibodaten[i].isWB ? 0 : 1][bibodaten[i].size];
         let marker = L.marker(bibodaten[i].coords, {icon: icon});
-        let markertext = '<b>' + bibodaten[i].name + '</b><br>' + bibodaten[i].str + '<br>' + bibodaten[i].plz;
+        let markertext = '<b>' + bibodaten[i].name + '</b><br>' + bibodaten[i].str + '<br>' + bibodaten[i].plz + ' ' + bibodaten[i].ort;
         marker.bindPopup(markertext);
         if (bibodaten[i].lk in markers) markers[bibodaten[i].lk].push(marker);
         else if (bibodaten[i].lk != '') markers[bibodaten[i].lk] = [marker];
     }
-
-    // Übersichtskarte aller Landkreise initialisieren
-    launchBaseMap();
     
     // Bei Größenänderung der Karte (durch z.B. Änderung der Fenstergröße Karte neu ausrichten)
     map.on({
@@ -79,11 +115,8 @@ function main() {
         }
     });
 
-    // Variable für das GeoJSON (muss vor Event-Listenern definiert sein)
-    let geojson;
-
     // Definieren der Funktion, die für jedes Lankreis-Polygon ausgeführt wird
-    let forAll = function (feature, layer) {
+    let forAllLKs = function (feature, layer) {
         
         // Beschriftungen der Landkreise als Tooltip einbinden
         let lkName = feature.properties.GEN; /* LK Name im GeoJSON */
@@ -109,7 +142,7 @@ function main() {
             // MouseOut Event
             mouseout: function(e) {
                 // Style zurücksetzen
-                geojson.resetStyle(e.target);
+                geojsonLK.resetStyle(e.target);
             },
 
             // Klick Event
@@ -124,10 +157,57 @@ function main() {
     }
 
     // GeoJSON-Daten (in landkreisdaten-Variable, siehe saxony_accurate.js) einzeichnen
-    geojson = L.geoJson(landkreisdaten, { 
+    geojsonLK = L.geoJson(landkreisdaten, { 
         style: { color: '#6AB446', fillColor: '#6AB446' },
-        onEachFeature: forAll
-    }).addTo(map);
+        onEachFeature: forAllLKs
+    });
+
+    // Definieren der Funktion, die für jedes Lankreis-Polygon ausgeführt wird
+    let forAllKRs = function (feature, layer) {
+
+        // Beschriftungen der Landkreise als Tooltip einbinden
+        let lkName = feature.properties.GEN; /* LK Name im GeoJSON */
+        let lkProps = {
+            direction: 'center',    // Zentriert
+            permanent: true,        // die ganze Zeit sichtbar
+            className: 'tooltip'    // CSS-Klasse für Tooltips, siehe style.css
+        }
+        if (lkName == 'Görlitz') lkProps.className += ' tooltipG';
+        if (lkName == 'Nordsachsen') lkProps.className += ' tooltipN';
+        if (lkName == 'Leipzig' && feature.properties.BEZ == 'Landkreis') lkName = 'LK Leipzig';
+        layer.bindTooltip(lkName, lkProps);
+
+        // Eventlistener für die Landkreise
+        layer.on({
+
+            // MouseOver Event
+            mouseover: function (e) {
+                // Polygon-Füllung ändern
+                e.target.setStyle({ fillOpacity: 0.6 });
+            },
+
+            // MouseOut Event
+            mouseout: function (e) {
+                // Style zurücksetzen
+                geojsonKR.resetStyle(e.target);
+            },
+
+            // Klick Event
+            click: function (e) {
+                // Namen des Landkreis setzen
+                landkreis = feature.properties.BEZ + ' ' + feature.properties.GEN;
+                // Detailansicht des Landkreises anzeigen
+                launchDetailedMap(e.target);
+            }
+
+        });
+    }
+
+    // GeoJSON-Daten (in landkreisdaten-Variable, siehe saxony_accurate.js) einzeichnen
+    geojsonKR = L.geoJson(kulturraumdaten, {
+        style: { color: '#6AB446', fillColor: '#6AB446' },
+        onEachFeature: forAllKRs
+    });
 
     // Zurück-Knopf initialisieren
     document.getElementById('return-button').addEventListener('click', launchBaseMap);
@@ -161,6 +241,34 @@ function main() {
             }
         }
     });
+
+    document.getElementById('selectLks').addEventListener('click', function (e) {
+        if (this == e.target) {
+            if (!this.querySelector('input').checked) {
+                this.querySelector('input').checked = true;
+                this.querySelector('input').dispatchEvent(new Event('change'));
+            }
+        }
+    });
+    document.querySelector('#selectLks input').checked = true;
+    document.querySelector('#selectLks input').addEventListener('change', function (e) {
+        if (this.checked) zuLandkreiseWechseln(true);
+    });
+
+    document.getElementById('selectKrs').addEventListener('click', function (e) {
+        if (this == e.target) {
+            if (!this.querySelector('input').checked) {
+                this.querySelector('input').checked = true;
+                this.querySelector('input').dispatchEvent(new Event('change'));
+            }
+        }
+    });
+    document.querySelector('#selectKrs input').addEventListener('change', function (e) {
+        if (this.checked) zuLandkreiseWechseln(false);
+    });
+
+    // Übersichtskarte aller Landkreise initialisieren
+    launchBaseMap();
 }
 
 
@@ -178,6 +286,8 @@ function launchBaseMap() {
 
     // Die Layer, die angrenzende Landkreise abdeckt entfernen
     if (coverLayer) map.removeLayer(coverLayer);
+
+    zuLandkreiseWechseln(document.querySelector('#selectLks input').checked);
 
     // Falls eine Landkreis-Layer zuvor entfernt wurde, jetzt wieder hinzufügen
     if (removedLayer) removedLayer.fire('mouseout').addTo(map);
@@ -232,7 +342,9 @@ function launchDetailedMap(selectedLayer) {
     removedLayer = selectedLayer;
 
     // Das angeklickte Landkreis-Polygon entfernen
-    removedLayer.remove()
+    // removedLayer.remove()
+    geojsonKR.remove();
+    geojsonLK.remove();
 
     // Straßen sichtbar machen
     streetCover.remove();
@@ -240,7 +352,7 @@ function launchDetailedMap(selectedLayer) {
     // Nur die Marker des Landkreises anzeigen
     if (!document.querySelector('#select-all input').checked) {
         for (let lk in markers) {
-            if (lk == landkreis) {
+            if (istInLandkreis(lk, landkreis)) {
                 for (let i = 0; i < markers[lk].length; i++) markers[lk][i].addTo(map);
             } else {
                 for (let i = 0; i < markers[lk].length; i++) markers[lk][i].removeFrom(map);
@@ -273,6 +385,48 @@ function fitToBounds(bounds, allowZoom) {
 
     // Wenn Zoomen komplett verboten sein soll, dann auch weiteres Reinzoomen verhindern
     if (!allowZoom) map.setMaxZoom(zoom);
+}
+
+function zuLandkreiseWechseln(bool) {
+    if (bool) {
+        geojsonKR.removeFrom(map);
+        geojsonLK.addTo(map);
+    } else {
+        geojsonLK.removeFrom(map);
+        geojsonKR.addTo(map);
+    }
+}
+
+function istInLandkreis(lk, gebiet) {
+    if (lk == gebiet) return true;
+    let lk_kr_map = {
+        ' Meißen<br>Sächsische Schweiz<br>Osterzgebirge': [
+            'Landkreis Sächsische Schweiz<br>Osterzgebirge',
+            'Landkreis Meißen'
+        ],
+        ' Mittelsachsen<br>Erzgebirge': [
+            'Landkreis Mittelsachsen',
+            'Landkreis Erzgebirgskreis'
+        ],
+        ' Zwickau<br>Vogtland': [
+            'Landkreis Zwickau',
+            'Landkreis Vogtlandkreis'
+        ],
+        ' Leipziger Raum': [
+            'Landkreis Nordsachsen',
+            'Landkreis Leipzig',
+            'Kreisfreie Stadt Leipzig'
+        ],
+        ' Oberlausitz Niederschlesien': [
+            'Landkreis Bautzen',
+            'Landkreis Görlitz'
+        ],
+        ' Dreden': ['Kreisfreie Stadt Dresden'],
+        ' Leipzig': ['Kreisfreie Stadt Leipzig'],
+        ' Chemnitz': ['Kreisfreie Stadt Chemnitz']
+    }
+    if (gebiet in lk_kr_map) return lk_kr_map[gebiet].indexOf(lk) != -1;
+    return false;
 }
 
 // Wenn DOM gelanden, main ausführen

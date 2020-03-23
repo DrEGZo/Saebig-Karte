@@ -27,7 +27,7 @@
     font-size: 40px;
 }
 
-#select-all {
+#select-all, #selectLks, #selectKrs {
     position: absolute;
     left: 0;
     bottom: 0;
@@ -43,6 +43,14 @@
 #select-all input {
     display: inline-block;
     margin-right: 10px;
+}
+
+#selectLks {
+    left: 300px;
+}
+
+#selectKrs {
+    left: 450px;
 }
 
 /* Die Beschriftungen der Landkreise auf Übersichtskarte */
@@ -70,7 +78,7 @@
     margin-top: -16px;
 }
 
-#search {
+/* #search {
     position: absolute;
     right: 10px;
     top: 10px;
@@ -107,4 +115,4 @@
     height: 10px;
     background-color: #aaa;
     transform: rotate(45deg) translate(2px, 9px);
-}
+} */
