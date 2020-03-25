@@ -97,7 +97,7 @@ function main() {
 
     // Hinzufügen der Marker sortiert nach Landkreis mit Popup (vorerst unsichtbar)
     for (let i = 0; i < bibodaten.length; i++) {
-        let icon = icons[bibodaten[i].isWB ? 0 : 1][bibodaten[i].size];
+        let icon = icons[bibodaten[i].state][bibodaten[i].size];
         let marker = L.marker(bibodaten[i].coords, {icon: icon});
         let markertext = '<b>' + bibodaten[i].name + '</b><br>' + bibodaten[i].str + '<br>' + bibodaten[i].plz + ' ' + bibodaten[i].ort;
         marker.bindPopup(markertext);
