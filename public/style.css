@@ -1,13 +1,17 @@
 body {
     margin: 0;
     overflow: visible;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* Der Kartencontainer */
 #map-container {
-    width: 100vw;
-    height: 100vh;
     position: relative;
+    flex: auto;
 }
 
 /* Die Karte */
@@ -30,32 +34,6 @@ body {
     cursor: pointer;
     display: none;
     font-size: 40px;
-}
-
-#select-all, #selectLks, #selectKrs {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    z-index: 500;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-style: italic;
-    padding: 8px;
-    background-color: #fffa;
-    border-top-right-radius: 10px;
-    user-select: none;
-}
-
-#select-all input {
-    display: inline-block;
-    margin-right: 10px;
-}
-
-#selectLks {
-    left: 300px;
-}
-
-#selectKrs {
-    left: 450px;
 }
 
 /* Die Beschriftungen der Landkreise auf Übersichtskarte */
@@ -104,6 +82,7 @@ body {
 }
 
 .content-img {
+    display: block;
     width: 64px;
     height: 64px;
     background-size: contain;
@@ -155,3 +134,97 @@ body {
     background-color: #aaa;
     transform: rotate(45deg) translate(2px, 9px);
 } */
+
+#header, #footer {
+    flex: none;
+    font-size: 14px;
+}
+
+#header {
+    display: flex;
+}
+
+#selectLks, #selectKrs {
+    flex: 1;
+    font-size: 26px;
+    text-align: center;
+    padding: 10px;
+    background-color: #c7f3af;
+}
+
+#footer input {
+    margin: 5px;
+}
+
+#select-all {
+    padding: 0 5px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffe48c;
+    font-weight: bold;
+}
+
+#filter {
+    display: flex;
+    flex-direction: column;
+}
+
+#filter>div {
+    display: flex;
+}
+
+#filter>div:first-child {
+    font-weight: bold;
+}
+
+.sgFilter {
+    display: flex;
+    align-items: center;
+    padding: 0 5px;
+    flex: 1;
+}
+
+.sgFilter:first-child {
+    background-color: #95deff;
+}
+
+.sgFilter:last-child {
+    background-color: #a7e684;
+}
+
+.sgFilter div {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex: none;
+    height: 36px;
+}
+
+#filter>div:nth-child(1) .sgFilter div{
+    width: 40px;
+}
+
+#filter>div:nth-child(2) .sgFilter div{
+    width: 30px;
+    margin: 0 5px;
+}
+
+#filter>div:nth-child(3) .sgFilter div{
+    width: 22px;
+    margin: 0 9px;
+}
+
+#filter>div:nth-child(4) .sgFilter div{
+    width: 15px;
+    margin: 0 12.5px;
+}
+
+#filter>div:not(:first-child) .sgFilter:first-child div {
+    background-image: url('iconW.svg');
+}
+
+#filter>div:not(:first-child) .sgFilter:last-child div {
+    background-image: url('iconO.svg');
+}
