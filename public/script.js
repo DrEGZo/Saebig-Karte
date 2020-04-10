@@ -99,9 +99,11 @@ function main() {
     for (let i = 0; i < bibodaten.length; i++) {
         let icon = icons[bibodaten[i].state][bibodaten[i].size];
         let marker = L.marker(bibodaten[i].coords, {icon: icon});
-        let markertext = '<b>' + bibodaten[i].name + '</b><br>' + bibodaten[i].str + '<br>' + bibodaten[i].plz + ' ' + bibodaten[i].ort + '<br>';
-        markertext += '<a target="_bank" href="' + bibodaten[i].web + '">Website</a>';
-        marker.bindPopup(markertext);
+        let markerContent = '<div class="markercontent"><div class="content-text">';
+        markerContent += '<b>' + bibodaten[i].name + '</b><br>' + bibodaten[i].str + '<br>' + bibodaten[i].plz + ' ' + bibodaten[i].ort + '<br>';
+        markerContent += '<a target="_bank" href="' + bibodaten[i].web + '">Website</a></div>';
+        markerContent += '<div class="content-img"></div>';
+        marker.bindPopup(markerContent);
         if (bibodaten[i].lk in markers) markers[bibodaten[i].lk].push(marker);
         else if (bibodaten[i].lk != '') markers[bibodaten[i].lk] = [marker];
     }
@@ -126,8 +128,9 @@ function main() {
             permanent: true,        // die ganze Zeit sichtbar
             className: 'tooltip'    // CSS-Klasse für Tooltips, siehe style.css
         }
-        if (lkName == 'Görlitz') lkProps.className += ' tooltipG';
-        if (lkName == 'Nordsachsen') lkProps.className += ' tooltipN';
+        console.log(lkName)
+        if (lkName == 'Görlitz') lkProps.className += ' tooltipLKG';
+        if (lkName == 'Nordsachsen') lkProps.className += ' tooltipLKN';
         if (lkName == 'Leipzig' && feature.properties.BEZ == 'Landkreis') lkName = 'LK Leipzig';
         layer.bindTooltip(lkName, lkProps);
 
@@ -173,9 +176,9 @@ function main() {
             permanent: true,        // die ganze Zeit sichtbar
             className: 'tooltip'    // CSS-Klasse für Tooltips, siehe style.css
         }
-        if (lkName == 'Görlitz') lkProps.className += ' tooltipG';
-        if (lkName == 'Nordsachsen') lkProps.className += ' tooltipN';
-        if (lkName == 'Leipzig' && feature.properties.BEZ == 'Landkreis') lkName = 'LK Leipzig';
+        if (lkName == 'Meißen<br>Sächsische Schweiz<br>Osterzgebirge') lkProps.className += ' tooltipKRMSO';
+        if (lkName == 'Mittelsachsen<br>Erzgebirge') lkProps.className += ' tooltipKRME';
+        if (lkName == 'Leipziger Raum') lkProps.className += ' tooltipKRL';
         layer.bindTooltip(lkName, lkProps);
 
         // Eventlistener für die Landkreise

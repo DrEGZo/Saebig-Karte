@@ -70,12 +70,40 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.tooltipG {
+.tooltipLKG {
     margin-left: 3vw;
 }
 
-.tooltipN {
+.tooltipLKN {
     margin-top: -3vw;
+}
+
+.tooltipKRMSO {
+    margin: 8vw 0 0 4vw;
+}
+
+.tooltipKRME {
+    margin-left: 7vw;
+}
+
+.tooltipKRL {
+    margin-left: 4vw;
+}
+
+.markercontent {
+    display: flex;
+}
+
+.content-text {
+    margin-right: 5px;
+}
+
+.content-img {
+    width: 64px;
+    height: 64px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 /* #search {
