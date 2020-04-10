@@ -1,6 +1,6 @@
 let fs = require('fs');
 
-let bibos = JSON.parse(fs.readFileSync(__dirname + '/data.json'));
+let bibos = JSON.parse(fs.readFileSync(__dirname + '/data3.json'));
 
 for (i = 0; i < bibos.length; i++) {
     
@@ -15,6 +15,7 @@ for (i = 0; i < bibos.length; i++) {
     
     /* delete bibos[i]["Breite"];
     delete bibos[i]["Länge"]; */
+    bibos[i].img = '';
 }
 
 fs.writeFileSync(__dirname + '/data.json', JSON.stringify(bibos));

@@ -1,7 +1,12 @@
+body {
+    margin: 0;
+    overflow: visible;
+}
+
 /* Der Kartencontainer */
 #map-container {
-    width: 100%;
-    height: 750px;
+    width: 100vw;
+    height: 100vh;
     position: relative;
 }
 
@@ -104,6 +109,12 @@
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+    flex: none;
+    background-color: #eee;
+}
+
+.content-img.noImg {
+    width: 0;
 }
 
 /* #search {

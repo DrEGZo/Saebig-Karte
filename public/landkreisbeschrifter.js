@@ -26,7 +26,7 @@ for (let i = 0; i < bibos.length; i++) {
     }
 }
 
-fs.writeFileSync(__dirname + '/data2.json', JSON.stringify(bibos));
+fs.writeFileSync(__dirname + '/data3.json', JSON.stringify(bibos));
 
 //console.log(daten.features[0].geometry.coordinates[0][0])
 

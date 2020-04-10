@@ -102,7 +102,8 @@ function main() {
         let markerContent = '<div class="markercontent"><div class="content-text">';
         markerContent += '<b>' + bibodaten[i].name + '</b><br>' + bibodaten[i].str + '<br>' + bibodaten[i].plz + ' ' + bibodaten[i].ort + '<br>';
         markerContent += '<a target="_bank" href="' + bibodaten[i].web + '">Website</a></div>';
-        markerContent += '<div class="content-img"></div>';
+        markerContent += '<div class="content-img' + (bibodaten[i].img == '' ? ' noImg' : '') + '" ';
+        markerContent += 'style="background-image:url(\'' + bibodaten[i].img + '\')"></div>';
         marker.bindPopup(markerContent);
         if (bibodaten[i].lk in markers) markers[bibodaten[i].lk].push(marker);
         else if (bibodaten[i].lk != '') markers[bibodaten[i].lk] = [marker];

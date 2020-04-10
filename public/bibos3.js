@@ -11,7 +11,8 @@ const bibodaten = [
             51.028201,
             13.736606
         ],
-        "lk": "Kreisfreie Stadt Dresden"
+        "lk": "Kreisfreie Stadt Dresden",
+        "img": "https://www.slub-dresden.de/fileadmin/groups/slubsite/Ueber_uns/Presse/Fenster.jpg"
     },
     {
         "name": "Deutsche Nationalbibliothek",
@@ -25,7 +26,8 @@ const bibodaten = [
             51.322267,
             12.397197
         ],
-        "lk": "Kreisfreie Stadt Leipzig"
+        "lk": "Kreisfreie Stadt Leipzig",
+        "img": "https://www.dnb.de/SharedDocs/Bilder/DE/Buehnen/ueberuns_buehne.jpg?__blob=normal"
     },
     {
         "name": "Universitätsbibliothek Leipzig",
@@ -39,7 +41,8 @@ const bibodaten = [
             51.332493,
             12.368259
         ],
-        "lk": "Kreisfreie Stadt Leipzig"
+        "lk": "Kreisfreie Stadt Leipzig",
+        "img": "https://leipzig-fuer-lau.de/wp-content/uploads/2017/10/Albertina_Unibibliothek_Leipzig-1024x528.jpg"
     },
     {
         "name": "Universitätsbibliothek der TU Freiberg",
@@ -53,7 +56,8 @@ const bibodaten = [
             50.924567,
             13.339136
         ],
-        "lk": "Landkreis Mittelsachsen"
+        "lk": "Landkreis Mittelsachsen",
+        "img": "https://tu-freiberg.de/sites/default/files/media/Presse/PM/bibo_hoersaalzentrum.jpg"
     },
     {
         "name": "Bibliothek der Hochschule für Musik",
@@ -67,7 +71,8 @@ const bibodaten = [
             51.054196,
             13.725962
         ],
-        "lk": "Kreisfreie Stadt Dresden"
+        "lk": "Kreisfreie Stadt Dresden",
+        "img": "https://www.hfmdd.de/fileadmin/user_upload/Presse/HfMDD-Pressekit-Gebaeudefotos/HfMDD_Neubau-Konzertsaal_credit_Marius_Leicht.jpg"
     },
     {
         "name": "Bibliothek der Hochschule für Technik und Wirtschaft",
@@ -81,7 +86,8 @@ const bibodaten = [
             51.03651,
             13.736075
         ],
-        "lk": "Kreisfreie Stadt Dresden"
+        "lk": "Kreisfreie Stadt Dresden",
+        "img": "http://rgal.rz.htw-dresden.de/piwigo/_data/i/upload/2015/08/28/20150828091123-07467c4f-me.jpg"
     },
     {
         "name": "Universitätsbibliothek der TU Chemnitz",
@@ -95,7 +101,8 @@ const bibodaten = [
             50.839132,
             12.929189
         ],
-        "lk": "Kreisfreie Stadt Chemnitz"
+        "lk": "Kreisfreie Stadt Chemnitz",
+        "img": "https://www.welt.de/img/regionales/sachsen/mobile195734641/6531629537-ci23x11-w960/urn-newsml-dpa-com-20090101-190623-99-761712-large-4-3-jpg.jpg"
     },
     {
         "name": "Bibliothek der Hochschule für Technik, Wirtschaft und Kultur",
@@ -109,7 +116,8 @@ const bibodaten = [
             51.312431,
             12.373725
         ],
-        "lk": "Kreisfreie Stadt Leipzig"
+        "lk": "Kreisfreie Stadt Leipzig",
+        "img": "https://www.dbz.de/imgs/102390561_0e57bf3b20.jpg"
     },
     {
         "name": "Bibliothek der Hochschule für Musik und Theater \"Felix Mendelssohn Bartholdy\"",
@@ -123,7 +131,8 @@ const bibodaten = [
             51.332854,
             12.366461
         ],
-        "lk": "Kreisfreie Stadt Leipzig"
+        "lk": "Kreisfreie Stadt Leipzig",
+        "img": "https://www.leipziginfo.de/fileadmin/_processed_/6/2/csm_hmt-leipzig-04_0e15c05d27.jpg"
     },
     {
         "name": "Bibliothek der Hochschule für Grafik und Buchkunst",
@@ -137,7 +146,8 @@ const bibodaten = [
             51.333338,
             12.367851
         ],
-        "lk": "Kreisfreie Stadt Leipzig"
+        "lk": "Kreisfreie Stadt Leipzig",
+        "img": "https://www.pointer.de/bilder/hochschulen/190.jpg"
     },
     {
         "name": "Hochschulbibliothek Görlitz",
@@ -151,7 +161,8 @@ const bibodaten = [
             51.149209,
             14.998698
         ],
-        "lk": "Landkreis Görlitz"
+        "lk": "Landkreis Görlitz",
+        "img": "https://idw-online.de/de/attachmentdata51641.jpg"
     },
     {
         "name": "Hochschulbibliothek Zittau",
@@ -165,7 +176,8 @@ const bibodaten = [
             50.890273,
             14.804335
         ],
-        "lk": "Landkreis Görlitz"
+        "lk": "Landkreis Görlitz",
+        "img": "http://www.tchobanvoss.de/gfx_scroll_images/col_DR_2405_01_blickpunkt_studio_2.jpg"
     },
     {
         "name": "Bereichsbibliothek DrePunct der SLUB",
@@ -179,7 +191,8 @@ const bibodaten = [
             51.029805,
             13.738897
         ],
-        "lk": "Kreisfreie Stadt Dresden"
+        "lk": "Kreisfreie Stadt Dresden",
+        "img": "https://so-lebt-dresden.de/wp-content/uploads/2018/04/DSC09312.jpg"
     },
     {
         "name": "SLUB - Zweigbibliothek Erziehungswissenschaften",
@@ -193,7 +206,8 @@ const bibodaten = [
             51.0316,
             13.752361
         ],
-        "lk": "Kreisfreie Stadt Dresden"
+        "lk": "Kreisfreie Stadt Dresden",
+        "img": "https://www.slub-dresden.de/fileadmin/_processed_/4/9/csm_Zweigbibliothek_Erziehungswissenschaften_IMG_1_f5f6acf3db.jpg"
     },
     {
         "name": "SLUB - Zweigbibliothek Rechtswissenschaften",
@@ -207,7 +221,8 @@ const bibodaten = [
             51.028227,
             13.73163
         ],
-        "lk": "Kreisfreie Stadt Dresden"
+        "lk": "Kreisfreie Stadt Dresden",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/TU_Dresden_44.jpg/800px-TU_Dresden_44.jpg"
     },
     {
         "name": "SLUB - Zweigbibliothek Medizin",
@@ -221,7 +236,8 @@ const bibodaten = [
             51.054719,
             13.782966
         ],
-        "lk": "Kreisfreie Stadt Dresden"
+        "lk": "Kreisfreie Stadt Dresden",
+        "img": "https://tu-dresden.de/med/ressourcen/bilder/startseite/haus-40/@@images/ad84e516-88a0-4b3f-845e-c6c6075d6ae5.jpeg"
     },
     {
         "name": "SLUB - Zweigbibliothek Forstwesen",
@@ -235,7 +251,8 @@ const bibodaten = [
             50.980532,
             13.581234
         ],
-        "lk": "Landkreis Sächsische Schweiz<br>Osterzgebirge"
+        "lk": "Landkreis Sächsische Schweiz<br>Osterzgebirge",
+        "img": "https://www.slub-dresden.de/fileadmin/_processed_/d/1/csm_Zweigbibliothek_Tharandt_IMG_1_c2eb24605a.jpg"
     },
     {
         "name": "Bibliothek des Leibniz-Instituts für Festkörper- und Werkstoffforschung",
@@ -249,7 +266,8 @@ const bibodaten = [
             51.02609,
             13.725016
         ],
-        "lk": "Kreisfreie Stadt Dresden"
+        "lk": "Kreisfreie Stadt Dresden",
+        "img": ""
     },
     {
         "name": "Bibliothek des Hannah-Arendt-Instituts für Totalitarismusforschung der TU Dresden",
@@ -263,7 +281,8 @@ const bibodaten = [
             51.02942,
             13.724365
         ],
-        "lk": "Kreisfreie Stadt Dresden"
+        "lk": "Kreisfreie Stadt Dresden",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/HAIT_01%2C_Tillichbau.png/1280px-HAIT_01%2C_Tillichbau.png"
     },
     {
         "name": "Bibliothek der Palucca Hochschule für Tanz",
@@ -277,7 +296,8 @@ const bibodaten = [
             51.028975,
             13.770919
         ],
-        "lk": "Kreisfreie Stadt Dresden"
+        "lk": "Kreisfreie Stadt Dresden",
+        "img": "https://www.dhmd.de/fileadmin/_processed_/f/5/csm_DHMD_Heute_999d5cfb96.jpg"
     },
     {
         "name": "Bibliotheke des Deutschen Hygiene-Museums",
@@ -291,7 +311,8 @@ const bibodaten = [
             51.044387,
             13.746803
         ],
-        "lk": "Kreisfreie Stadt Dresden"
+        "lk": "Kreisfreie Stadt Dresden",
+        "img": ""
     },
     {
         "name": "Zweigbibliothek der HTW Dresden und Bibliothek des Landesamts für Umwelt, Landwirtschaft und Geologie",
@@ -305,7 +326,8 @@ const bibodaten = [
             51.008088,
             13.873107
         ],
-        "lk": "Kreisfreie Stadt Dresden"
+        "lk": "Kreisfreie Stadt Dresden",
+        "img": "https://www.lfulg.sachsen.de/img/lfulg/IMG_0880-3_rdax_445x150_87.jpg"
     },
     {
         "name": "UBL Leipzig - Campus-Bibliothek",
@@ -319,7 +341,8 @@ const bibodaten = [
             51.338111,
             12.378636
         ],
-        "lk": "Kreisfreie Stadt Leipzig"
+        "lk": "Kreisfreie Stadt Leipzig",
+        "img": "https://www.leipzig-studieren.de/fileadmin/_processed_/6/9/csm_Campusbibliothek_innen__Medium__dc19b6ad8d.jpg"
     },
     {
         "name": "ULB Leipzig - Bibliothek Deutsches Literaturinstitut",
@@ -333,7 +356,8 @@ const bibodaten = [
             51.333794,
             12.367661
         ],
-        "lk": "Kreisfreie Stadt Leipzig"
+        "lk": "Kreisfreie Stadt Leipzig",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Leipzig_W%C3%A4chterstra%C3%9Fe_34_Literaturinstitut.jpg/790px-Leipzig_W%C3%A4chterstra%C3%9Fe_34_Literaturinstitut.jpg"
     },
     {
         "name": "UBL Leipzig - Bibliothek Erziehungs- und Sportwissenschaft",
@@ -347,7 +371,8 @@ const bibodaten = [
             51.339657,
             12.349647
         ],
-        "lk": "Kreisfreie Stadt Leipzig"
+        "lk": "Kreisfreie Stadt Leipzig",
+        "img": "http://bibliotheken-leipzig.de/images/Bibliothek_Erziehungs-_und_Sportwissenschaft_aussen_Thomas_Kademann.jpg"
     },
     {
         "name": "UBL Leipzig - Bibliothek Klassische Archäologie und Ur- und Frühgeschichte",
@@ -361,7 +386,8 @@ const bibodaten = [
             51.3407057,
             12.37956505
         ],
-        "lk": "Kreisfreie Stadt Leipzig"
+        "lk": "Kreisfreie Stadt Leipzig",
+        "img": "https://www.ub.uni-leipzig.de/fileadmin/_migrated/pics/arch001.jpg"
     },
     {
         "name": "UBL Leipzig - Bibliothek Kunst",
@@ -375,7 +401,8 @@ const bibodaten = [
             51.341286,
             12.371501
         ],
-        "lk": "Kreisfreie Stadt Leipzig"
+        "lk": "Kreisfreie Stadt Leipzig",
+        "img": "https://www.ub.uni-leipzig.de/fileadmin/_migrated/pics/kunst_001.jpg"
     },
     {
         "name": "UBL Leipzig - Bibliothek Medizin/Naturwissenschaften",
@@ -389,7 +416,8 @@ const bibodaten = [
             51.3315654,
             12.381921
         ],
-        "lk": "Kreisfreie Stadt Leipzig"
+        "lk": "Kreisfreie Stadt Leipzig",
+        "img": "https://www.ub.uni-leipzig.de/fileadmin/_processed_/csm_MedNawi03_3181ab3a65.jpg"
     },
     {
         "name": "UBL Leipzig - Bibliothek Musik",
@@ -403,7 +431,8 @@ const bibodaten = [
             51.3386805,
             12.3765118
         ],
-        "lk": "Kreisfreie Stadt Leipzig"
+        "lk": "Kreisfreie Stadt Leipzig",
+        "img": "https://www.ub.uni-leipzig.de/fileadmin/_migrated/pics/Musik.jpg"
     },
     {
         "name": "UBL Leipzig - Bibliothek Orientwissenschaften",
@@ -417,7 +446,8 @@ const bibodaten = [
             51.3372008,
             12.3775362
         ],
-        "lk": "Kreisfreie Stadt Leipzig"
+        "lk": "Kreisfreie Stadt Leipzig",
+        "img": "https://www.ub.uni-leipzig.de/fileadmin/_migrated/pics/Orient001.jpg"
     },
     {
         "name": "UBL Leipzig - Bibliothek Rechtswissenschaft",
@@ -431,7 +461,8 @@ const bibodaten = [
             51.337711,
             12.3736733
         ],
-        "lk": "Kreisfreie Stadt Leipzig"
+        "lk": "Kreisfreie Stadt Leipzig",
+        "img": "https://www.ub.uni-leipzig.de/fileadmin/_migrated/pics/ReWi001.jpg"
     },
     {
         "name": "UBL Leipzig - Bibliothek Veterinärmedizin",
@@ -445,7 +476,8 @@ const bibodaten = [
             51.3206548,
             12.3909058
         ],
-        "lk": "Kreisfreie Stadt Leipzig"
+        "lk": "Kreisfreie Stadt Leipzig",
+        "img": "https://www.ub.uni-leipzig.de/fileadmin/_migrated/pics/VetMed011_01.jpg"
     },
     {
         "name": "Bibliothek der Berufsakademie Sachsen",
@@ -459,7 +491,8 @@ const bibodaten = [
             51.31014585,
             12.30310395
         ],
-        "lk": "Kreisfreie Stadt Leipzig"
+        "lk": "Kreisfreie Stadt Leipzig",
+        "img": "http://www.logistik-leipzig-halle.net/wp-content/uploads/2017/02/ba_sitz.jpg"
     },
     {
         "name": "UB Chemnitz - Campusbibliothek Geisteswissenschaften",
@@ -473,7 +506,8 @@ const bibodaten = [
             50.8192436,
             12.9295004
         ],
-        "lk": "Kreisfreie Stadt Chemnitz"
+        "lk": "Kreisfreie Stadt Chemnitz",
+        "img": ""
     },
     {
         "name": "UB Chemnitz - Wirtschaft, Recht, Natur- u. Ingenieurwiss.",
@@ -487,7 +521,8 @@ const bibodaten = [
             50.7990532,
             12.9426837
         ],
-        "lk": "Kreisfreie Stadt Chemnitz"
+        "lk": "Kreisfreie Stadt Chemnitz",
+        "img": ""
     },
     {
         "name": "Bibliothek der Berufsakademie Sachsen",
@@ -501,7 +536,8 @@ const bibodaten = [
             50.4796499,
             12.74694832
         ],
-        "lk": "Landkreis Erzgebirgskreis"
+        "lk": "Landkreis Erzgebirgskreis",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Campus_in_Breitenbrunn.jpg/1280px-Campus_in_Breitenbrunn.jpg"
     },
     {
         "name": "Bibliothek des Sächsischen Landesamtes für Umwelt, Landwirtschaft und Geologie",
@@ -515,11 +551,12 @@ const bibodaten = [
             50.92532455,
             13.348079
         ],
-        "lk": "Landkreis Mittelsachsen"
+        "lk": "Landkreis Mittelsachsen",
+        "img": "https://www.lbk-sachsen.de/files/images/abgeschlossene-verfahren/landesamt-umwelt/Saat_1.jpg"
     },
     {
         "name": "Oberlausitzische Bibliothek der Wissenschaften",
-        "str": "Richard-Jecht-Haus",
+        "str": "Handwerk 2",
         "plz": "02826",
         "ort": "Görlitz",
         "state": 0,
@@ -529,7 +566,8 @@ const bibodaten = [
             51.155871,
             14.992079
         ],
-        "lk": "Landkreis Görlitz"
+        "lk": "Landkreis Görlitz",
+        "img": ""
     },
     {
         "name": "Geographische Zentralbibliothek für Länderkunde",
@@ -543,7 +581,8 @@ const bibodaten = [
             51.3468949,
             12.472105
         ],
-        "lk": "Kreisfreie Stadt Leipzig"
+        "lk": "Kreisfreie Stadt Leipzig",
+        "img": "https://www.leibniz-gemeinschaft.de/fileadmin/_processed_/0/9/csm_IfL_cropped_10c1b6ef94.jpg"
     },
     {
         "name": "Bibliothek des Max-Planck-Instituts für Mathematik in den Naturwissenschaften",
@@ -557,7 +596,8 @@ const bibodaten = [
             51.341737,
             12.391174
         ],
-        "lk": "Kreisfreie Stadt Leipzig"
+        "lk": "Kreisfreie Stadt Leipzig",
+        "img": "https://www.mpg.de/14402960/standard-1580400840.jpg"
     },
     {
         "name": "Kunstbibliothek der Staatlichen Kunstsammlungen",
@@ -571,7 +611,8 @@ const bibodaten = [
             51.0520871,
             13.737279
         ],
-        "lk": "Kreisfreie Stadt Dresden"
+        "lk": "Kreisfreie Stadt Dresden",
+        "img": "https://kunstbibliothek.skd.museum/fileadmin/_processed_/5/e/csm_20130710_SKD_Schloss_3065-PP-2_0918860d56.jpg"
     },
     {
         "name": "SKD - Bibliothek des Museums für Völkerkunde",
@@ -585,7 +626,8 @@ const bibodaten = [
             51.107559,
             13.773023
         ],
-        "lk": "Kreisfreie Stadt Dresden"
+        "lk": "Kreisfreie Stadt Dresden",
+        "img": "https://www.senckenberg.de/wp-content/uploads/2019/10/DSC_5342_3600x2100-1080x630.jpg"
     },
     {
         "name": "SKD - Museum des GRASSI Museums für Völkerkunde",
@@ -599,7 +641,8 @@ const bibodaten = [
             51.337137,
             12.388085
         ],
-        "lk": "Kreisfreie Stadt Leipzig"
+        "lk": "Kreisfreie Stadt Leipzig",
+        "img": "https://www.museum.de/uploads/museum/1289/l/Grassi-Aussen-0221.jpg"
     },
     {
         "name": "SKD - Bibliothek des Völkerkundemuseums Herrnhut",
@@ -613,7 +656,218 @@ const bibodaten = [
             51.019064,
             14.74065
         ],
-        "lk": "Landkreis Görlitz"
+        "lk": "Landkreis Görlitz",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Herrnhut_V%C3%B6lkerkundemuseum-Au%C3%9Fen_Mike_Kr%C3%BCger_150717.JPG/1280px-Herrnhut_V%C3%B6lkerkundemuseum-Au%C3%9Fen_Mike_Kr%C3%BCger_150717.JPG"
+    },
+    {
+        "name": "Gemeinsame Bibliothek der Berufsakademie und der Evangelischen Hochschule",
+        "str": "Hans-Grundig-Straße 25",
+        "plz": "01307",
+        "ort": "Dresden",
+        "state": 0,
+        "size": 0,
+        "web": "http://www.bibliothek-campusjohannstadt.de/ueber-uns/",
+        "coords": [
+            51.053004,
+            13.761001
+        ],
+        "lk": "Kreisfreie Stadt Dresden",
+        "img": "https://www.ksg-architekten.info/wp-content/uploads/2017/09/01_Studienakademie-Dresden_Steffen-Jugnhans_L-1919x1280.jpg"
+    },
+    {
+        "name": "Bibliothek der Berufsakademie Sachsen",
+        "str": "Löbauer Straße 1",
+        "plz": "02625",
+        "ort": "Bautzen",
+        "state": 0,
+        "size": 0,
+        "web": "https://www.ba-bautzen.de/die-akademie/zentrale-einrichtungen/campusbibliothek",
+        "coords": [
+            51.181913,
+            14.435765
+        ],
+        "lk": "Landkreis Bautzen",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/University_of_cooperative_education_Bautzen_100.JPG/1280px-University_of_cooperative_education_Bautzen_100.JPG"
+    },
+    {
+        "name": "Bibliothek der Berufsakademie Sachsen",
+        "str": "Kopernikusstraße 51",
+        "plz": "08371",
+        "ort": "Glauchau",
+        "state": 0,
+        "size": 0,
+        "web": "https://www.ba-glauchau.de/die-akademie/zentrale-einrichtungen/bibliothek",
+        "coords": [
+            50.822008,
+            12.557258
+        ],
+        "lk": "Landkreis Zwickau",
+        "img": "https://www.pointer.de/bilder/hochschulen/394.jpg"
+    },
+    {
+        "name": "Bibliothek der Berufsakademie Sachsen",
+        "str": "Amtsberg 6",
+        "plz": "08523",
+        "ort": "Plauen",
+        "state": 0,
+        "size": 0,
+        "web": "https://www.ba-plauen.de/die-akademie/zentrale-einrichtungen/campusbibliothek",
+        "coords": [
+            50.494467,
+            12.140359
+        ],
+        "lk": "Landkreis Vogtlandkreis",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Staatliche_Studienakademie_Plauen_Amtsberg_6_.jpg/1280px-Staatliche_Studienakademie_Plauen_Amtsberg_6_.jpg"
+    },
+    {
+        "name": "Bibliothek der Berufsakademie Sachsen",
+        "str": "Am Kutzschenstein 6",
+        "plz": "01591",
+        "ort": "Riesa",
+        "state": 0,
+        "size": 0,
+        "web": "https://www.ba-riesa.de/die-akademie/zentrale-einrichtungen/bibliothek",
+        "coords": [
+            51.31628,
+            13.289169
+        ],
+        "lk": "Landkreis Meißen",
+        "img": "https://www.ba-riesa.de/fileadmin/riesa/die-akademie/die-ba-in-riesa/Haus_1_mit_Bibliothek__Lehrraeumen_und_Verwaltung.JPG"
+    },
+    {
+        "name": "Diözesan- und Domstiftsbibliothek",
+        "str": "An der Petrikirche 6",
+        "plz": "02625",
+        "ort": "Bautzen",
+        "state": 0,
+        "size": 0,
+        "web": "https://www.bistum-dresden-meissen.de/vielseitig-engagiert/dioezesanarchiv/dioezesan-und-domstiftsbibliothek/diozesan-und-domstiftsbibliothek",
+        "coords": [
+            51.182956,
+            14.423612
+        ],
+        "lk": "Landkreis Bautzen",
+        "img": "https://www.bistum-dresden-meissen.de/medien/cache/main_image/m_domstift-portal.jpg"
+    },
+    {
+        "name": "Bibliothek des Landeskirchenamtes",
+        "str": "Lukasstraße 6",
+        "plz": "01069",
+        "ort": "Dresden",
+        "state": 0,
+        "size": 0,
+        "web": "https://www.evlks.de/service/bibliothek-des-landeskirchenamtes/",
+        "coords": [
+            51.032108,
+            13.732608
+        ],
+        "lk": "Kreisfreie Stadt Dresden",
+        "img": "https://www.evlks.de/fileadmin/_processed_/e/8/csm_Landeskirchenamt1-785_bc6389eb78.jpg"
+    },
+    {
+        "name": "Schulbibliothekarische Arbeitsstelle Rathaus Wahren",
+        "str": "Georg-Schumann-Straße 357",
+        "plz": "04159",
+        "ort": "Leipzig",
+        "state": 0,
+        "size": 0,
+        "web": "https://www.leipzig.de/jugend-familie-und-soziales/schulen-und-bildung/schulen/schulbibliotheken-und-leseraeume/",
+        "coords": [
+            51.374749,
+            12.322304
+        ],
+        "lk": "Kreisfreie Stadt Leipzig",
+        "img": "https://www.architektur-blicklicht.de/bilder/schloesser-herrenhaeuser/wahren-rathaus-leipzig-197x300.jpg"
+    },
+    {
+        "name": "Sächsische Landesfachstelle für Bibliotheken",
+        "str": "Zwickauer Straße 56",
+        "plz": "09112",
+        "ort": "Chemnitz",
+        "state": 0,
+        "size": 0,
+        "web": "https://www.lds.sachsen.de/bibliothek/",
+        "coords": [
+            50.827326,
+            12.908614
+        ],
+        "lk": "Kreisfreie Stadt Chemnitz",
+        "img": ""
+    },
+    {
+        "name": "Deutsches Zentrum für barrierefreies Lesen (dzb lesen)",
+        "str": "Gustav-Adolf-Straße 7",
+        "plz": "04105",
+        "ort": "Leipzig",
+        "state": 0,
+        "size": 0,
+        "web": "https://www.dzblesen.de/index.php?site_id=2",
+        "coords": [
+            51.344817,
+            12.366545
+        ],
+        "lk": "Kreisfreie Stadt Leipzig",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Deutsches_Zentrum_f%C3%BCr_barrierefreies_Lesen.jpg/1280px-Deutsches_Zentrum_f%C3%BCr_barrierefreies_Lesen.jpg"
+    },
+    {
+        "name": "Bibliothek des Sächsischen Staatsarchivs",
+        "str": "Archivstraße 14",
+        "plz": "01097",
+        "ort": "Dresden",
+        "state": 0,
+        "size": 0,
+        "web": "https://www.archiv.sachsen.de/bibliothek-3987.html",
+        "coords": [
+            51.059879,
+            13.746747
+        ],
+        "lk": "Kreisfreie Stadt Dresden",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/2016-03-16_Hauptstaatsarchiv_Dresden_by_DCB%E2%80%939_%28cropped%29.jpg/1280px-2016-03-16_Hauptstaatsarchiv_Dresden_by_DCB%E2%80%939_%28cropped%29.jpg"
+    },
+    {
+        "name": "Bibliothek des Sächsischen Staatsarchivs",
+        "str": "Elsasser Straße 8",
+        "plz": "09120",
+        "ort": "Chemnitz",
+        "state": 0,
+        "size": 0,
+        "web": "https://www.archiv.sachsen.de/bibliothek-3987.html",
+        "coords": [
+            50.821522,
+            12.922044
+        ],
+        "lk": "Kreisfreie Stadt Chemnitz",
+        "img": "https://www.archiv.sachsen.de/img/Staatsarchiv_Chemnitz_Aussenansicht_rdax_780x493_87.jpg"
+    },
+    {
+        "name": "Bibliothek des Sächsischen Staatsarchivs",
+        "str": "Schlossplatz 4",
+        "plz": "09599",
+        "ort": "Freiberg",
+        "state": 0,
+        "size": 0,
+        "web": "https://www.archiv.sachsen.de/bibliothek-3987.html",
+        "coords": [
+            50.920603,
+            13.34009
+        ],
+        "lk": "Landkreis Mittelsachsen",
+        "img": "https://www.staatsarchiv.sachsen.de/img/Bergarchiv_Freiberg_Gebaeude_rdax_465x291_87.jpg"
+    },
+    {
+        "name": "Bibliothek des Sächsischen Staatsarchivs",
+        "str": "Schongauerstraße 1",
+        "plz": "04328",
+        "ort": "Leipzig",
+        "state": 0,
+        "size": 0,
+        "web": "https://www.archiv.sachsen.de/bibliothek-3987.html",
+        "coords": [
+            51.346352,
+            12.473089
+        ],
+        "lk": "Kreisfreie Stadt Leipzig",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Paunsdorf_Staatsarchiv_Leipzig-01.jpg/1280px-Paunsdorf_Staatsarchiv_Leipzig-01.jpg"
     },
     {
         "name": "Städtische Bibliotheken",
@@ -627,7 +881,8 @@ const bibodaten = [
             51.050931,
             13.738381
         ],
-        "lk": "Kreisfreie Stadt Dresden"
+        "lk": "Kreisfreie Stadt Dresden",
+        "img": ""
     },
     {
         "name": "Städtische Bibliotheken",
@@ -641,7 +896,8 @@ const bibodaten = [
             51.333793,
             12.374488
         ],
-        "lk": "Kreisfreie Stadt Leipzig"
+        "lk": "Kreisfreie Stadt Leipzig",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek",
@@ -655,7 +911,8 @@ const bibodaten = [
             50.721451,
             12.499383
         ],
-        "lk": "Landkreis Zwickau"
+        "lk": "Landkreis Zwickau",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek Chemnitz im TIETZ",
@@ -669,7 +926,8 @@ const bibodaten = [
             50.831369,
             12.923277
         ],
-        "lk": "Kreisfreie Stadt Chemnitz"
+        "lk": "Kreisfreie Stadt Chemnitz",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek",
@@ -683,7 +941,8 @@ const bibodaten = [
             50.920184,
             12.805287
         ],
-        "lk": "Landkreis Mittelsachsen"
+        "lk": "Landkreis Mittelsachsen",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek im Kulturbahnhof Ost",
@@ -697,7 +956,8 @@ const bibodaten = [
             51.09915,
             13.679257
         ],
-        "lk": "Landkreis Meißen"
+        "lk": "Landkreis Meißen",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek",
@@ -711,7 +971,8 @@ const bibodaten = [
             51.118074,
             13.922048
         ],
-        "lk": "Landkreis Bautzen"
+        "lk": "Landkreis Bautzen",
+        "img": ""
     },
     {
         "name": "Karl-Preusker-Bücherei",
@@ -725,7 +986,8 @@ const bibodaten = [
             51.291816,
             13.529177
         ],
-        "lk": "Landkreis Meißen"
+        "lk": "Landkreis Meißen",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek",
@@ -739,7 +1001,8 @@ const bibodaten = [
             51.298766,
             13.316036
         ],
-        "lk": "Landkreis Meißen"
+        "lk": "Landkreis Meißen",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek",
@@ -753,7 +1016,8 @@ const bibodaten = [
             51.127429,
             13.578826
         ],
-        "lk": "Landkreis Meißen"
+        "lk": "Landkreis Meißen",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek",
@@ -767,7 +1031,8 @@ const bibodaten = [
             51.163007,
             13.47257
         ],
-        "lk": "Landkreis Meißen"
+        "lk": "Landkreis Meißen",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek",
@@ -781,7 +1046,8 @@ const bibodaten = [
             51.057869,
             13.297728
         ],
-        "lk": "Landkreis Meißen"
+        "lk": "Landkreis Meißen",
+        "img": ""
     },
     {
         "name": "Bibliothek",
@@ -795,7 +1061,8 @@ const bibodaten = [
             51.161471,
             13.562943
         ],
-        "lk": "Landkreis Meißen"
+        "lk": "Landkreis Meißen",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek im City-Center",
@@ -809,7 +1076,8 @@ const bibodaten = [
             50.999903,
             13.649906
         ],
-        "lk": "Landkreis Sächsische Schweiz<br>Osterzgebirge"
+        "lk": "Landkreis Sächsische Schweiz<br>Osterzgebirge",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek",
@@ -823,7 +1091,8 @@ const bibodaten = [
             51.051261,
             13.534564
         ],
-        "lk": "Landkreis Sächsische Schweiz<br>Osterzgebirge"
+        "lk": "Landkreis Sächsische Schweiz<br>Osterzgebirge",
+        "img": ""
     },
     {
         "name": "Bücherei Bannewitz & Possendorf",
@@ -837,7 +1106,8 @@ const bibodaten = [
             50.993842,
             13.722623
         ],
-        "lk": "Landkreis Sächsische Schweiz<br>Osterzgebirge"
+        "lk": "Landkreis Sächsische Schweiz<br>Osterzgebirge",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek",
@@ -851,7 +1121,8 @@ const bibodaten = [
             50.896044,
             13.66906
         ],
-        "lk": "Landkreis Sächsische Schweiz<br>Osterzgebirge"
+        "lk": "Landkreis Sächsische Schweiz<br>Osterzgebirge",
+        "img": ""
     },
     {
         "name": "StadtBibliothek",
@@ -865,7 +1136,8 @@ const bibodaten = [
             50.962994,
             13.939555
         ],
-        "lk": "Landkreis Sächsische Schweiz<br>Osterzgebirge"
+        "lk": "Landkreis Sächsische Schweiz<br>Osterzgebirge",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek",
@@ -879,7 +1151,8 @@ const bibodaten = [
             50.981212,
             13.863437
         ],
-        "lk": "Landkreis Sächsische Schweiz<br>Osterzgebirge"
+        "lk": "Landkreis Sächsische Schweiz<br>Osterzgebirge",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek",
@@ -893,7 +1166,8 @@ const bibodaten = [
             51.024729,
             14.213101
         ],
-        "lk": "Landkreis Sächsische Schweiz<br>Osterzgebirge"
+        "lk": "Landkreis Sächsische Schweiz<br>Osterzgebirge",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek",
@@ -907,7 +1181,8 @@ const bibodaten = [
             51.127032,
             14.179006
         ],
-        "lk": "Landkreis Bautzen"
+        "lk": "Landkreis Bautzen",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek Gotthold Ephraim Lessing",
@@ -921,7 +1196,8 @@ const bibodaten = [
             51.272024,
             14.095179
         ],
-        "lk": "Landkreis Bautzen"
+        "lk": "Landkreis Bautzen",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek",
@@ -935,7 +1211,8 @@ const bibodaten = [
             51.183118,
             14.422135
         ],
-        "lk": "Landkreis Bautzen"
+        "lk": "Landkreis Bautzen",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek",
@@ -949,7 +1226,8 @@ const bibodaten = [
             51.096236,
             14.666329
         ],
-        "lk": "Landkreis Görlitz"
+        "lk": "Landkreis Görlitz",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek",
@@ -963,7 +1241,8 @@ const bibodaten = [
             50.993492,
             14.60733
         ],
-        "lk": "Landkreis Görlitz"
+        "lk": "Landkreis Görlitz",
+        "img": ""
     },
     {
         "name": "Christian-Weise-Bibliothek",
@@ -977,7 +1256,8 @@ const bibodaten = [
             50.895772,
             14.810337
         ],
-        "lk": "Landkreis Görlitz"
+        "lk": "Landkreis Görlitz",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek",
@@ -991,7 +1271,8 @@ const bibodaten = [
             51.153153,
             14.978811
         ],
-        "lk": "Landkreis Görlitz"
+        "lk": "Landkreis Görlitz",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek",
@@ -1005,7 +1286,8 @@ const bibodaten = [
             51.506424,
             14.64084
         ],
-        "lk": "Landkreis Görlitz"
+        "lk": "Landkreis Görlitz",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek Weißwasser Zweigstelle Krauschwitz",
@@ -1019,7 +1301,8 @@ const bibodaten = [
             51.520947,
             14.70665
         ],
-        "lk": "Landkreis Görlitz"
+        "lk": "Landkreis Görlitz",
+        "img": ""
     },
     {
         "name": "Brigitte-Reimann-Stadtbibliothek",
@@ -1033,7 +1316,8 @@ const bibodaten = [
             51.436392,
             14.256851
         ],
-        "lk": "Landkreis Bautzen"
+        "lk": "Landkreis Bautzen",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek",
@@ -1047,7 +1331,8 @@ const bibodaten = [
             51.278451,
             12.362338
         ],
-        "lk": "Landkreis Leipzig"
+        "lk": "Landkreis Leipzig",
+        "img": ""
     },
     {
         "name": "Schul- und Stadtbibliothek",
@@ -1061,7 +1346,8 @@ const bibodaten = [
             51.304658,
             12.220585
         ],
-        "lk": "Landkreis Leipzig"
+        "lk": "Landkreis Leipzig",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek",
@@ -1075,7 +1361,8 @@ const bibodaten = [
             51.380782,
             12.501481
         ],
-        "lk": "Landkreis Nordsachsen"
+        "lk": "Landkreis Nordsachsen",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek",
@@ -1089,7 +1376,8 @@ const bibodaten = [
             51.39808,
             12.221638
         ],
-        "lk": "Landkreis Nordsachsen"
+        "lk": "Landkreis Nordsachsen",
+        "img": ""
     },
     {
         "name": "Bibliothek Alte Lateinschule",
@@ -1103,7 +1391,8 @@ const bibodaten = [
             51.523289,
             12.332438
         ],
-        "lk": "Landkreis Nordsachsen"
+        "lk": "Landkreis Nordsachsen",
+        "img": ""
     },
     {
         "name": "Mediothek, Stadt-, Kreis- und Fahrbibliothek",
@@ -1117,7 +1406,8 @@ const bibodaten = [
             51.12526,
             12.498394
         ],
-        "lk": "Landkreis Leipzig"
+        "lk": "Landkreis Leipzig",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek",
@@ -1131,7 +1421,8 @@ const bibodaten = [
             51.054499,
             12.558331
         ],
-        "lk": "Landkreis Leipzig"
+        "lk": "Landkreis Leipzig",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek Johann Gottfried Seume",
@@ -1145,7 +1436,8 @@ const bibodaten = [
             51.238691,
             12.728219
         ],
-        "lk": "Landkreis Leipzig"
+        "lk": "Landkreis Leipzig",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek",
@@ -1159,7 +1451,8 @@ const bibodaten = [
             51.121726,
             13.124792
         ],
-        "lk": "Landkreis Mittelsachsen"
+        "lk": "Landkreis Mittelsachsen",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek",
@@ -1173,7 +1466,8 @@ const bibodaten = [
             51.293888,
             13.108248
         ],
-        "lk": "Landkreis Nordsachsen"
+        "lk": "Landkreis Nordsachsen",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek",
@@ -1187,7 +1481,8 @@ const bibodaten = [
             51.369342,
             12.735304
         ],
-        "lk": "Landkreis Leipzig"
+        "lk": "Landkreis Leipzig",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek",
@@ -1201,7 +1496,8 @@ const bibodaten = [
             51.460479,
             12.634731
         ],
-        "lk": "Landkreis Nordsachsen"
+        "lk": "Landkreis Nordsachsen",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek",
@@ -1215,7 +1511,8 @@ const bibodaten = [
             51.559794,
             13.005086
         ],
-        "lk": "Landkreis Nordsachsen"
+        "lk": "Landkreis Nordsachsen",
+        "img": ""
     },
     {
         "name": "Bibliothek OT Mülsen St. Jacob",
@@ -1229,7 +1526,8 @@ const bibodaten = [
             50.732194,
             12.581236
         ],
-        "lk": "Landkreis Zwickau"
+        "lk": "Landkreis Zwickau",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek",
@@ -1243,7 +1541,8 @@ const bibodaten = [
             50.508446,
             12.401816
         ],
-        "lk": "Landkreis Vogtlandkreis"
+        "lk": "Landkreis Vogtlandkreis",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek Johann Wolfgang von Goethe",
@@ -1257,7 +1556,8 @@ const bibodaten = [
             50.591556,
             12.691056
         ],
-        "lk": "Landkreis Erzgebirgskreis"
+        "lk": "Landkreis Erzgebirgskreis",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek",
@@ -1271,7 +1571,8 @@ const bibodaten = [
             50.596158,
             12.639759
         ],
-        "lk": "Landkreis Erzgebirgskreis"
+        "lk": "Landkreis Erzgebirgskreis",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek",
@@ -1285,7 +1586,8 @@ const bibodaten = [
             50.629605,
             12.812036
         ],
-        "lk": "Landkreis Erzgebirgskreis"
+        "lk": "Landkreis Erzgebirgskreis",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek",
@@ -1299,7 +1601,8 @@ const bibodaten = [
             50.536334,
             12.781425
         ],
-        "lk": "Landkreis Erzgebirgskreis"
+        "lk": "Landkreis Erzgebirgskreis",
+        "img": ""
     },
     {
         "name": "Stadt- und Kreisbibliothek Georgius Agricola",
@@ -1313,7 +1616,8 @@ const bibodaten = [
             50.81661,
             12.540375
         ],
-        "lk": "Landkreis Zwickau"
+        "lk": "Landkreis Zwickau",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek",
@@ -1327,7 +1631,8 @@ const bibodaten = [
             50.849728,
             12.466949
         ],
-        "lk": "Landkreis Zwickau"
+        "lk": "Landkreis Zwickau",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek",
@@ -1341,7 +1646,8 @@ const bibodaten = [
             50.736329,
             12.350877
         ],
-        "lk": "Landkreis Zwickau"
+        "lk": "Landkreis Zwickau",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek",
@@ -1355,7 +1661,8 @@ const bibodaten = [
             50.81634,
             12.387096
         ],
-        "lk": "Landkreis Zwickau"
+        "lk": "Landkreis Zwickau",
+        "img": ""
     },
     {
         "name": "Jürgen-Fuchs-Bibliothek",
@@ -1369,7 +1676,8 @@ const bibodaten = [
             50.621436,
             12.303843
         ],
-        "lk": "Landkreis Vogtlandkreis"
+        "lk": "Landkreis Vogtlandkreis",
+        "img": ""
     },
     {
         "name": "Vogtlandbibliothek",
@@ -1383,7 +1691,8 @@ const bibodaten = [
             50.495759,
             12.121547
         ],
-        "lk": "Landkreis Vogtlandkreis"
+        "lk": "Landkreis Vogtlandkreis",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek",
@@ -1397,7 +1706,8 @@ const bibodaten = [
             50.414917,
             12.168845
         ],
-        "lk": "Landkreis Vogtlandkreis"
+        "lk": "Landkreis Vogtlandkreis",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek",
@@ -1411,7 +1721,8 @@ const bibodaten = [
             50.858594,
             12.763969
         ],
-        "lk": "Landkreis Zwickau"
+        "lk": "Landkreis Zwickau",
+        "img": ""
     },
     {
         "name": "Bibliothek Hans Zesewitz",
@@ -1425,7 +1736,8 @@ const bibodaten = [
             50.80152,
             12.715502
         ],
-        "lk": "Landkreis Zwickau"
+        "lk": "Landkreis Zwickau",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek",
@@ -1439,7 +1751,8 @@ const bibodaten = [
             50.75384,
             12.63482
         ],
-        "lk": "Landkreis Zwickau"
+        "lk": "Landkreis Zwickau",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek",
@@ -1453,7 +1766,8 @@ const bibodaten = [
             50.710519,
             12.776692
         ],
-        "lk": "Landkreis Erzgebirgskreis"
+        "lk": "Landkreis Erzgebirgskreis",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek",
@@ -1467,7 +1781,8 @@ const bibodaten = [
             50.722141,
             12.696156
         ],
-        "lk": "Landkreis Erzgebirgskreis"
+        "lk": "Landkreis Erzgebirgskreis",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek",
@@ -1481,7 +1796,8 @@ const bibodaten = [
             50.580795,
             13.001599
         ],
-        "lk": "Landkreis Erzgebirgskreis"
+        "lk": "Landkreis Erzgebirgskreis",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek",
@@ -1495,7 +1811,8 @@ const bibodaten = [
             50.649385,
             13.155701
         ],
-        "lk": "Landkreis Erzgebirgskreis"
+        "lk": "Landkreis Erzgebirgskreis",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek",
@@ -1509,7 +1826,8 @@ const bibodaten = [
             50.660341,
             13.33484
         ],
-        "lk": "Landkreis Erzgebirgskreis"
+        "lk": "Landkreis Erzgebirgskreis",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek",
@@ -1523,7 +1841,8 @@ const bibodaten = [
             50.852655,
             13.073036
         ],
-        "lk": "Landkreis Mittelsachsen"
+        "lk": "Landkreis Mittelsachsen",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek",
@@ -1537,7 +1856,8 @@ const bibodaten = [
             50.915133,
             13.343796
         ],
-        "lk": "Landkreis Mittelsachsen"
+        "lk": "Landkreis Mittelsachsen",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek",
@@ -1551,7 +1871,8 @@ const bibodaten = [
             50.984683,
             12.981875
         ],
-        "lk": "Landkreis Mittelsachsen"
+        "lk": "Landkreis Mittelsachsen",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek",
@@ -1565,7 +1886,8 @@ const bibodaten = [
             50.912395,
             13.032372
         ],
-        "lk": "Landkreis Mittelsachsen"
+        "lk": "Landkreis Mittelsachsen",
+        "img": ""
     },
     {
         "name": "Städtische Bibliotheken - Neustadt",
@@ -1579,7 +1901,8 @@ const bibodaten = [
             51.06715,
             13.747565
         ],
-        "lk": "Kreisfreie Stadt Dresden"
+        "lk": "Kreisfreie Stadt Dresden",
+        "img": ""
     },
     {
         "name": "Städtische Bibliotheken - Weixdorf",
@@ -1593,7 +1916,8 @@ const bibodaten = [
             51.141504,
             13.795872
         ],
-        "lk": "Kreisfreie Stadt Dresden"
+        "lk": "Kreisfreie Stadt Dresden",
+        "img": ""
     },
     {
         "name": "Städtische Bibliotheken - Klotzsche",
@@ -1607,7 +1931,8 @@ const bibodaten = [
             51.119194,
             13.770039
         ],
-        "lk": "Kreisfreie Stadt Dresden"
+        "lk": "Kreisfreie Stadt Dresden",
+        "img": ""
     },
     {
         "name": "Städtische Bibliotheken - Pieschen",
@@ -1621,7 +1946,8 @@ const bibodaten = [
             51.077319,
             13.721351
         ],
-        "lk": "Kreisfreie Stadt Dresden"
+        "lk": "Kreisfreie Stadt Dresden",
+        "img": ""
     },
     {
         "name": "Städtische Bibliotheken - Cossebaude",
@@ -1635,7 +1961,8 @@ const bibodaten = [
             51.088286,
             13.630135
         ],
-        "lk": "Kreisfreie Stadt Dresden"
+        "lk": "Kreisfreie Stadt Dresden",
+        "img": ""
     },
     {
         "name": "Städtische Bibliotheken - Cotta",
@@ -1649,7 +1976,8 @@ const bibodaten = [
             51.057414,
             13.685986
         ],
-        "lk": "Kreisfreie Stadt Dresden"
+        "lk": "Kreisfreie Stadt Dresden",
+        "img": ""
     },
     {
         "name": "Städtische Bibliotheken - Gorbitz",
@@ -1663,7 +1991,8 @@ const bibodaten = [
             51.045083,
             13.669006
         ],
-        "lk": "Kreisfreie Stadt Dresden"
+        "lk": "Kreisfreie Stadt Dresden",
+        "img": ""
     },
     {
         "name": "Städtische Bibliotheken - Plauen",
@@ -1677,7 +2006,8 @@ const bibodaten = [
             51.029375,
             13.706515
         ],
-        "lk": "Kreisfreie Stadt Dresden"
+        "lk": "Kreisfreie Stadt Dresden",
+        "img": ""
     },
     {
         "name": "Städtische Bibliotheken - Südvorstadt",
@@ -1691,7 +2021,8 @@ const bibodaten = [
             51.030275,
             13.722097
         ],
-        "lk": "Kreisfreie Stadt Dresden"
+        "lk": "Kreisfreie Stadt Dresden",
+        "img": ""
     },
     {
         "name": "Städtische Bibliotheken - Leubnitz-Neuostra",
@@ -1705,7 +2036,8 @@ const bibodaten = [
             51.020675,
             13.762456
         ],
-        "lk": "Kreisfreie Stadt Dresden"
+        "lk": "Kreisfreie Stadt Dresden",
+        "img": ""
     },
     {
         "name": "Städtische Bibliotheken - Strehlen",
@@ -1719,7 +2051,8 @@ const bibodaten = [
             51.017944,
             13.779152
         ],
-        "lk": "Kreisfreie Stadt Dresden"
+        "lk": "Kreisfreie Stadt Dresden",
+        "img": ""
     },
     {
         "name": "Städtische Bibliotheken - Prohlis",
@@ -1733,7 +2066,8 @@ const bibodaten = [
             51.005406,
             13.797815
         ],
-        "lk": "Kreisfreie Stadt Dresden"
+        "lk": "Kreisfreie Stadt Dresden",
+        "img": ""
     },
     {
         "name": "Städtische Bibliotheken - Blasewitz",
@@ -1747,7 +2081,8 @@ const bibodaten = [
             51.050975,
             13.807838
         ],
-        "lk": "Kreisfreie Stadt Dresden"
+        "lk": "Kreisfreie Stadt Dresden",
+        "img": ""
     },
     {
         "name": "Städtische Bibliotheken - Gruna",
@@ -1761,7 +2096,8 @@ const bibodaten = [
             51.033648,
             13.784032
         ],
-        "lk": "Kreisfreie Stadt Dresden"
+        "lk": "Kreisfreie Stadt Dresden",
+        "img": ""
     },
     {
         "name": "Städtische Bibliotheken - Laubegast",
@@ -1775,7 +2111,8 @@ const bibodaten = [
             51.023803,
             13.83909
         ],
-        "lk": "Kreisfreie Stadt Dresden"
+        "lk": "Kreisfreie Stadt Dresden",
+        "img": ""
     },
     {
         "name": "Städtische Bibliotheken - Johannstadt",
@@ -1789,7 +2126,8 @@ const bibodaten = [
             51.045482,
             13.770129
         ],
-        "lk": "Kreisfreie Stadt Dresden"
+        "lk": "Kreisfreie Stadt Dresden",
+        "img": ""
     },
     {
         "name": "Städtische Bibliotheken - Bühlau",
@@ -1803,7 +2141,8 @@ const bibodaten = [
             51.061625,
             13.848828
         ],
-        "lk": "Kreisfreie Stadt Dresden"
+        "lk": "Kreisfreie Stadt Dresden",
+        "img": ""
     },
     {
         "name": "Städtische Bibliotheken - Weißig",
@@ -1817,7 +2156,8 @@ const bibodaten = [
             51.061637,
             13.885424
         ],
-        "lk": "Kreisfreie Stadt Dresden"
+        "lk": "Kreisfreie Stadt Dresden",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek West",
@@ -1831,7 +2171,8 @@ const bibodaten = [
             51.108022,
             13.636777
         ],
-        "lk": "Landkreis Meißen"
+        "lk": "Landkreis Meißen",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek Außenstelle",
@@ -1845,7 +2186,8 @@ const bibodaten = [
             51.137554,
             13.900918
         ],
-        "lk": "Landkreis Bautzen"
+        "lk": "Landkreis Bautzen",
+        "img": ""
     },
     {
         "name": "Bücherei",
@@ -1859,7 +2201,8 @@ const bibodaten = [
             51.162269,
             13.907196
         ],
-        "lk": "Landkreis Bautzen"
+        "lk": "Landkreis Bautzen",
+        "img": ""
     },
     {
         "name": "Bücherei Leppersdorf",
@@ -1873,7 +2216,8 @@ const bibodaten = [
             51.150922,
             13.959187
         ],
-        "lk": "Landkreis Bautzen"
+        "lk": "Landkreis Bautzen",
+        "img": ""
     },
     {
         "name": "Bücherei Seifersdorf",
@@ -1887,7 +2231,8 @@ const bibodaten = [
             51.159294,
             13.883651
         ],
-        "lk": "Landkreis Bautzen"
+        "lk": "Landkreis Bautzen",
+        "img": ""
     },
     {
         "name": "Gemeindebibliothek",
@@ -1901,7 +2246,8 @@ const bibodaten = [
             51.183431,
             13.824906
         ],
-        "lk": "Landkreis Bautzen"
+        "lk": "Landkreis Bautzen",
+        "img": ""
     },
     {
         "name": "Gemeindebibliothek OT Hermsdorf",
@@ -1915,7 +2261,8 @@ const bibodaten = [
             51.168008,
             13.822679
         ],
-        "lk": "Landkreis Bautzen"
+        "lk": "Landkreis Bautzen",
+        "img": ""
     },
     {
         "name": "Städtische Bibliotheken - Langebrück",
@@ -1929,7 +2276,8 @@ const bibodaten = [
             51.126733,
             13.844298
         ],
-        "lk": "Kreisfreie Stadt Dresden"
+        "lk": "Kreisfreie Stadt Dresden",
+        "img": ""
     },
     {
         "name": "Gemeindebibliothek",
@@ -1943,7 +2291,8 @@ const bibodaten = [
             51.097188,
             13.996338
         ],
-        "lk": "Landkreis Bautzen"
+        "lk": "Landkreis Bautzen",
+        "img": ""
     },
     {
         "name": "Gemeindebibliothek",
@@ -1957,7 +2306,8 @@ const bibodaten = [
             51.310619,
             13.678254
         ],
-        "lk": "Landkreis Meißen"
+        "lk": "Landkreis Meißen",
+        "img": ""
     },
     {
         "name": "Gemeindebibliothek im Schloss",
@@ -1971,7 +2321,8 @@ const bibodaten = [
             51.304075,
             13.708776
         ],
-        "lk": "Landkreis Meißen"
+        "lk": "Landkreis Meißen",
+        "img": ""
     },
     {
         "name": "Peter Sodann-Bibliothek",
@@ -1985,7 +2336,8 @@ const bibodaten = [
             51.222808,
             13.22467
         ],
-        "lk": "Landkreis Meißen"
+        "lk": "Landkreis Meißen",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek",
@@ -1999,7 +2351,8 @@ const bibodaten = [
             51.419344,
             13.408367
         ],
-        "lk": "Landkreis Meißen"
+        "lk": "Landkreis Meißen",
+        "img": ""
     },
     {
         "name": "Gemeindebibliothek Nauwalde im Bürgerhaus Nieska",
@@ -2013,7 +2366,8 @@ const bibodaten = [
             51.426107,
             13.360434
         ],
-        "lk": "Landkreis Meißen"
+        "lk": "Landkreis Meißen",
+        "img": ""
     },
     {
         "name": "Bibliothek Röderaue",
@@ -2027,7 +2381,8 @@ const bibodaten = [
             51.38877,
             13.440816
         ],
-        "lk": "Landkreis Meißen"
+        "lk": "Landkreis Meißen",
+        "img": ""
     },
     {
         "name": "Bibliothek",
@@ -2041,7 +2396,8 @@ const bibodaten = [
             51.377744,
             13.37463
         ],
-        "lk": "Landkreis Meißen"
+        "lk": "Landkreis Meißen",
+        "img": ""
     },
     {
         "name": "Bibliothek im Kita-Gebäude",
@@ -2055,7 +2411,8 @@ const bibodaten = [
             51.322691,
             13.376563
         ],
-        "lk": "Landkreis Meißen"
+        "lk": "Landkreis Meißen",
+        "img": ""
     },
     {
         "name": "Öffentliche Schulbibliothek",
@@ -2069,7 +2426,8 @@ const bibodaten = [
             51.305336,
             13.38362
         ],
-        "lk": "Landkreis Meißen"
+        "lk": "Landkreis Meißen",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek Strehla",
@@ -2083,7 +2441,8 @@ const bibodaten = [
             51.354389,
             13.218879
         ],
-        "lk": "Landkreis Meißen"
+        "lk": "Landkreis Meißen",
+        "img": ""
     },
     {
         "name": "Bibliothek im Schützenhaus",
@@ -2097,7 +2456,8 @@ const bibodaten = [
             51.199669,
             13.305784
         ],
-        "lk": "Landkreis Meißen"
+        "lk": "Landkreis Meißen",
+        "img": ""
     },
     {
         "name": "Bibliothek des Landesgymnasiums St. Afra",
@@ -2111,7 +2471,8 @@ const bibodaten = [
             51.162622,
             13.466034
         ],
-        "lk": "Landkreis Meißen"
+        "lk": "Landkreis Meißen",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek Zweigstelle Zauckerode",
@@ -2125,7 +2486,8 @@ const bibodaten = [
             51.011985,
             13.652904
         ],
-        "lk": "Landkreis Sächsische Schweiz<br>Osterzgebirge"
+        "lk": "Landkreis Sächsische Schweiz<br>Osterzgebirge",
+        "img": ""
     },
     {
         "name": "Bücherei Bannewitz & Possendorf",
@@ -2139,7 +2501,8 @@ const bibodaten = [
             50.965429,
             13.714552
         ],
-        "lk": "Landkreis Sächsische Schweiz<br>Osterzgebirge"
+        "lk": "Landkreis Sächsische Schweiz<br>Osterzgebirge",
+        "img": ""
     },
     {
         "name": "Gemeindebibliothek & Information",
@@ -2153,7 +2516,8 @@ const bibodaten = [
             50.945419,
             13.758989
         ],
-        "lk": "Landkreis Sächsische Schweiz<br>Osterzgebirge"
+        "lk": "Landkreis Sächsische Schweiz<br>Osterzgebirge",
+        "img": ""
     },
     {
         "name": "Bibliothek",
@@ -2167,7 +2531,8 @@ const bibodaten = [
             50.962425,
             13.641439
         ],
-        "lk": "Landkreis Sächsische Schweiz<br>Osterzgebirge"
+        "lk": "Landkreis Sächsische Schweiz<br>Osterzgebirge",
+        "img": ""
     },
     {
         "name": "Bibliothek Oelsa",
@@ -2181,7 +2546,8 @@ const bibodaten = [
             50.944439,
             13.671518
         ],
-        "lk": "Landkreis Sächsische Schweiz<br>Osterzgebirge"
+        "lk": "Landkreis Sächsische Schweiz<br>Osterzgebirge",
+        "img": ""
     },
     {
         "name": "Bibliothek Schmiedeberg",
@@ -2195,7 +2561,8 @@ const bibodaten = [
             50.837569,
             13.675266
         ],
-        "lk": "Landkreis Sächsische Schweiz<br>Osterzgebirge"
+        "lk": "Landkreis Sächsische Schweiz<br>Osterzgebirge",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek",
@@ -2209,7 +2576,8 @@ const bibodaten = [
             50.853225,
             13.777705
         ],
-        "lk": "Landkreis Sächsische Schweiz<br>Osterzgebirge"
+        "lk": "Landkreis Sächsische Schweiz<br>Osterzgebirge",
+        "img": ""
     },
     {
         "name": "Stadt- und Schulbibliothek",
@@ -2223,7 +2591,8 @@ const bibodaten = [
             50.76392,
             13.760606
         ],
-        "lk": "Landkreis Sächsische Schweiz<br>Osterzgebirge"
+        "lk": "Landkreis Sächsische Schweiz<br>Osterzgebirge",
+        "img": ""
     },
     {
         "name": "Bücherei OT Beerwalde",
@@ -2237,7 +2606,8 @@ const bibodaten = [
             50.886864,
             13.584091
         ],
-        "lk": "Landkreis Sächsische Schweiz<br>Osterzgebirge"
+        "lk": "Landkreis Sächsische Schweiz<br>Osterzgebirge",
+        "img": ""
     },
     {
         "name": "Bücherei OT Borlas",
@@ -2251,7 +2621,8 @@ const bibodaten = [
             50.936832,
             13.59852
         ],
-        "lk": "Landkreis Sächsische Schweiz<br>Osterzgebirge"
+        "lk": "Landkreis Sächsische Schweiz<br>Osterzgebirge",
+        "img": ""
     },
     {
         "name": "Bücherei OT Friedersdorf",
@@ -2265,7 +2636,8 @@ const bibodaten = [
             50.843707,
             13.525346
         ],
-        "lk": "Landkreis Sächsische Schweiz<br>Osterzgebirge"
+        "lk": "Landkreis Sächsische Schweiz<br>Osterzgebirge",
+        "img": ""
     },
     {
         "name": "Bücherei OT Höckendorf",
@@ -2279,7 +2651,8 @@ const bibodaten = [
             50.928153,
             13.588288
         ],
-        "lk": "Landkreis Sächsische Schweiz<br>Osterzgebirge"
+        "lk": "Landkreis Sächsische Schweiz<br>Osterzgebirge",
+        "img": ""
     },
     {
         "name": "Bücherei Oberschule Hans Poelzig",
@@ -2293,7 +2666,8 @@ const bibodaten = [
             50.923303,
             13.505509
         ],
-        "lk": "Landkreis Sächsische Schweiz<br>Osterzgebirge"
+        "lk": "Landkreis Sächsische Schweiz<br>Osterzgebirge",
+        "img": ""
     },
     {
         "name": "Bücherei OT Pretzschendorf Grundschule",
@@ -2307,7 +2681,8 @@ const bibodaten = [
             50.874025,
             13.525257
         ],
-        "lk": "Landkreis Sächsische Schweiz<br>Osterzgebirge"
+        "lk": "Landkreis Sächsische Schweiz<br>Osterzgebirge",
+        "img": ""
     },
     {
         "name": "Bücherei OT Ruppendorf Kinderhaus",
@@ -2321,7 +2696,8 @@ const bibodaten = [
             50.90752,
             13.599057
         ],
-        "lk": "Landkreis Sächsische Schweiz<br>Osterzgebirge"
+        "lk": "Landkreis Sächsische Schweiz<br>Osterzgebirge",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek Teilbibliothek Sonnenstein",
@@ -2335,7 +2711,8 @@ const bibodaten = [
             50.954184,
             13.957221
         ],
-        "lk": "Landkreis Sächsische Schweiz<br>Osterzgebirge"
+        "lk": "Landkreis Sächsische Schweiz<br>Osterzgebirge",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek Teilbibliothek Coppitz",
@@ -2349,7 +2726,8 @@ const bibodaten = [
             50.968873,
             13.927557
         ],
-        "lk": "Landkreis Sächsische Schweiz<br>Osterzgebirge"
+        "lk": "Landkreis Sächsische Schweiz<br>Osterzgebirge",
+        "img": ""
     },
     {
         "name": "Bibliothek im Haus des Gastes",
@@ -2363,7 +2741,8 @@ const bibodaten = [
             50.918921,
             14.13893
         ],
-        "lk": "Landkreis Sächsische Schweiz<br>Osterzgebirge"
+        "lk": "Landkreis Sächsische Schweiz<br>Osterzgebirge",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek im Bürgerhaus",
@@ -2377,7 +2756,8 @@ const bibodaten = [
             50.854607,
             13.94584
         ],
-        "lk": "Landkreis Sächsische Schweiz<br>Osterzgebirge"
+        "lk": "Landkreis Sächsische Schweiz<br>Osterzgebirge",
+        "img": ""
     },
     {
         "name": "Schüler- und Gemeindebibliothek in der Grundschule",
@@ -2391,7 +2771,8 @@ const bibodaten = [
             51.03427,
             13.993893
         ],
-        "lk": "Landkreis Sächsische Schweiz<br>Osterzgebirge"
+        "lk": "Landkreis Sächsische Schweiz<br>Osterzgebirge",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek Stolpen",
@@ -2405,7 +2786,8 @@ const bibodaten = [
             51.04877,
             14.082666
         ],
-        "lk": "Landkreis Sächsische Schweiz<br>Osterzgebirge"
+        "lk": "Landkreis Sächsische Schweiz<br>Osterzgebirge",
+        "img": ""
     },
     {
         "name": "Bibliothek im Schloss",
@@ -2419,7 +2801,8 @@ const bibodaten = [
             50.990055,
             13.994184
         ],
-        "lk": "Landkreis Sächsische Schweiz<br>Osterzgebirge"
+        "lk": "Landkreis Sächsische Schweiz<br>Osterzgebirge",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek",
@@ -2433,7 +2816,8 @@ const bibodaten = [
             50.937226,
             14.201973
         ],
-        "lk": "Landkreis Sächsische Schweiz<br>Osterzgebirge"
+        "lk": "Landkreis Sächsische Schweiz<br>Osterzgebirge",
+        "img": ""
     },
     {
         "name": "Gemeindebibliothek",
@@ -2447,7 +2831,8 @@ const bibodaten = [
             51.138179,
             14.244393
         ],
-        "lk": "Landkreis Bautzen"
+        "lk": "Landkreis Bautzen",
+        "img": ""
     },
     {
         "name": "Gemeindebibliothek in der Alten Schmiede",
@@ -2461,7 +2846,8 @@ const bibodaten = [
             51.153605,
             14.135216
         ],
-        "lk": "Landkreis Bautzen"
+        "lk": "Landkreis Bautzen",
+        "img": ""
     },
     {
         "name": "Gemeindebücherei im Freizeitcenter",
@@ -2475,7 +2861,8 @@ const bibodaten = [
             51.100311,
             14.240026
         ],
-        "lk": "Landkreis Bautzen"
+        "lk": "Landkreis Bautzen",
+        "img": ""
     },
     {
         "name": "Gemeindebibliothek im Bürgerhaus",
@@ -2489,7 +2876,8 @@ const bibodaten = [
             51.175888,
             14.04898
         ],
-        "lk": "Landkreis Bautzen"
+        "lk": "Landkreis Bautzen",
+        "img": ""
     },
     {
         "name": "Bibliothek und Café Marie im Stadtmuseum",
@@ -2503,7 +2891,8 @@ const bibodaten = [
             51.182676,
             14.013077
         ],
-        "lk": "Landkreis Bautzen"
+        "lk": "Landkreis Bautzen",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek",
@@ -2517,7 +2906,8 @@ const bibodaten = [
             51.144613,
             14.020484
         ],
-        "lk": "Landkreis Bautzen"
+        "lk": "Landkreis Bautzen",
+        "img": ""
     },
     {
         "name": "Gemeindebibliothek und Information im Rittergut",
@@ -2531,7 +2921,8 @@ const bibodaten = [
             51.098464,
             14.304363
         ],
-        "lk": "Landkreis Bautzen"
+        "lk": "Landkreis Bautzen",
+        "img": ""
     },
     {
         "name": "Gemeindebibliothek",
@@ -2545,7 +2936,8 @@ const bibodaten = [
             51.06371,
             14.34682
         ],
-        "lk": "Landkreis Bautzen"
+        "lk": "Landkreis Bautzen",
+        "img": ""
     },
     {
         "name": "Bücherei in der Alten Schule Ringenhain",
@@ -2559,7 +2951,8 @@ const bibodaten = [
             51.076849,
             14.334917
         ],
-        "lk": "Landkreis Bautzen"
+        "lk": "Landkreis Bautzen",
+        "img": ""
     },
     {
         "name": "Gemeindebibliothek",
@@ -2573,7 +2966,8 @@ const bibodaten = [
             51.128661,
             14.107157
         ],
-        "lk": "Landkreis Bautzen"
+        "lk": "Landkreis Bautzen",
+        "img": ""
     },
     {
         "name": "Bibliothek",
@@ -2587,7 +2981,8 @@ const bibodaten = [
             51.12851,
             14.115473
         ],
-        "lk": "Landkreis Bautzen"
+        "lk": "Landkreis Bautzen",
+        "img": ""
     },
     {
         "name": "Bibliothek",
@@ -2601,7 +2996,8 @@ const bibodaten = [
             51.264736,
             14.156421
         ],
-        "lk": "Landkreis Bautzen"
+        "lk": "Landkreis Bautzen",
+        "img": ""
     },
     {
         "name": "Gemeindebibliothek",
@@ -2615,7 +3011,8 @@ const bibodaten = [
             51.360433,
             14.17213
         ],
-        "lk": "Landkreis Bautzen"
+        "lk": "Landkreis Bautzen",
+        "img": ""
     },
     {
         "name": "Gemeindebibliothek",
@@ -2629,7 +3026,8 @@ const bibodaten = [
             51.203617,
             13.936795
         ],
-        "lk": "Landkreis Bautzen"
+        "lk": "Landkreis Bautzen",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek",
@@ -2643,7 +3041,8 @@ const bibodaten = [
             51.263606,
             13.902449
         ],
-        "lk": "Landkreis Bautzen"
+        "lk": "Landkreis Bautzen",
+        "img": ""
     },
     {
         "name": "Bibliothek Grüngräbchen",
@@ -2657,7 +3056,8 @@ const bibodaten = [
             51.356243,
             13.97456
         ],
-        "lk": "Landkreis Bautzen"
+        "lk": "Landkreis Bautzen",
+        "img": ""
     },
     {
         "name": "Bibliothek",
@@ -2671,7 +3071,8 @@ const bibodaten = [
             51.330481,
             13.95674
         ],
-        "lk": "Landkreis Bautzen"
+        "lk": "Landkreis Bautzen",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek - Kinder- und Jugendbibliothek",
@@ -2685,7 +3086,8 @@ const bibodaten = [
             51.181045,
             14.428041
         ],
-        "lk": "Landkreis Bautzen"
+        "lk": "Landkreis Bautzen",
+        "img": ""
     },
     {
         "name": "Gemeindebibliothek",
@@ -2699,7 +3101,8 @@ const bibodaten = [
             51.168226,
             14.506219
         ],
-        "lk": "Landkreis Bautzen"
+        "lk": "Landkreis Bautzen",
+        "img": ""
     },
     {
         "name": "Bücherei",
@@ -2713,7 +3116,8 @@ const bibodaten = [
             51.136298,
             14.315738
         ],
-        "lk": "Landkreis Bautzen"
+        "lk": "Landkreis Bautzen",
+        "img": ""
     },
     {
         "name": "Gemeindebibliothek",
@@ -2727,7 +3131,8 @@ const bibodaten = [
             51.180096,
             14.326013
         ],
-        "lk": "Landkreis Bautzen"
+        "lk": "Landkreis Bautzen",
+        "img": ""
     },
     {
         "name": "Bibliothek",
@@ -2741,7 +3146,8 @@ const bibodaten = [
             51.096766,
             14.430441
         ],
-        "lk": "Landkreis Bautzen"
+        "lk": "Landkreis Bautzen",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek",
@@ -2755,7 +3161,8 @@ const bibodaten = [
             51.095278,
             14.388611
         ],
-        "lk": "Landkreis Bautzen"
+        "lk": "Landkreis Bautzen",
+        "img": ""
     },
     {
         "name": "Bibliothek",
@@ -2769,7 +3176,8 @@ const bibodaten = [
             51.046537,
             14.427935
         ],
-        "lk": "Landkreis Bautzen"
+        "lk": "Landkreis Bautzen",
+        "img": ""
     },
     {
         "name": "Bibliothek Taubenheim",
@@ -2783,7 +3191,8 @@ const bibodaten = [
             51.044102,
             14.479319
         ],
-        "lk": "Landkreis Bautzen"
+        "lk": "Landkreis Bautzen",
+        "img": ""
     },
     {
         "name": "Bücherei",
@@ -2797,7 +3206,8 @@ const bibodaten = [
             51.152664,
             14.39926
         ],
-        "lk": "Landkreis Bautzen"
+        "lk": "Landkreis Bautzen",
+        "img": ""
     },
     {
         "name": "Gemeindebibliothek in der Lessingschule",
@@ -2811,7 +3221,8 @@ const bibodaten = [
             51.118116,
             14.446686
         ],
-        "lk": "Landkreis Bautzen"
+        "lk": "Landkreis Bautzen",
+        "img": ""
     },
     {
         "name": "Gemeindebücherei",
@@ -2825,7 +3236,8 @@ const bibodaten = [
             51.130744,
             14.408028
         ],
-        "lk": "Landkreis Bautzen"
+        "lk": "Landkreis Bautzen",
+        "img": ""
     },
     {
         "name": "Bibliothek",
@@ -2839,7 +3251,8 @@ const bibodaten = [
             51.308588,
             14.325967
         ],
-        "lk": "Landkreis Bautzen"
+        "lk": "Landkreis Bautzen",
+        "img": ""
     },
     {
         "name": "Bibliothek in der Grundschule",
@@ -2853,7 +3266,8 @@ const bibodaten = [
             51.271213,
             14.325452
         ],
-        "lk": "Landkreis Bautzen"
+        "lk": "Landkreis Bautzen",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek Zweigbibliothek",
@@ -2867,7 +3281,8 @@ const bibodaten = [
             50.977475,
             14.620793
         ],
-        "lk": "Landkreis Görlitz"
+        "lk": "Landkreis Görlitz",
+        "img": ""
     },
     {
         "name": "Bibliothek Eibau",
@@ -2881,7 +3296,8 @@ const bibodaten = [
             50.979579,
             14.664689
         ],
-        "lk": "Landkreis Görlitz"
+        "lk": "Landkreis Görlitz",
+        "img": ""
     },
     {
         "name": "Bibliothek Niedercunnersdorf",
@@ -2895,7 +3311,8 @@ const bibodaten = [
             51.055106,
             14.658124
         ],
-        "lk": "Landkreis Görlitz"
+        "lk": "Landkreis Görlitz",
+        "img": ""
     },
     {
         "name": "Gemeindebibliothek Obercunnersdorf",
@@ -2909,7 +3326,8 @@ const bibodaten = [
             50.983939,
             14.660603
         ],
-        "lk": "Landkreis Görlitz"
+        "lk": "Landkreis Görlitz",
+        "img": ""
     },
     {
         "name": "Bibliothek Ottenhain",
@@ -2923,7 +3341,8 @@ const bibodaten = [
             51.06247,
             14.6864
         ],
-        "lk": "Landkreis Görlitz"
+        "lk": "Landkreis Görlitz",
+        "img": ""
     },
     {
         "name": "Bibliothek im Rathaus",
@@ -2937,7 +3356,8 @@ const bibodaten = [
             51.035094,
             14.527139
         ],
-        "lk": "Landkreis Görlitz"
+        "lk": "Landkreis Görlitz",
+        "img": ""
     },
     {
         "name": "Umweltbibliothek e.V.",
@@ -2951,7 +3371,8 @@ const bibodaten = [
             50.991359,
             14.796894
         ],
-        "lk": "Landkreis Görlitz"
+        "lk": "Landkreis Görlitz",
+        "img": ""
     },
     {
         "name": "Zentralbibliothek",
@@ -2965,7 +3386,8 @@ const bibodaten = [
             51.017076,
             14.743981
         ],
-        "lk": "Landkreis Görlitz"
+        "lk": "Landkreis Görlitz",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek",
@@ -2979,7 +3401,8 @@ const bibodaten = [
             51.047354,
             14.825884
         ],
-        "lk": "Landkreis Görlitz"
+        "lk": "Landkreis Görlitz",
+        "img": ""
     },
     {
         "name": "Bibliothek in der Schule",
@@ -2993,7 +3416,8 @@ const bibodaten = [
             50.883711,
             14.731086
         ],
-        "lk": "Landkreis Görlitz"
+        "lk": "Landkreis Görlitz",
+        "img": ""
     },
     {
         "name": "Bibliothek Oberseifersdorf in der alten Schule",
@@ -3007,7 +3431,8 @@ const bibodaten = [
             50.945822,
             14.799478
         ],
-        "lk": "Landkreis Görlitz"
+        "lk": "Landkreis Görlitz",
+        "img": ""
     },
     {
         "name": "Christian-Weise-Bibliothek Altbestand",
@@ -3021,7 +3446,8 @@ const bibodaten = [
             50.885388,
             14.803422
         ],
-        "lk": "Landkreis Görlitz"
+        "lk": "Landkreis Görlitz",
+        "img": ""
     },
     {
         "name": "Bibliothek",
@@ -3035,7 +3461,8 @@ const bibodaten = [
             50.896486,
             14.658878
         ],
-        "lk": "Landkreis Görlitz"
+        "lk": "Landkreis Görlitz",
+        "img": ""
     },
     {
         "name": "Grenzlandbibliothek",
@@ -3049,7 +3476,8 @@ const bibodaten = [
             50.934926,
             14.609414
         ],
-        "lk": "Landkreis Görlitz"
+        "lk": "Landkreis Görlitz",
+        "img": ""
     },
     {
         "name": "Gemeindebibliothek",
@@ -3063,7 +3491,8 @@ const bibodaten = [
             50.866896,
             14.766885
         ],
-        "lk": "Landkreis Görlitz"
+        "lk": "Landkreis Görlitz",
+        "img": ""
     },
     {
         "name": "Bibliothek",
@@ -3077,7 +3506,8 @@ const bibodaten = [
             50.955808,
             14.873049
         ],
-        "lk": "Landkreis Görlitz"
+        "lk": "Landkreis Görlitz",
+        "img": ""
     },
     {
         "name": "Bibliothek",
@@ -3091,7 +3521,8 @@ const bibodaten = [
             50.94777,
             14.87995
         ],
-        "lk": "Landkreis Görlitz"
+        "lk": "Landkreis Görlitz",
+        "img": ""
     },
     {
         "name": "Bibliothek in der Ganztagsschule Max Langer",
@@ -3105,7 +3536,8 @@ const bibodaten = [
             50.953007,
             14.737511
         ],
-        "lk": "Landkreis Görlitz"
+        "lk": "Landkreis Görlitz",
+        "img": ""
     },
     {
         "name": "Bibliothek in der Pestalozzi-Oberschule",
@@ -3119,7 +3551,8 @@ const bibodaten = [
             50.973792,
             14.704801
         ],
-        "lk": "Landkreis Görlitz"
+        "lk": "Landkreis Görlitz",
+        "img": ""
     },
     {
         "name": "Gemeindebibliothek",
@@ -3133,7 +3566,8 @@ const bibodaten = [
             50.853924,
             14.704057
         ],
-        "lk": "Landkreis Görlitz"
+        "lk": "Landkreis Görlitz",
+        "img": ""
     },
     {
         "name": "Bücherei im Haus des Gastes",
@@ -3147,7 +3581,8 @@ const bibodaten = [
             50.842447,
             14.74093
         ],
-        "lk": "Landkreis Görlitz"
+        "lk": "Landkreis Görlitz",
+        "img": ""
     },
     {
         "name": "Bibliothek Reichenbach",
@@ -3161,7 +3596,8 @@ const bibodaten = [
             51.141496,
             14.800129
         ],
-        "lk": "Landkreis Görlitz"
+        "lk": "Landkreis Görlitz",
+        "img": ""
     },
     {
         "name": "Bibliothek im Vereinshaus",
@@ -3175,7 +3611,8 @@ const bibodaten = [
             51.014732,
             14.933238
         ],
-        "lk": "Landkreis Görlitz"
+        "lk": "Landkreis Görlitz",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek",
@@ -3189,7 +3626,8 @@ const bibodaten = [
             51.292653,
             14.823398
         ],
-        "lk": "Landkreis Görlitz"
+        "lk": "Landkreis Görlitz",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek",
@@ -3203,7 +3641,8 @@ const bibodaten = [
             51.335684,
             14.969244
         ],
-        "lk": "Landkreis Görlitz"
+        "lk": "Landkreis Görlitz",
+        "img": ""
     },
     {
         "name": "Bibliothek",
@@ -3217,7 +3656,8 @@ const bibodaten = [
             51.403773,
             14.580286
         ],
-        "lk": "Landkreis Görlitz"
+        "lk": "Landkreis Görlitz",
+        "img": ""
     },
     {
         "name": "Bibliothek Boxberg Zweigstelle Reichwalde",
@@ -3231,7 +3671,8 @@ const bibodaten = [
             51.38071,
             14.66215
         ],
-        "lk": "Landkreis Görlitz"
+        "lk": "Landkreis Görlitz",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek in der Grundschule Fürst Pückler",
@@ -3245,7 +3686,8 @@ const bibodaten = [
             51.545118,
             14.723317
         ],
-        "lk": "Landkreis Görlitz"
+        "lk": "Landkreis Görlitz",
+        "img": ""
     },
     {
         "name": "Bibliothek im Kulturhaus",
@@ -3259,7 +3701,8 @@ const bibodaten = [
             51.395782,
             14.796756
         ],
-        "lk": "Landkreis Görlitz"
+        "lk": "Landkreis Görlitz",
+        "img": ""
     },
     {
         "name": "Bibliothek Lorenz Zaleski",
@@ -3273,7 +3716,8 @@ const bibodaten = [
             51.54343,
             14.528366
         ],
-        "lk": "Landkreis Görlitz"
+        "lk": "Landkreis Görlitz",
+        "img": ""
     },
     {
         "name": "Teilbibliothek Bergen",
@@ -3287,7 +3731,8 @@ const bibodaten = [
             51.468164,
             14.225386
         ],
-        "lk": "Landkreis Bautzen"
+        "lk": "Landkreis Bautzen",
+        "img": ""
     },
     {
         "name": "Teilbibliothek Sabrodt",
@@ -3301,7 +3746,8 @@ const bibodaten = [
             51.524705,
             14.282853
         ],
-        "lk": "Landkreis Bautzen"
+        "lk": "Landkreis Bautzen",
+        "img": ""
     },
     {
         "name": "Teilbibliothek Bluno",
@@ -3315,7 +3761,8 @@ const bibodaten = [
             51.524003,
             14.230418
         ],
-        "lk": "Landkreis Bautzen"
+        "lk": "Landkreis Bautzen",
+        "img": ""
     },
     {
         "name": "Teilbibliothek Geierswalde",
@@ -3329,7 +3776,8 @@ const bibodaten = [
             51.493881,
             14.128634
         ],
-        "lk": "Landkreis Bautzen"
+        "lk": "Landkreis Bautzen",
+        "img": ""
     },
     {
         "name": "Teilbibliothek Klein Partwitz",
@@ -3343,7 +3791,8 @@ const bibodaten = [
             51.51731,
             14.188721
         ],
-        "lk": "Landkreis Bautzen"
+        "lk": "Landkreis Bautzen",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek",
@@ -3357,7 +3806,8 @@ const bibodaten = [
             51.459623,
             14.097536
         ],
-        "lk": "Landkreis Bautzen"
+        "lk": "Landkreis Bautzen",
+        "img": ""
     },
     {
         "name": "Bibliothek",
@@ -3371,7 +3821,8 @@ const bibodaten = [
             51.370324,
             14.065676
         ],
-        "lk": "Landkreis Bautzen"
+        "lk": "Landkreis Bautzen",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek",
@@ -3385,7 +3836,8 @@ const bibodaten = [
             51.384587,
             14.241896
         ],
-        "lk": "Landkreis Bautzen"
+        "lk": "Landkreis Bautzen",
+        "img": ""
     },
     {
         "name": "Gemeinde- und Schulbibliothek im Zejler-Smoler-Haus",
@@ -3399,7 +3851,8 @@ const bibodaten = [
             51.384099,
             14.403516
         ],
-        "lk": "Landkreis Bautzen"
+        "lk": "Landkreis Bautzen",
+        "img": ""
     },
     {
         "name": "Bibliothek in der Grundschule am Knappensee",
@@ -3413,7 +3866,8 @@ const bibodaten = [
             51.369984,
             14.313056
         ],
-        "lk": "Landkreis Bautzen"
+        "lk": "Landkreis Bautzen",
+        "img": ""
     },
     {
         "name": "Städtische Bibliotheken - Gohlis Erich Loest",
@@ -3427,7 +3881,8 @@ const bibodaten = [
             51.362434,
             12.36236
         ],
-        "lk": "Kreisfreie Stadt Leipzig"
+        "lk": "Kreisfreie Stadt Leipzig",
+        "img": ""
     },
     {
         "name": "Städtische Bibliotheken - Wiederitzsch",
@@ -3441,7 +3896,8 @@ const bibodaten = [
             51.39347,
             12.372538
         ],
-        "lk": "Kreisfreie Stadt Leipzig"
+        "lk": "Kreisfreie Stadt Leipzig",
+        "img": ""
     },
     {
         "name": "Städtische Bibliotheken - Lützschena-Stahmeln",
@@ -3455,7 +3911,8 @@ const bibodaten = [
             51.383014,
             12.272056
         ],
-        "lk": "Kreisfreie Stadt Leipzig"
+        "lk": "Kreisfreie Stadt Leipzig",
+        "img": ""
     },
     {
         "name": "Städtische Bibliotheken - Böhlitz-Ehrenberg",
@@ -3469,7 +3926,8 @@ const bibodaten = [
             51.359543,
             12.290793
         ],
-        "lk": "Kreisfreie Stadt Leipzig"
+        "lk": "Kreisfreie Stadt Leipzig",
+        "img": ""
     },
     {
         "name": "Städtische Bibliotheken - Grünau-Nord",
@@ -3483,7 +3941,8 @@ const bibodaten = [
             51.321606,
             12.269054
         ],
-        "lk": "Kreisfreie Stadt Leipzig"
+        "lk": "Kreisfreie Stadt Leipzig",
+        "img": ""
     },
     {
         "name": "Städtische Bibliotheken - Grünau-Süd",
@@ -3497,7 +3956,8 @@ const bibodaten = [
             51.308683,
             12.267209
         ],
-        "lk": "Kreisfreie Stadt Leipzig"
+        "lk": "Kreisfreie Stadt Leipzig",
+        "img": ""
     },
     {
         "name": "Städtische Bibliotheken - Grünau-Mitte",
@@ -3511,7 +3971,8 @@ const bibodaten = [
             51.316377,
             12.291213
         ],
-        "lk": "Kreisfreie Stadt Leipzig"
+        "lk": "Kreisfreie Stadt Leipzig",
+        "img": ""
     },
     {
         "name": "Städtische Bibliotheken - Plagwitz",
@@ -3525,7 +3986,8 @@ const bibodaten = [
             51.333592,
             12.339061
         ],
-        "lk": "Kreisfreie Stadt Leipzig"
+        "lk": "Kreisfreie Stadt Leipzig",
+        "img": ""
     },
     {
         "name": "Städtische Bibliotheken - Südvorstadt",
@@ -3539,7 +4001,8 @@ const bibodaten = [
             51.317147,
             12.375503
         ],
-        "lk": "Kreisfreie Stadt Leipzig"
+        "lk": "Kreisfreie Stadt Leipzig",
+        "img": ""
     },
     {
         "name": "Städtische Bibliotheken - Holzhausen",
@@ -3553,7 +4016,8 @@ const bibodaten = [
             51.305354,
             12.455254
         ],
-        "lk": "Kreisfreie Stadt Leipzig"
+        "lk": "Kreisfreie Stadt Leipzig",
+        "img": ""
     },
     {
         "name": "Städtische Bibliotheken - Volkmarsdorf",
@@ -3567,7 +4031,8 @@ const bibodaten = [
             51.346095,
             12.415127
         ],
-        "lk": "Kreisfreie Stadt Leipzig"
+        "lk": "Kreisfreie Stadt Leipzig",
+        "img": ""
     },
     {
         "name": "Städtische Bibliotheken - Reudnitz",
@@ -3581,7 +4046,8 @@ const bibodaten = [
             51.337824,
             12.404924
         ],
-        "lk": "Kreisfreie Stadt Leipzig"
+        "lk": "Kreisfreie Stadt Leipzig",
+        "img": ""
     },
     {
         "name": "Städtische Bibliotheken - Paunsdorf",
@@ -3595,7 +4061,8 @@ const bibodaten = [
             51.355941,
             12.461937
         ],
-        "lk": "Kreisfreie Stadt Leipzig"
+        "lk": "Kreisfreie Stadt Leipzig",
+        "img": ""
     },
     {
         "name": "Städtische Bibliotheken - Schönefeld",
@@ -3609,7 +4076,8 @@ const bibodaten = [
             51.355884,
             12.415578
         ],
-        "lk": "Kreisfreie Stadt Leipzig"
+        "lk": "Kreisfreie Stadt Leipzig",
+        "img": ""
     },
     {
         "name": "Städtische Bibliotheken - Mockau",
@@ -3623,7 +4091,8 @@ const bibodaten = [
             51.37502,
             12.411812
         ],
-        "lk": "Kreisfreie Stadt Leipzig"
+        "lk": "Kreisfreie Stadt Leipzig",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek",
@@ -3637,7 +4106,8 @@ const bibodaten = [
             51.21804,
             12.32427
         ],
-        "lk": "Landkreis Leipzig"
+        "lk": "Landkreis Leipzig",
+        "img": ""
     },
     {
         "name": "Gemeinde- und Schulbibliothek",
@@ -3651,7 +4121,8 @@ const bibodaten = [
             51.34451,
             12.538914
         ],
-        "lk": "Landkreis Leipzig"
+        "lk": "Landkreis Leipzig",
+        "img": ""
     },
     {
         "name": "Gemeindebibliothek im Pösna Park",
@@ -3665,7 +4136,8 @@ const bibodaten = [
             51.265453,
             12.498907
         ],
-        "lk": "Landkreis Leipzig"
+        "lk": "Landkreis Leipzig",
+        "img": ""
     },
     {
         "name": "Schulbibliothek",
@@ -3679,7 +4151,8 @@ const bibodaten = [
             51.271668,
             12.49794
         ],
-        "lk": "Landkreis Leipzig"
+        "lk": "Landkreis Leipzig",
+        "img": ""
     },
     {
         "name": "Bibliothek",
@@ -3693,7 +4166,8 @@ const bibodaten = [
             51.461447,
             12.451793
         ],
-        "lk": "Landkreis Nordsachsen"
+        "lk": "Landkreis Nordsachsen",
+        "img": ""
     },
     {
         "name": "Bibliothek",
@@ -3707,7 +4181,8 @@ const bibodaten = [
             51.440972,
             12.371701
         ],
-        "lk": "Landkreis Nordsachsen"
+        "lk": "Landkreis Nordsachsen",
+        "img": ""
     },
     {
         "name": "Bibliothek Zschortau",
@@ -3721,7 +4196,8 @@ const bibodaten = [
             51.480857,
             12.360672
         ],
-        "lk": "Landkreis Nordsachsen"
+        "lk": "Landkreis Nordsachsen",
+        "img": ""
     },
     {
         "name": "Bücherei im Gemeindeamt",
@@ -3735,7 +4211,8 @@ const bibodaten = [
             51.153559,
             12.242773
         ],
-        "lk": "Landkreis Leipzig"
+        "lk": "Landkreis Leipzig",
+        "img": ""
     },
     {
         "name": "Bibliothek und Information im Napoleonhaus",
@@ -3749,7 +4226,8 @@ const bibodaten = [
             51.167229,
             12.253025
         ],
-        "lk": "Landkreis Leipzig"
+        "lk": "Landkreis Leipzig",
+        "img": ""
     },
     {
         "name": "Stadt- und Schulbibliothek",
@@ -3763,7 +4241,8 @@ const bibodaten = [
             51.155691,
             12.282448
         ],
-        "lk": "Landkreis Leipzig"
+        "lk": "Landkreis Leipzig",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek",
@@ -3777,7 +4256,8 @@ const bibodaten = [
             51.203655,
             12.38574
         ],
-        "lk": "Landkreis Leipzig"
+        "lk": "Landkreis Leipzig",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek",
@@ -3791,7 +4271,8 @@ const bibodaten = [
             51.085549,
             12.431494
         ],
-        "lk": "Landkreis Leipzig"
+        "lk": "Landkreis Leipzig",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek",
@@ -3805,7 +4286,8 @@ const bibodaten = [
             51.163662,
             12.550392
         ],
-        "lk": "Landkreis Leipzig"
+        "lk": "Landkreis Leipzig",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek",
@@ -3819,7 +4301,8 @@ const bibodaten = [
             51.193457,
             12.464177
         ],
-        "lk": "Landkreis Leipzig"
+        "lk": "Landkreis Leipzig",
+        "img": ""
     },
     {
         "name": "Bibliothek",
@@ -3833,7 +4316,8 @@ const bibodaten = [
             51.153074,
             12.409136
         ],
-        "lk": "Landkreis Leipzig"
+        "lk": "Landkreis Leipzig",
+        "img": ""
     },
     {
         "name": "Bibliothek OT Deutzen",
@@ -3847,7 +4331,8 @@ const bibodaten = [
             51.110638,
             12.430306
         ],
-        "lk": "Landkreis Leipzig"
+        "lk": "Landkreis Leipzig",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek",
@@ -3861,7 +4346,8 @@ const bibodaten = [
             51.054597,
             12.692815
         ],
-        "lk": "Landkreis Leipzig"
+        "lk": "Landkreis Leipzig",
+        "img": ""
     },
     {
         "name": "Bibliothek im Kurhaus",
@@ -3875,7 +4361,8 @@ const bibodaten = [
             51.148452,
             12.650559
         ],
-        "lk": "Landkreis Leipzig"
+        "lk": "Landkreis Leipzig",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek Bibliothek Nerchau",
@@ -3889,7 +4376,8 @@ const bibodaten = [
             51.269342,
             12.788904
         ],
-        "lk": "Landkreis Leipzig"
+        "lk": "Landkreis Leipzig",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek Ausleihstelle Bahren",
@@ -3903,7 +4391,8 @@ const bibodaten = [
             51.25103,
             12.765765
         ],
-        "lk": "Landkreis Leipzig"
+        "lk": "Landkreis Leipzig",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek Ausleihstelle Dürrweitzschen",
@@ -3917,7 +4406,8 @@ const bibodaten = [
             51.206181,
             12.862371
         ],
-        "lk": "Landkreis Leipzig"
+        "lk": "Landkreis Leipzig",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek Ausleihstelle Großbardau",
@@ -3931,7 +4421,8 @@ const bibodaten = [
             51.205165,
             12.695462
         ],
-        "lk": "Landkreis Leipzig"
+        "lk": "Landkreis Leipzig",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek Ausleihstelle Großbothen",
@@ -3945,7 +4436,8 @@ const bibodaten = [
             51.186402,
             12.754285
         ],
-        "lk": "Landkreis Leipzig"
+        "lk": "Landkreis Leipzig",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek",
@@ -3959,7 +4451,8 @@ const bibodaten = [
             51.127139,
             12.802992
         ],
-        "lk": "Landkreis Leipzig"
+        "lk": "Landkreis Leipzig",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek",
@@ -3973,7 +4466,8 @@ const bibodaten = [
             51.278097,
             12.589178
         ],
-        "lk": "Landkreis Leipzig"
+        "lk": "Landkreis Leipzig",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek im Rathaus",
@@ -3987,7 +4481,8 @@ const bibodaten = [
             51.287947,
             12.755924
         ],
-        "lk": "Landkreis Leipzig"
+        "lk": "Landkreis Leipzig",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek",
@@ -4001,7 +4496,8 @@ const bibodaten = [
             51.16118,
             12.925882
         ],
-        "lk": "Landkreis Mittelsachsen"
+        "lk": "Landkreis Mittelsachsen",
+        "img": ""
     },
     {
         "name": "Bücherei Lüttewitz",
@@ -4015,7 +4511,8 @@ const bibodaten = [
             51.16673,
             13.17873
         ],
-        "lk": "Landkreis Mittelsachsen"
+        "lk": "Landkreis Mittelsachsen",
+        "img": ""
     },
     {
         "name": "Bücherei Ottewig",
@@ -4029,7 +4526,8 @@ const bibodaten = [
             51.17824,
             13.19093
         ],
-        "lk": "Landkreis Mittelsachsen"
+        "lk": "Landkreis Mittelsachsen",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek",
@@ -4043,7 +4541,8 @@ const bibodaten = [
             51.071022,
             13.02475
         ],
-        "lk": "Landkreis Mittelsachsen"
+        "lk": "Landkreis Mittelsachsen",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek",
@@ -4057,7 +4556,8 @@ const bibodaten = [
             51.065328,
             13.181492
         ],
-        "lk": "Landkreis Mittelsachsen"
+        "lk": "Landkreis Mittelsachsen",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek Martin Andersen Nexö",
@@ -4071,7 +4571,8 @@ const bibodaten = [
             51.097655,
             12.978053
         ],
-        "lk": "Landkreis Mittelsachsen"
+        "lk": "Landkreis Mittelsachsen",
+        "img": ""
     },
     {
         "name": "Bibliothek",
@@ -4085,7 +4586,8 @@ const bibodaten = [
             51.204388,
             13.156824
         ],
-        "lk": "Landkreis Mittelsachsen"
+        "lk": "Landkreis Mittelsachsen",
+        "img": ""
     },
     {
         "name": "Bibliothek Schrebitz",
@@ -4099,7 +4601,8 @@ const bibodaten = [
             51.203528,
             13.070906
         ],
-        "lk": "Landkreis Mittelsachsen"
+        "lk": "Landkreis Mittelsachsen",
+        "img": ""
     },
     {
         "name": "Gemeindebibliothek Cavertitz OT Lampertswalde",
@@ -4113,7 +4616,8 @@ const bibodaten = [
             51.360404,
             13.060239
         ],
-        "lk": "Landkreis Nordsachsen"
+        "lk": "Landkreis Nordsachsen",
+        "img": ""
     },
     {
         "name": "Bibliothek",
@@ -4127,7 +4631,8 @@ const bibodaten = [
             51.23665,
             13.048153
         ],
-        "lk": "Landkreis Nordsachsen"
+        "lk": "Landkreis Nordsachsen",
+        "img": ""
     },
     {
         "name": "Bibliothek",
@@ -4141,7 +4646,8 @@ const bibodaten = [
             51.257561,
             13.10246
         ],
-        "lk": "Landkreis Nordsachsen"
+        "lk": "Landkreis Nordsachsen",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek",
@@ -4155,7 +4661,8 @@ const bibodaten = [
             51.363936,
             12.996282
         ],
-        "lk": "Landkreis Nordsachsen"
+        "lk": "Landkreis Nordsachsen",
+        "img": ""
     },
     {
         "name": "Bibliothek",
@@ -4169,7 +4676,8 @@ const bibodaten = [
             51.274935,
             12.94273
         ],
-        "lk": "Landkreis Nordsachsen"
+        "lk": "Landkreis Nordsachsen",
+        "img": ""
     },
     {
         "name": "Bibliothek Falkenhain",
@@ -4183,7 +4691,8 @@ const bibodaten = [
             51.395677,
             12.875907
         ],
-        "lk": "Landkreis Leipzig"
+        "lk": "Landkreis Leipzig",
+        "img": ""
     },
     {
         "name": "Bibliothek Hohburg",
@@ -4197,7 +4706,8 @@ const bibodaten = [
             51.410308,
             12.806787
         ],
-        "lk": "Landkreis Leipzig"
+        "lk": "Landkreis Leipzig",
+        "img": ""
     },
     {
         "name": "Bibliothek Lüptitz im Feuwehrgebäude",
@@ -4211,7 +4721,8 @@ const bibodaten = [
             51.393538,
             12.77312
         ],
-        "lk": "Landkreis Leipzig"
+        "lk": "Landkreis Leipzig",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek",
@@ -4225,7 +4736,8 @@ const bibodaten = [
             51.33186,
             12.609442
         ],
-        "lk": "Landkreis Leipzig"
+        "lk": "Landkreis Leipzig",
+        "img": ""
     },
     {
         "name": "Gemeindebibliothek",
@@ -4239,7 +4751,8 @@ const bibodaten = [
             51.360859,
             12.628211
         ],
-        "lk": "Landkreis Leipzig"
+        "lk": "Landkreis Leipzig",
+        "img": ""
     },
     {
         "name": "Gemeindebibliothek",
@@ -4253,7 +4766,8 @@ const bibodaten = [
             51.357613,
             12.71062
         ],
-        "lk": "Landkreis Leipzig"
+        "lk": "Landkreis Leipzig",
+        "img": ""
     },
     {
         "name": "Bibliothek Doberschütz",
@@ -4267,7 +4781,8 @@ const bibodaten = [
             51.49852,
             12.748134
         ],
-        "lk": "Landkreis Nordsachsen"
+        "lk": "Landkreis Nordsachsen",
+        "img": ""
     },
     {
         "name": "Bibliothek",
@@ -4281,7 +4796,8 @@ const bibodaten = [
             51.422666,
             12.565383
         ],
-        "lk": "Landkreis Nordsachsen"
+        "lk": "Landkreis Nordsachsen",
+        "img": ""
     },
     {
         "name": "Bibliothek",
@@ -4295,7 +4811,8 @@ const bibodaten = [
             51.597994,
             12.587441
         ],
-        "lk": "Landkreis Nordsachsen"
+        "lk": "Landkreis Nordsachsen",
+        "img": ""
     },
     {
         "name": "Bibliothek",
@@ -4309,7 +4826,8 @@ const bibodaten = [
             51.505797,
             12.811908
         ],
-        "lk": "Landkreis Nordsachsen"
+        "lk": "Landkreis Nordsachsen",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek",
@@ -4323,7 +4841,8 @@ const bibodaten = [
             51.48261,
             13.12544
         ],
-        "lk": "Landkreis Nordsachsen"
+        "lk": "Landkreis Nordsachsen",
+        "img": ""
     },
     {
         "name": "Stadt- und Schulbibliothek",
@@ -4337,7 +4856,8 @@ const bibodaten = [
             51.63617,
             12.882746
         ],
-        "lk": "Landkreis Nordsachsen"
+        "lk": "Landkreis Nordsachsen",
+        "img": ""
     },
     {
         "name": "Gemeindebibliothek",
@@ -4351,7 +4871,8 @@ const bibodaten = [
             51.575623,
             13.067274
         ],
-        "lk": "Landkreis Nordsachsen"
+        "lk": "Landkreis Nordsachsen",
+        "img": ""
     },
     {
         "name": "Bibliothek Bürgerhaus Dautzschen",
@@ -4365,7 +4886,8 @@ const bibodaten = [
             51.634111,
             13.004865
         ],
-        "lk": "Landkreis Nordsachsen"
+        "lk": "Landkreis Nordsachsen",
+        "img": ""
     },
     {
         "name": "Bibliothek Mühltroff",
@@ -4379,7 +4901,8 @@ const bibodaten = [
             50.569222,
             11.965339
         ],
-        "lk": "Landkreis Vogtlandkreis"
+        "lk": "Landkreis Vogtlandkreis",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek im Schulgebäude",
@@ -4393,7 +4916,8 @@ const bibodaten = [
             50.608294,
             12.167097
         ],
-        "lk": "Landkreis Vogtlandkreis"
+        "lk": "Landkreis Vogtlandkreis",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek im Meisterhaus",
@@ -4407,7 +4931,8 @@ const bibodaten = [
             50.621347,
             12.531563
         ],
-        "lk": "Landkreis Zwickau"
+        "lk": "Landkreis Zwickau",
+        "img": ""
     },
     {
         "name": "Bibliothek",
@@ -4421,7 +4946,8 @@ const bibodaten = [
             50.674591,
             12.514702
         ],
-        "lk": "Landkreis Zwickau"
+        "lk": "Landkreis Zwickau",
+        "img": ""
     },
     {
         "name": "Bibliothek",
@@ -4435,7 +4961,8 @@ const bibodaten = [
             50.695366,
             12.421603
         ],
-        "lk": "Landkreis Zwickau"
+        "lk": "Landkreis Zwickau",
+        "img": ""
     },
     {
         "name": "Bibliothek OT Thurm",
@@ -4449,7 +4976,8 @@ const bibodaten = [
             50.764693,
             12.542803
         ],
-        "lk": "Landkreis Zwickau"
+        "lk": "Landkreis Zwickau",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek im Schloss",
@@ -4463,7 +4991,8 @@ const bibodaten = [
             50.664519,
             12.604649
         ],
-        "lk": "Landkreis Zwickau"
+        "lk": "Landkreis Zwickau",
+        "img": ""
     },
     {
         "name": "Bibliothek in der Internationalen Oberschule",
@@ -4477,7 +5006,8 @@ const bibodaten = [
             50.69917,
             12.548687
         ],
-        "lk": "Landkreis Zwickau"
+        "lk": "Landkreis Zwickau",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek",
@@ -4491,7 +5021,8 @@ const bibodaten = [
             50.474214,
             12.36513
         ],
-        "lk": "Landkreis Vogtlandkreis"
+        "lk": "Landkreis Vogtlandkreis",
+        "img": ""
     },
     {
         "name": "Bibliothek",
@@ -4505,7 +5036,8 @@ const bibodaten = [
             50.529618,
             12.405274
         ],
-        "lk": "Landkreis Vogtlandkreis"
+        "lk": "Landkreis Vogtlandkreis",
+        "img": ""
     },
     {
         "name": "Stadt- und Kreisbibliotheken Vogtland",
@@ -4519,7 +5051,8 @@ const bibodaten = [
             50.529386,
             12.403285
         ],
-        "lk": "Landkreis Vogtlandkreis"
+        "lk": "Landkreis Vogtlandkreis",
+        "img": ""
     },
     {
         "name": "Stadt- und Schulbibliothek",
@@ -4533,7 +5066,8 @@ const bibodaten = [
             50.539842,
             12.306177
         ],
-        "lk": "Landkreis Vogtlandkreis"
+        "lk": "Landkreis Vogtlandkreis",
+        "img": ""
     },
     {
         "name": "Bibliothek Rothenkirchen",
@@ -4547,7 +5081,8 @@ const bibodaten = [
             50.53827,
             12.50199
         ],
-        "lk": "Landkreis Vogtlandkreis"
+        "lk": "Landkreis Vogtlandkreis",
+        "img": ""
     },
     {
         "name": "Bibliothek Wernesgrün",
@@ -4561,7 +5096,8 @@ const bibodaten = [
             50.527753,
             12.469594
         ],
-        "lk": "Landkreis Vogtlandkreis"
+        "lk": "Landkreis Vogtlandkreis",
+        "img": ""
     },
     {
         "name": "Bibliothek Wildenau",
@@ -4575,7 +5111,8 @@ const bibodaten = [
             50.55539,
             12.45257
         ],
-        "lk": "Landkreis Vogtlandkreis"
+        "lk": "Landkreis Vogtlandkreis",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek",
@@ -4589,7 +5126,8 @@ const bibodaten = [
             50.356313,
             12.466017
         ],
-        "lk": "Landkreis Vogtlandkreis"
+        "lk": "Landkreis Vogtlandkreis",
+        "img": ""
     },
     {
         "name": "Bibliothek",
@@ -4603,7 +5141,8 @@ const bibodaten = [
             50.311593,
             12.33261
         ],
-        "lk": "Landkreis Vogtlandkreis"
+        "lk": "Landkreis Vogtlandkreis",
+        "img": ""
     },
     {
         "name": "Bibliothek im Bürgerhaus",
@@ -4617,7 +5156,8 @@ const bibodaten = [
             50.621977,
             12.731985
         ],
-        "lk": "Landkreis Erzgebirgskreis"
+        "lk": "Landkreis Erzgebirgskreis",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek Zwönitz Brünloser Bücherei",
@@ -4631,7 +5171,8 @@ const bibodaten = [
             50.685265,
             12.816305
         ],
-        "lk": "Landkreis Erzgebirgskreis"
+        "lk": "Landkreis Erzgebirgskreis",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek Zwönitz Dorfchemnitzer Bücherei",
@@ -4645,7 +5186,8 @@ const bibodaten = [
             50.666097,
             12.839137
         ],
-        "lk": "Landkreis Erzgebirgskreis"
+        "lk": "Landkreis Erzgebirgskreis",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek Zwönitz Hormersdorfer Bücherei",
@@ -4659,7 +5201,8 @@ const bibodaten = [
             50.672327,
             12.883365
         ],
-        "lk": "Landkreis Erzgebirgskreis"
+        "lk": "Landkreis Erzgebirgskreis",
+        "img": ""
     },
     {
         "name": "Gemeindebibliothek in der Villa Oschatz",
@@ -4673,7 +5216,8 @@ const bibodaten = [
             50.50453,
             12.539306
         ],
-        "lk": "Landkreis Erzgebirgskreis"
+        "lk": "Landkreis Erzgebirgskreis",
+        "img": ""
     },
     {
         "name": "Bibliothek",
@@ -4687,7 +5231,8 @@ const bibodaten = [
             50.494154,
             12.600592
         ],
-        "lk": "Landkreis Erzgebirgskreis"
+        "lk": "Landkreis Erzgebirgskreis",
+        "img": ""
     },
     {
         "name": "Bibliothek Lauter",
@@ -4701,7 +5246,8 @@ const bibodaten = [
             50.559733,
             12.736611
         ],
-        "lk": "Landkreis Erzgebirgskreis"
+        "lk": "Landkreis Erzgebirgskreis",
+        "img": ""
     },
     {
         "name": "Bibliothek Bernsbach",
@@ -4715,7 +5261,8 @@ const bibodaten = [
             50.576358,
             12.771902
         ],
-        "lk": "Landkreis Erzgebirgskreis"
+        "lk": "Landkreis Erzgebirgskreis",
+        "img": ""
     },
     {
         "name": "Gemeindebibliothek",
@@ -4729,7 +5276,8 @@ const bibodaten = [
             50.567981,
             12.650517
         ],
-        "lk": "Landkreis Erzgebirgskreis"
+        "lk": "Landkreis Erzgebirgskreis",
+        "img": ""
     },
     {
         "name": "Gemeindebibliothek Bockau",
@@ -4743,7 +5291,8 @@ const bibodaten = [
             50.544981,
             12.685588
         ],
-        "lk": "Landkreis Erzgebirgskreis"
+        "lk": "Landkreis Erzgebirgskreis",
+        "img": ""
     },
     {
         "name": "Bibliothek im Bürgerhaus",
@@ -4757,7 +5306,8 @@ const bibodaten = [
             50.531937,
             12.537355
         ],
-        "lk": "Landkreis Erzgebirgskreis"
+        "lk": "Landkreis Erzgebirgskreis",
+        "img": ""
     },
     {
         "name": "Bibliothek",
@@ -4771,7 +5321,8 @@ const bibodaten = [
             50.563335,
             12.787104
         ],
-        "lk": "Landkreis Erzgebirgskreis"
+        "lk": "Landkreis Erzgebirgskreis",
+        "img": ""
     },
     {
         "name": "Dorf- und Kinderbibliothek",
@@ -4785,7 +5336,8 @@ const bibodaten = [
             50.815229,
             12.470153
         ],
-        "lk": "Landkreis Zwickau"
+        "lk": "Landkreis Zwickau",
+        "img": ""
     },
     {
         "name": "Öffentliche Bibliothek im Europäischen Gymnasium",
@@ -4799,7 +5351,8 @@ const bibodaten = [
             50.874932,
             12.597616
         ],
-        "lk": "Landkreis Zwickau"
+        "lk": "Landkreis Zwickau",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek",
@@ -4813,7 +5366,8 @@ const bibodaten = [
             50.58841,
             12.344746
         ],
-        "lk": "Landkreis Vogtlandkreis"
+        "lk": "Landkreis Vogtlandkreis",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek",
@@ -4827,7 +5381,8 @@ const bibodaten = [
             50.613209,
             12.249266
         ],
-        "lk": "Landkreis Vogtlandkreis"
+        "lk": "Landkreis Vogtlandkreis",
+        "img": ""
     },
     {
         "name": "Gemeindebibliothek",
@@ -4841,7 +5396,8 @@ const bibodaten = [
             50.656795,
             12.354503
         ],
-        "lk": "Landkreis Vogtlandkreis"
+        "lk": "Landkreis Vogtlandkreis",
+        "img": ""
     },
     {
         "name": "Schul- und Stadtbibliothek Mylau",
@@ -4855,7 +5411,8 @@ const bibodaten = [
             50.61773,
             12.26736
         ],
-        "lk": "Landkreis Vogtlandkreis"
+        "lk": "Landkreis Vogtlandkreis",
+        "img": ""
     },
     {
         "name": "Bücherei Oberpirk",
@@ -4869,7 +5426,8 @@ const bibodaten = [
             50.54743,
             12.01231
         ],
-        "lk": "Landkreis Vogtlandkreis"
+        "lk": "Landkreis Vogtlandkreis",
+        "img": ""
     },
     {
         "name": "Bücherei Syrau",
@@ -4883,7 +5441,8 @@ const bibodaten = [
             50.54322,
             12.08161
         ],
-        "lk": "Landkreis Vogtlandkreis"
+        "lk": "Landkreis Vogtlandkreis",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek",
@@ -4897,7 +5456,8 @@ const bibodaten = [
             50.320695,
             12.25508
         ],
-        "lk": "Landkreis Vogtlandkreis"
+        "lk": "Landkreis Vogtlandkreis",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek",
@@ -4911,7 +5471,8 @@ const bibodaten = [
             50.283362,
             12.237405
         ],
-        "lk": "Landkreis Vogtlandkreis"
+        "lk": "Landkreis Vogtlandkreis",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek - Schulbibliothek",
@@ -4925,7 +5486,8 @@ const bibodaten = [
             50.280832,
             12.233868
         ],
-        "lk": "Landkreis Vogtlandkreis"
+        "lk": "Landkreis Vogtlandkreis",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek Chemnitz - Vita-Center",
@@ -4939,7 +5501,8 @@ const bibodaten = [
             50.796223,
             12.882072
         ],
-        "lk": "Kreisfreie Stadt Chemnitz"
+        "lk": "Kreisfreie Stadt Chemnitz",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek Chemnitz - Einsiedel",
@@ -4953,7 +5516,8 @@ const bibodaten = [
             50.773318,
             12.974588
         ],
-        "lk": "Kreisfreie Stadt Chemnitz"
+        "lk": "Kreisfreie Stadt Chemnitz",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek Chemnitz - Yorck-Gebiet",
@@ -4967,7 +5531,8 @@ const bibodaten = [
             50.831153,
             12.958615
         ],
-        "lk": "Kreisfreie Stadt Chemnitz"
+        "lk": "Kreisfreie Stadt Chemnitz",
+        "img": ""
     },
     {
         "name": "Bibliothek",
@@ -4981,7 +5546,8 @@ const bibodaten = [
             50.777666,
             12.870037
         ],
-        "lk": "Landkreis Erzgebirgskreis"
+        "lk": "Landkreis Erzgebirgskreis",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek Chemnitz - Wittgensdorf",
@@ -4995,7 +5561,8 @@ const bibodaten = [
             50.881294,
             12.869258
         ],
-        "lk": "Kreisfreie Stadt Chemnitz"
+        "lk": "Kreisfreie Stadt Chemnitz",
+        "img": ""
     },
     {
         "name": "Gemeindebibliothek",
@@ -5009,7 +5576,8 @@ const bibodaten = [
             50.885794,
             12.790752
         ],
-        "lk": "Landkreis Mittelsachsen"
+        "lk": "Landkreis Mittelsachsen",
+        "img": ""
     },
     {
         "name": "Gemeindebibliothek",
@@ -5023,7 +5591,8 @@ const bibodaten = [
             50.734566,
             12.919905
         ],
-        "lk": "Landkreis Erzgebirgskreis"
+        "lk": "Landkreis Erzgebirgskreis",
+        "img": ""
     },
     {
         "name": "Gemeindebibliothek Außenstelle Meinersdorf",
@@ -5037,7 +5606,8 @@ const bibodaten = [
             50.719107,
             12.884228
         ],
-        "lk": "Landkreis Erzgebirgskreis"
+        "lk": "Landkreis Erzgebirgskreis",
+        "img": ""
     },
     {
         "name": "Bücherei",
@@ -5051,7 +5621,8 @@ const bibodaten = [
             50.906838,
             12.961387
         ],
-        "lk": "Landkreis Mittelsachsen"
+        "lk": "Landkreis Mittelsachsen",
+        "img": ""
     },
     {
         "name": "Gemeindebibliothek",
@@ -5065,7 +5636,8 @@ const bibodaten = [
             50.912921,
             12.854541
         ],
-        "lk": "Landkreis Mittelsachsen"
+        "lk": "Landkreis Mittelsachsen",
+        "img": ""
     },
     {
         "name": "Bibliothek Königshain",
@@ -5079,7 +5651,8 @@ const bibodaten = [
             50.972511,
             12.878318
         ],
-        "lk": "Landkreis Mittelsachsen"
+        "lk": "Landkreis Mittelsachsen",
+        "img": ""
     },
     {
         "name": "Bibliothek Wiederau",
@@ -5093,7 +5666,8 @@ const bibodaten = [
             50.974949,
             12.840374
         ],
-        "lk": "Landkreis Mittelsachsen"
+        "lk": "Landkreis Mittelsachsen",
+        "img": ""
     },
     {
         "name": "Bibliothek im Rathaus",
@@ -5107,7 +5681,8 @@ const bibodaten = [
             51.002768,
             12.77811
         ],
-        "lk": "Landkreis Mittelsachsen"
+        "lk": "Landkreis Mittelsachsen",
+        "img": ""
     },
     {
         "name": "Bibliothek",
@@ -5121,7 +5696,8 @@ const bibodaten = [
             51.048945,
             12.807102
         ],
-        "lk": "Landkreis Mittelsachsen"
+        "lk": "Landkreis Mittelsachsen",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek",
@@ -5135,7 +5711,8 @@ const bibodaten = [
             50.934414,
             12.706425
         ],
-        "lk": "Landkreis Mittelsachsen"
+        "lk": "Landkreis Mittelsachsen",
+        "img": ""
     },
     {
         "name": "Stadtbücherei",
@@ -5149,7 +5726,8 @@ const bibodaten = [
             51.076882,
             12.903968
         ],
-        "lk": "Landkreis Mittelsachsen"
+        "lk": "Landkreis Mittelsachsen",
+        "img": ""
     },
     {
         "name": "Städtische Bibliothek",
@@ -5163,7 +5741,8 @@ const bibodaten = [
             50.96097,
             12.756099
         ],
-        "lk": "Landkreis Mittelsachsen"
+        "lk": "Landkreis Mittelsachsen",
+        "img": ""
     },
     {
         "name": "Bibliothek Zweigstelle Lessing-Gymnasium",
@@ -5177,7 +5756,8 @@ const bibodaten = [
             50.801608,
             12.71069
         ],
-        "lk": "Landkreis Zwickau"
+        "lk": "Landkreis Zwickau",
+        "img": ""
     },
     {
         "name": "Bibliothek",
@@ -5191,7 +5771,8 @@ const bibodaten = [
             50.78958,
             12.731294
         ],
-        "lk": "Landkreis Zwickau"
+        "lk": "Landkreis Zwickau",
+        "img": ""
     },
     {
         "name": "Bibliothek",
@@ -5205,7 +5786,8 @@ const bibodaten = [
             50.759196,
             12.708227
         ],
-        "lk": "Landkreis Zwickau"
+        "lk": "Landkreis Zwickau",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek in der Villa Facius",
@@ -5219,7 +5801,8 @@ const bibodaten = [
             50.741709,
             12.747013
         ],
-        "lk": "Landkreis Erzgebirgskreis"
+        "lk": "Landkreis Erzgebirgskreis",
+        "img": ""
     },
     {
         "name": "Gemeindebibliothek Leukersdorf",
@@ -5233,7 +5816,8 @@ const bibodaten = [
             50.769895,
             12.811325
         ],
-        "lk": "Landkreis Erzgebirgskreis"
+        "lk": "Landkreis Erzgebirgskreis",
+        "img": ""
     },
     {
         "name": "Gemeindebücherei",
@@ -5247,7 +5831,8 @@ const bibodaten = [
             50.706915,
             12.883479
         ],
-        "lk": "Landkreis Erzgebirgskreis"
+        "lk": "Landkreis Erzgebirgskreis",
+        "img": ""
     },
     {
         "name": "Gemeindebücherei",
@@ -5261,7 +5846,8 @@ const bibodaten = [
             50.523137,
             12.372979
         ],
-        "lk": "Landkreis Vogtlandkreis"
+        "lk": "Landkreis Vogtlandkreis",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek Jacob Georg Bodemer",
@@ -5275,7 +5861,8 @@ const bibodaten = [
             50.745799,
             13.068669
         ],
-        "lk": "Landkreis Erzgebirgskreis"
+        "lk": "Landkreis Erzgebirgskreis",
+        "img": ""
     },
     {
         "name": "Bibliothek im Familienzentrum Volkshaus",
@@ -5289,7 +5876,8 @@ const bibodaten = [
             50.671573,
             12.952502
         ],
-        "lk": "Landkreis Erzgebirgskreis"
+        "lk": "Landkreis Erzgebirgskreis",
+        "img": ""
     },
     {
         "name": "Bibliothek",
@@ -5303,7 +5891,8 @@ const bibodaten = [
             50.677282,
             12.979534
         ],
-        "lk": "Landkreis Erzgebirgskreis"
+        "lk": "Landkreis Erzgebirgskreis",
+        "img": ""
     },
     {
         "name": "Bibliothek",
@@ -5317,7 +5906,8 @@ const bibodaten = [
             50.713303,
             12.983099
         ],
-        "lk": "Landkreis Erzgebirgskreis"
+        "lk": "Landkreis Erzgebirgskreis",
+        "img": ""
     },
     {
         "name": "Bücherei",
@@ -5331,7 +5921,8 @@ const bibodaten = [
             50.647296,
             12.966266
         ],
-        "lk": "Landkreis Erzgebirgskreis"
+        "lk": "Landkreis Erzgebirgskreis",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek",
@@ -5345,7 +5936,8 @@ const bibodaten = [
             50.655702,
             13.066072
         ],
-        "lk": "Landkreis Erzgebirgskreis"
+        "lk": "Landkreis Erzgebirgskreis",
+        "img": ""
     },
     {
         "name": "Bibliothek Amtsberg",
@@ -5359,7 +5951,8 @@ const bibodaten = [
             50.752119,
             12.998472
         ],
-        "lk": "Landkreis Erzgebirgskreis"
+        "lk": "Landkreis Erzgebirgskreis",
+        "img": ""
     },
     {
         "name": "Bibliothek Neudorf",
@@ -5373,7 +5966,8 @@ const bibodaten = [
             50.480614,
             12.974581
         ],
-        "lk": "Landkreis Erzgebirgskreis"
+        "lk": "Landkreis Erzgebirgskreis",
+        "img": ""
     },
     {
         "name": "Bibliothek Sehma",
@@ -5387,7 +5981,8 @@ const bibodaten = [
             50.535165,
             12.995235
         ],
-        "lk": "Landkreis Erzgebirgskreis"
+        "lk": "Landkreis Erzgebirgskreis",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek",
@@ -5401,7 +5996,8 @@ const bibodaten = [
             50.62388,
             12.923008
         ],
-        "lk": "Landkreis Erzgebirgskreis"
+        "lk": "Landkreis Erzgebirgskreis",
+        "img": ""
     },
     {
         "name": "Gemeindebücherei",
@@ -5415,7 +6011,8 @@ const bibodaten = [
             50.498781,
             13.028294
         ],
-        "lk": "Landkreis Erzgebirgskreis"
+        "lk": "Landkreis Erzgebirgskreis",
+        "img": ""
     },
     {
         "name": "Gemeindebücherei in der Grundschule",
@@ -5429,7 +6026,8 @@ const bibodaten = [
             50.544724,
             13.050506
         ],
-        "lk": "Landkreis Erzgebirgskreis"
+        "lk": "Landkreis Erzgebirgskreis",
+        "img": ""
     },
     {
         "name": "Bücherei",
@@ -5443,7 +6041,8 @@ const bibodaten = [
             50.576986,
             12.868752
         ],
-        "lk": "Landkreis Erzgebirgskreis"
+        "lk": "Landkreis Erzgebirgskreis",
+        "img": ""
     },
     {
         "name": "Information, Museum und Bibliothek im K3",
@@ -5457,7 +6056,8 @@ const bibodaten = [
             50.419232,
             12.969079
         ],
-        "lk": "Landkreis Erzgebirgskreis"
+        "lk": "Landkreis Erzgebirgskreis",
+        "img": ""
     },
     {
         "name": "Stadtbücherei im Schloss",
@@ -5471,7 +6071,8 @@ const bibodaten = [
             50.560789,
             12.951434
         ],
-        "lk": "Landkreis Erzgebirgskreis"
+        "lk": "Landkreis Erzgebirgskreis",
+        "img": ""
     },
     {
         "name": "Bibliothek in der Silberscheune",
@@ -5485,7 +6086,8 @@ const bibodaten = [
             50.638295,
             13.217572
         ],
-        "lk": "Landkreis Erzgebirgskreis"
+        "lk": "Landkreis Erzgebirgskreis",
+        "img": ""
     },
     {
         "name": "Bibliothek Rübenau",
@@ -5499,7 +6101,8 @@ const bibodaten = [
             50.60049,
             13.3007
         ],
-        "lk": "Landkreis Erzgebirgskreis"
+        "lk": "Landkreis Erzgebirgskreis",
+        "img": ""
     },
     {
         "name": "Bibliothek Zöblitz",
@@ -5513,7 +6116,8 @@ const bibodaten = [
             50.657841,
             13.231799
         ],
-        "lk": "Landkreis Erzgebirgskreis"
+        "lk": "Landkreis Erzgebirgskreis",
+        "img": ""
     },
     {
         "name": "Bibliothek Lengefeld",
@@ -5527,7 +6131,8 @@ const bibodaten = [
             50.719113,
             13.193138
         ],
-        "lk": "Landkreis Erzgebirgskreis"
+        "lk": "Landkreis Erzgebirgskreis",
+        "img": ""
     },
     {
         "name": "Bibliothek Pockau",
@@ -5541,7 +6146,8 @@ const bibodaten = [
             50.704901,
             13.22562
         ],
-        "lk": "Landkreis Erzgebirgskreis"
+        "lk": "Landkreis Erzgebirgskreis",
+        "img": ""
     },
     {
         "name": "Bücherei Lippersdorf",
@@ -5555,7 +6161,8 @@ const bibodaten = [
             50.755057,
             13.253403
         ],
-        "lk": "Landkreis Erzgebirgskreis"
+        "lk": "Landkreis Erzgebirgskreis",
+        "img": ""
     },
     {
         "name": "Bücherei Reifland",
@@ -5569,7 +6176,8 @@ const bibodaten = [
             50.738405,
             13.210582
         ],
-        "lk": "Landkreis Erzgebirgskreis"
+        "lk": "Landkreis Erzgebirgskreis",
+        "img": ""
     },
     {
         "name": "Bücherei Wernsdorf",
@@ -5583,7 +6191,8 @@ const bibodaten = [
             50.701453,
             13.269989
         ],
-        "lk": "Landkreis Erzgebirgskreis"
+        "lk": "Landkreis Erzgebirgskreis",
+        "img": ""
     },
     {
         "name": "Bibliothek",
@@ -5597,7 +6206,8 @@ const bibodaten = [
             50.628418,
             13.114204
         ],
-        "lk": "Landkreis Erzgebirgskreis"
+        "lk": "Landkreis Erzgebirgskreis",
+        "img": ""
     },
     {
         "name": "Bibliothek",
@@ -5611,7 +6221,8 @@ const bibodaten = [
             50.675537,
             13.467726
         ],
-        "lk": "Landkreis Mittelsachsen"
+        "lk": "Landkreis Mittelsachsen",
+        "img": ""
     },
     {
         "name": "Bibliothek und Galerie",
@@ -5625,7 +6236,8 @@ const bibodaten = [
             50.648289,
             13.452651
         ],
-        "lk": "Landkreis Erzgebirgskreis"
+        "lk": "Landkreis Erzgebirgskreis",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek",
@@ -5639,7 +6251,8 @@ const bibodaten = [
             50.861834,
             13.167905
         ],
-        "lk": "Landkreis Mittelsachsen"
+        "lk": "Landkreis Mittelsachsen",
+        "img": ""
     },
     {
         "name": "Bibliothek",
@@ -5653,7 +6266,8 @@ const bibodaten = [
             50.810518,
             13.101239
         ],
-        "lk": "Landkreis Mittelsachsen"
+        "lk": "Landkreis Mittelsachsen",
+        "img": ""
     },
     {
         "name": "Bibliothek",
@@ -5667,7 +6281,8 @@ const bibodaten = [
             50.800602,
             13.166466
         ],
-        "lk": "Landkreis Mittelsachsen"
+        "lk": "Landkreis Mittelsachsen",
+        "img": ""
     },
     {
         "name": "Bibliothek OT Marbach",
@@ -5681,7 +6296,8 @@ const bibodaten = [
             50.787412,
             13.134056
         ],
-        "lk": "Landkreis Mittelsachsen"
+        "lk": "Landkreis Mittelsachsen",
+        "img": ""
     },
     {
         "name": "Bibliothek OT Hohenfichte",
@@ -5695,7 +6311,8 @@ const bibodaten = [
             50.817804,
             13.133304
         ],
-        "lk": "Landkreis Mittelsachsen"
+        "lk": "Landkreis Mittelsachsen",
+        "img": ""
     },
     {
         "name": "Gemeindebibliothek",
@@ -5709,7 +6326,8 @@ const bibodaten = [
             50.79899,
             13.227279
         ],
-        "lk": "Landkreis Mittelsachsen"
+        "lk": "Landkreis Mittelsachsen",
+        "img": ""
     },
     {
         "name": "Ortsteilbibliothek Großwaltersdorf",
@@ -5723,7 +6341,8 @@ const bibodaten = [
             50.784686,
             13.269122
         ],
-        "lk": "Landkreis Mittelsachsen"
+        "lk": "Landkreis Mittelsachsen",
+        "img": ""
     },
     {
         "name": "Gemeindebibliothek",
@@ -5737,7 +6356,8 @@ const bibodaten = [
             50.865034,
             13.021996
         ],
-        "lk": "Landkreis Mittelsachsen"
+        "lk": "Landkreis Mittelsachsen",
+        "img": ""
     },
     {
         "name": "Gemeindebücherei",
@@ -5751,7 +6371,8 @@ const bibodaten = [
             50.766207,
             13.106137
         ],
-        "lk": "Landkreis Erzgebirgskreis"
+        "lk": "Landkreis Erzgebirgskreis",
+        "img": ""
     },
     {
         "name": "Bücherei im Ortsgemeindehaus Zug",
@@ -5765,7 +6386,8 @@ const bibodaten = [
             50.891334,
             13.343116
         ],
-        "lk": "Landkreis Mittelsachsen"
+        "lk": "Landkreis Mittelsachsen",
+        "img": ""
     },
     {
         "name": "Bibliothek",
@@ -5779,7 +6401,8 @@ const bibodaten = [
             50.872428,
             13.40021
         ],
-        "lk": "Landkreis Mittelsachsen"
+        "lk": "Landkreis Mittelsachsen",
+        "img": ""
     },
     {
         "name": "Bibliothek Berthelsdorf",
@@ -5793,7 +6416,8 @@ const bibodaten = [
             50.867941,
             13.371826
         ],
-        "lk": "Landkreis Mittelsachsen"
+        "lk": "Landkreis Mittelsachsen",
+        "img": ""
     },
     {
         "name": "Bibliothek in der Grundschule",
@@ -5807,7 +6431,8 @@ const bibodaten = [
             50.965654,
             13.282899
         ],
-        "lk": "Landkreis Mittelsachsen"
+        "lk": "Landkreis Mittelsachsen",
+        "img": ""
     },
     {
         "name": "Bücherei Obergruna",
@@ -5821,7 +6446,8 @@ const bibodaten = [
             51.015225,
             13.317187
         ],
-        "lk": "Landkreis Mittelsachsen"
+        "lk": "Landkreis Mittelsachsen",
+        "img": ""
     },
     {
         "name": "Stadt- und Kreisbibliothek",
@@ -5835,7 +6461,8 @@ const bibodaten = [
             50.865091,
             13.316879
         ],
-        "lk": "Landkreis Mittelsachsen"
+        "lk": "Landkreis Mittelsachsen",
+        "img": ""
     },
     {
         "name": "Gemeindebücherei",
@@ -5849,7 +6476,8 @@ const bibodaten = [
             50.799419,
             13.322774
         ],
-        "lk": "Landkreis Mittelsachsen"
+        "lk": "Landkreis Mittelsachsen",
+        "img": ""
     },
     {
         "name": "Bibliothek",
@@ -5863,7 +6491,8 @@ const bibodaten = [
             50.809344,
             13.406865
         ],
-        "lk": "Landkreis Mittelsachsen"
+        "lk": "Landkreis Mittelsachsen",
+        "img": ""
     },
     {
         "name": "Bibliothek",
@@ -5877,7 +6506,8 @@ const bibodaten = [
             50.80264,
             13.537885
         ],
-        "lk": "Landkreis Mittelsachsen"
+        "lk": "Landkreis Mittelsachsen",
+        "img": ""
     },
     {
         "name": "Ortsteilbibliothek Burkersdorf",
@@ -5891,7 +6521,8 @@ const bibodaten = [
             50.817238,
             13.480374
         ],
-        "lk": "Landkreis Mittelsachsen"
+        "lk": "Landkreis Mittelsachsen",
+        "img": ""
     },
     {
         "name": "Ortsteilbibliothek Nassau",
@@ -5905,7 +6536,8 @@ const bibodaten = [
             50.773092,
             13.498056
         ],
-        "lk": "Landkreis Mittelsachsen"
+        "lk": "Landkreis Mittelsachsen",
+        "img": ""
     },
     {
         "name": "Bibliothek Hilbersdorf",
@@ -5919,7 +6551,8 @@ const bibodaten = [
             50.910887,
             13.393593
         ],
-        "lk": "Landkreis Mittelsachsen"
+        "lk": "Landkreis Mittelsachsen",
+        "img": ""
     },
     {
         "name": "Bücherei",
@@ -5933,7 +6566,8 @@ const bibodaten = [
             50.954627,
             13.352528
         ],
-        "lk": "Landkreis Mittelsachsen"
+        "lk": "Landkreis Mittelsachsen",
+        "img": ""
     },
     {
         "name": "Bücherei Conradsdorf im August Bebel Heim",
@@ -5947,7 +6581,8 @@ const bibodaten = [
             50.961284,
             13.345465
         ],
-        "lk": "Landkreis Mittelsachsen"
+        "lk": "Landkreis Mittelsachsen",
+        "img": ""
     },
     {
         "name": "Bücherei in der Klinik am Tharandter Wald",
@@ -5961,7 +6596,8 @@ const bibodaten = [
             50.97095,
             13.46073
         ],
-        "lk": "Landkreis Mittelsachsen"
+        "lk": "Landkreis Mittelsachsen",
+        "img": ""
     },
     {
         "name": "Bücherei im DHG-Gebäude Niederschöna",
@@ -5975,7 +6611,8 @@ const bibodaten = [
             50.965173,
             13.42094
         ],
-        "lk": "Landkreis Mittelsachsen"
+        "lk": "Landkreis Mittelsachsen",
+        "img": ""
     },
     {
         "name": "Bücherei im Rathaus",
@@ -5989,7 +6626,8 @@ const bibodaten = [
             50.843598,
             13.406007
         ],
-        "lk": "Landkreis Mittelsachsen"
+        "lk": "Landkreis Mittelsachsen",
+        "img": ""
     },
     {
         "name": "Stadtbibliothek",
@@ -6003,7 +6641,8 @@ const bibodaten = [
             50.97268,
             13.122609
         ],
-        "lk": "Landkreis Mittelsachsen"
+        "lk": "Landkreis Mittelsachsen",
+        "img": ""
     },
     {
         "name": "Bücherei in der Grundschule Pappendorf",
@@ -6017,7 +6656,8 @@ const bibodaten = [
             50.986699,
             13.186067
         ],
-        "lk": "Landkreis Mittelsachsen"
+        "lk": "Landkreis Mittelsachsen",
+        "img": ""
     },
     {
         "name": "Kreisergänzungsbibliothek Mittelsachsen",
@@ -6031,20 +6671,7 @@ const bibodaten = [
             50.979438,
             13.102291
         ],
-        "lk": "Landkreis Mittelsachsen"
-    },
-    {
-        "name": "Stadtbücherei",
-        "str": "Humboldtstraße 4",
-        "plz": "95659",
-        "ort": "Arzberg",
-        "state": 1,
-        "size": 0,
-        "web": "https://www.arzberg.de/index.php?navi=33",
-        "coords": [
-            50.057433,
-            12.18807
-        ],
-        "lk": ""
+        "lk": "Landkreis Mittelsachsen",
+        "img": ""
     }
 ]
