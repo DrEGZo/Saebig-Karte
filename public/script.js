@@ -99,7 +99,8 @@ function main() {
     for (let i = 0; i < bibodaten.length; i++) {
         let icon = icons[bibodaten[i].state][bibodaten[i].size];
         let marker = L.marker(bibodaten[i].coords, {icon: icon});
-        let markertext = '<b>' + bibodaten[i].name + '</b><br>' + bibodaten[i].str + '<br>' + bibodaten[i].plz + ' ' + bibodaten[i].ort;
+        let markertext = '<b>' + bibodaten[i].name + '</b><br>' + bibodaten[i].str + '<br>' + bibodaten[i].plz + ' ' + bibodaten[i].ort + '<br>';
+        markertext += '<a target="_bank" href="' + bibodaten[i].web + '">Website</a>';
         marker.bindPopup(markertext);
         if (bibodaten[i].lk in markers) markers[bibodaten[i].lk].push(marker);
         else if (bibodaten[i].lk != '') markers[bibodaten[i].lk] = [marker];

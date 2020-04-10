@@ -13,8 +13,8 @@ for (i = 0; i < bibos.length; i++) {
         Math.round(parseFloat(bibos[i]["Länge"]) * 1000000) / 1000000
     ]; */
     
-    delete bibos[i]["Breite"];
-    delete bibos[i]["Länge"];
+    /* delete bibos[i]["Breite"];
+    delete bibos[i]["Länge"]; */
 }
 
 fs.writeFileSync(__dirname + '/data.json', JSON.stringify(bibos));
