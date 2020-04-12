@@ -24,6 +24,36 @@ body {
     background-color: #faf5e5;
 }
 
+#overlay {
+    display: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #0008;
+}
+
+#overlay-img {
+    display: block;
+    width: 80%;
+    height: 80%;
+    flex: none;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: #000;
+}
+
+#overlay-auth {
+    color: #fff;
+}
+
 /* Der Zurück-Knopf */
 #return-button {
     position: absolute;
@@ -90,6 +120,7 @@ body {
     background-repeat: no-repeat;
     flex: none;
     background-color: #eee;
+    cursor: pointer;
 }
 
 .content-img.noImg {

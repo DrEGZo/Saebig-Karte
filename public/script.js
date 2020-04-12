@@ -102,8 +102,8 @@ function main() {
         let markerContent = '<div class="markercontent"><div class="content-text">';
         markerContent += '<b>' + bibodaten[i].name + '</b><br>' + bibodaten[i].str + '<br>' + bibodaten[i].plz + ' ' + bibodaten[i].ort + '<br>';
         markerContent += '<a target="_bank" href="' + bibodaten[i].web + '">Website</a></div>';
-        markerContent += '<a class="content-img' + (bibodaten[i].img == '' ? ' noImg' : '') + '" ';
-        markerContent += 'style="background-image:url(\'' + bibodaten[i].img + '\')" href="' + bibodaten[i].img + '" target="_blank"></a>';
+        markerContent += '<div class="content-img' + (bibodaten[i].img == '' ? ' noImg' : '') + '" ';
+        markerContent += 'style="background-image:url(\'' + bibodaten[i].img + '\')" onclick="openOverlay(\'' + bibodaten[i].img + '\', \'Max Mustermann\')"></div>';
         marker.bindPopup(markerContent);
         if (bibodaten[i].lk in markers) markers[bibodaten[i].lk].push(marker);
         else if (bibodaten[i].lk != '') markers[bibodaten[i].lk] = [marker];
@@ -272,6 +272,10 @@ function main() {
         if (this.checked) zuLandkreiseWechseln(false);
     });
 
+    document.getElementById('overlay').addEventListener('click', function(evt) {
+        if (this == evt.target) document.getElementById('overlay').style.display = 'none';
+    });
+
     // Übersichtskarte aller Landkreise initialisieren
     launchBaseMap();
 }
@@ -432,6 +436,16 @@ function istInLandkreis(lk, gebiet) {
     }
     if (gebiet in lk_kr_map) return lk_kr_map[gebiet].indexOf(lk) != -1;
     return false;
+}
+
+function openOverlay(url, auth) {
+    let overlay = document.getElementById('overlay');
+    let img = document.getElementById('overlay-img');
+    let author = document.getElementById('overlay-auth');
+    img.style.backgroundImage = 'url(\'' + url + '\')';
+    img.href = url;
+    author.innerText = auth;
+    overlay.style.display = 'flex';
 }
 
 // Wenn DOM gelanden, main ausführen
