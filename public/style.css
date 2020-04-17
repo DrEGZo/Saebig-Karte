@@ -35,7 +35,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #0008;
+    background-color: #000;
 }
 
 #overlay-img {
@@ -52,6 +52,39 @@ body {
 
 #overlay-auth {
     color: #fff;
+}
+
+#overlay-close {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: -10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#overlay-close::before {
+    content: "";
+    display: block;
+    flex: none;
+    width: 15px;
+    height: 3px;
+    background-color: #fff;
+    transform: translateX(50%) rotate(45deg);
+}
+
+#overlay-close::after {
+    content: "";
+    display: block;
+    flex: none;
+    width: 15px;
+    height: 3px;
+    background-color: #fff;
+    transform: translateX(-50%) rotate(-45deg);
 }
 
 /* Der Zurück-Knopf */
@@ -105,6 +138,7 @@ body {
 
 .markercontent {
     display: flex;
+    align-items: center;
 }
 
 .content-text {
@@ -113,9 +147,9 @@ body {
 
 .content-img {
     display: block;
-    width: 64px;
+    width: 114px;
     height: 64px;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     flex: none;

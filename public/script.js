@@ -256,8 +256,8 @@ function main() {
         if (this.checked) zuLandkreiseWechseln(false);
     });
 
-    document.getElementById('overlay').addEventListener('click', function(evt) {
-        if (this == evt.target) document.getElementById('overlay').style.display = 'none';
+    document.getElementById('overlay-close').addEventListener('click', function(evt) {
+        document.getElementById('overlay').style.display = 'none';
     });
 
     // Übersichtskarte aller Landkreise initialisieren
@@ -418,7 +418,9 @@ function openOverlay(url, auth) {
     let img = document.getElementById('overlay-img');
     let author = document.getElementById('overlay-auth');
     img.style.backgroundImage = 'url(\'' + url + '\')';
-    img.href = url;
+    img.addEventListener('click', function(evt) {
+        if (this == evt.target) window.open(url);
+    });
     author.innerText = auth;
     overlay.style.display = 'flex';
 }
