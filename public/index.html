@@ -47,39 +47,39 @@
     </div>
     <div id="footer">
         <div id="select-all">
-            <input type="checkbox">
+            <input type="checkbox" onchange="refreshMarker()">
             <span>Alle Bibliotheken einblenden</span>
         </div>
         <div id="filter">
             <div>
-                <div class="sgFilter"><input type="checkbox" checked>
+                <div class="sgFilter" id="filter-wb"><input type="checkbox" checked onchange="refreshMarker()">
                     <div></div><span>Wissenschaftliche Bibliotheken</span>
                 </div>
-                <div class="sgFilter"><input type="checkbox" checked>
+                <div class="sgFilter" id="filter-oeb"><input type="checkbox" checked onchange="refreshMarker()">
                     <div></div><span>Öffentliche Bibliotheken</span>
                 </div>
             </div>
             <div>
-                <div class="sgFilter"><input type="checkbox" checked>
+                <div class="sgFilter" id="filter-wb-2"><input type="checkbox" checked onchange="refreshMarker()">
                     <div></div><span>National-, Landes- und Universitätsbibliotheken (mehr als 100 Mitarbeiter)</span>
                 </div>
-                <div class="sgFilter"><input type="checkbox" checked>
+                <div class="sgFilter" id="filter-oeb-2"><input type="checkbox" checked onchange="refreshMarker()">
                     <div></div><span>Städte mit mehr als 100.000 Einwohnern</span>
                 </div>
             </div>
             <div>
-                <div class="sgFilter"><input type="checkbox" checked>
+                <div class="sgFilter" id="filter-wb-1"><input type="checkbox" checked onchange="refreshMarker()">
                     <div></div><span>Universitäts- und Hochschulbibliotheken</span>
                 </div>
-                <div class="sgFilter"><input type="checkbox" checked>
+                <div class="sgFilter" id="filter-oeb-1"><input type="checkbox" checked onchange="refreshMarker()">
                     <div></div><span>Städte mit 10.000 bis 100.000 Einwohnern</span>
                 </div>
             </div>
             <div>
-                <div class="sgFilter"><input type="checkbox" checked>
+                <div class="sgFilter" id="filter-wb-0"><input type="checkbox" checked onchange="refreshMarker()">
                     <div></div><span>Wissenschaftliche Spezialbibliotheken, Zweigbibliotheken von Hochschulbibliotheken, Bibliotheken der Berufsakademie Sachsen</span>
                 </div>
-                <div class="sgFilter"><input type="checkbox" checked>
+                <div class="sgFilter" id="filter-oeb-0"><input type="checkbox" checked onchange="refreshMarker()">
                     <div></div><span>Städte und Gemeinden bis 10.000 Einwohner, Zweigbibliotheken Öffentlicher Bibliotheken</span>
                 </div>
             </div>

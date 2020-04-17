@@ -97,8 +97,11 @@ function main() {
 
     // Hinzufügen der Marker sortiert nach Landkreis mit Popup (vorerst unsichtbar)
     for (let i = 0; i < bibodaten.length; i++) {
-        let icon = icons[bibodaten[i].state][bibodaten[i].size];
-        let marker = L.marker(bibodaten[i].coords, {icon: icon});
+        let marker = L.marker(bibodaten[i].coords, {
+            icon: icons[bibodaten[i].state][bibodaten[i].size],
+            state: bibodaten[i].state,
+            size: bibodaten[i].size
+        });
         let markerContent = '<div class="markercontent"><div class="content-text">';
         markerContent += '<b>' + bibodaten[i].name + '</b><br>' + bibodaten[i].str + '<br>' + bibodaten[i].plz + ' ' + bibodaten[i].ort + '<br>';
         markerContent += '<a target="_bank" href="' + bibodaten[i].web + '">Website</a></div>';
@@ -227,25 +230,6 @@ function main() {
 
     // Alle Bibos anzeigen wenn Checkbox checked
     document.querySelector('#select-all input').checked = false;
-    document.querySelector('#select-all input').addEventListener('change', function(e) {
-        if (this.checked) {
-            for (let lk in markers) {
-                for (let i = 0; i < markers[lk].length; i++) markers[lk][i].addTo(map);
-            }
-        } else {
-            if (zoomedOut) launchBaseMap();
-            else {
-                console.log('a')
-                for (let lk in markers) {
-                    if (lk == landkreis) {
-                        for (let i = 0; i < markers[lk].length; i++) markers[lk][i].addTo(map);
-                    } else {
-                        for (let i = 0; i < markers[lk].length; i++) markers[lk][i].removeFrom(map);
-                    }
-                }
-            }
-        }
-    });
 
     document.getElementById('selectLks').addEventListener('click', function (e) {
         if (this == e.target) {
@@ -358,16 +342,7 @@ function launchDetailedMap(selectedLayer) {
     // Straßen sichtbar machen
     streetCover.remove();
 
-    // Nur die Marker des Landkreises anzeigen
-    if (!document.querySelector('#select-all input').checked) {
-        for (let lk in markers) {
-            if (istInLandkreis(lk, landkreis)) {
-                for (let i = 0; i < markers[lk].length; i++) markers[lk][i].addTo(map);
-            } else {
-                for (let i = 0; i < markers[lk].length; i++) markers[lk][i].removeFrom(map);
-            }
-        }
-    }
+    refreshMarker();
 
     // Zurück-Knopf anzeigen
     document.getElementById('return-button').style.display = 'block';
@@ -446,6 +421,49 @@ function openOverlay(url, auth) {
     img.href = url;
     author.innerText = auth;
     overlay.style.display = 'flex';
+}
+
+function refreshMarker() {
+    console.log('x')
+    let all = document.querySelector('#select-all input').checked;
+    let wb = document.querySelector('#filter-wb input').checked;
+    let wb0 = document.querySelector('#filter-wb-0 input').checked;
+    let wb1 = document.querySelector('#filter-wb-1 input').checked;
+    let wb2 = document.querySelector('#filter-wb-2 input').checked;
+    let oeb = document.querySelector('#filter-oeb input').checked;
+    let oeb0 = document.querySelector('#filter-oeb-0 input').checked;
+    let oeb1 = document.querySelector('#filter-oeb-1 input').checked;
+    let oeb2 = document.querySelector('#filter-oeb-2 input').checked;
+
+    if (all) {
+        for (let lk in markers) {
+            for (let i = 0; i < markers[lk].length; i++) markers[lk][i].addTo(map);
+        }
+    } else {
+        if (zoomedOut) {
+            for (let lk in markers) {
+                for (let i = 0; i < markers[lk].length; i++) markers[lk][i].removeFrom(map);
+            }
+        } else {
+            for (let lk in markers) {
+                for (let i = 0; i < markers[lk].length; i++) {
+                    let opt = markers[lk][i].options;
+                    if ((!istInLandkreis(lk, landkreis)) || (opt.state == 0 && (!wb)) || (opt.state == 1 && (!oeb))) {
+                        markers[lk][i].removeFrom(map);
+                    } else if (opt.state == 0) {
+                        if ((opt.size == 0 && wb0) || (opt.size == 1 && wb1) || (opt.size == 2 && wb2)) {
+                            markers[lk][i].addTo(map);
+                        } else markers[lk][i].removeFrom(map);
+                    } else if (opt.state == 1) {
+                        if ((opt.size == 0 && oeb0) || (opt.size == 1 && oeb1) || (opt.size == 2 && oeb2)) {
+                            markers[lk][i].addTo(map);
+                        } else markers[lk][i].removeFrom(map);
+                    }
+                }
+            }
+        }
+    }
+    
 }
 
 // Wenn DOM gelanden, main ausführen
