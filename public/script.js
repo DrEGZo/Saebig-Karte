@@ -8,9 +8,9 @@ let zoomedOut = true;
 let coverLayer;
 
 // Die Layer des ausgewählten Landkreises (wird versteckt beim reinzoomen)
-let removedLayer;
+let selectedLayer = null;
 
-let landkreis;
+let landkreis = null;
 
 // Ein weißes Rechteck, das die Straßenkarte versteckt (im rausgezoomten Zustand)
 let streetCover = L.rectangle([[0, 0], [90, 180]], {
@@ -29,6 +29,8 @@ const vectorInverter = [[0, 90], [180, 90], [180, -90], [0, -90], [-180, -90], [
 let geojsonLK;
 let geojsonKR;
 
+const saxonyBox = [[50.15, 11.84], [51.70, 15.06]];
+
 function main() {
 
     // Karte in DOM einfügen und Eigenschaften festlegen
@@ -39,14 +41,15 @@ function main() {
         zoomAnimation: false,           // muss deaktivert werden, sonst funktioniert Responsibilität nicht mehr
         maxBoundsViscosity: 0.8,        // [0-1] legt fest, wie sich die Karte verhält, wenn man sie über die Grenze hinauszieht
         bounceAtZoomLimits: false,      // Brauch man nicht, erzeugt ohnehin Bugs auf Mobilgeräten
-        wheelPxPerZoomLevel: 100        // Wie start wird mit Mausrad gezoomt (je höher, desto langsamer)
+        wheelPxPerZoomLevel: 150,        // Wie start wird mit Mausrad gezoomt (je höher, desto langsamer)
+        maxBounds: saxonyBox,
+        maxZoom: 18
     });
 
     // Straßenkarte laden und in Karte einfügen
     L.tileLayer('https://api.maptiler.com/maps/streets/{z}/{x}/{y}.png?key=R7Y2sHW2hgzFomqlOY4W', {
         tileSize: 512,
         zoomOffset: -1,
-        minZoom: 1,
         attribution: '<a href="https://www.maptiler.com/copyright/" target="_blank">© MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">© OpenStreetMap contributors</a>',
         crossOrigin: true
     }).addTo(map);
@@ -115,11 +118,10 @@ function main() {
     // Bei Größenänderung der Karte (durch z.B. Änderung der Fenstergröße Karte neu ausrichten)
     map.on({
         resize: function(e) {
-            // Wenn gerade alle Landkreise sichtbar, an Sachsenfläche ausrichten
-            if (zoomedOut) fitToBounds([[50.15, 11.84], [51.70, 15.06]], false);
-            // sonst an Fläche des ausgewählten Landkreises ausrichten
-            else fitToBounds(removedLayer.getBounds(), true);
-        }
+            map.setMinZoom(0);
+            onZoomed();
+        },
+        zoom: onZoomed
     });
 
     // Definieren der Funktion, die für jedes Lankreis-Polygon ausgeführt wird
@@ -132,7 +134,7 @@ function main() {
             permanent: true,        // die ganze Zeit sichtbar
             className: 'tooltip'    // CSS-Klasse für Tooltips, siehe style.css
         }
-        console.log(lkName)
+        
         if (lkName == 'Görlitz') lkProps.className += ' tooltipLKG';
         if (lkName == 'Nordsachsen') lkProps.className += ' tooltipLKN';
         if (lkName == 'Leipzig' && feature.properties.BEZ == 'Landkreis') lkName = 'LK Leipzig';
@@ -150,7 +152,9 @@ function main() {
             // MouseOut Event
             mouseout: function(e) {
                 // Style zurücksetzen
-                geojsonLK.resetStyle(e.target);
+                geojsonLK.eachLayer(layer => {
+                    geojsonLK.resetStyle(layer)
+                });
             },
 
             // Klick Event
@@ -158,7 +162,8 @@ function main() {
                 // Namen des Landkreis setzen
                 landkreis = feature.properties.BEZ + ' ' + feature.properties.GEN;
                 // Detailansicht des Landkreises anzeigen
-                launchDetailedMap(e.target);
+                selectedLayer = e.target
+                focusOnArea();
             }
 
         });
@@ -197,7 +202,7 @@ function main() {
             // MouseOut Event
             mouseout: function (e) {
                 // Style zurücksetzen
-                geojsonKR.resetStyle(e.target);
+                geojsonKR.eachLayer(layer => { geojsonKR.resetStyle(layer) });
             },
 
             // Klick Event
@@ -205,7 +210,8 @@ function main() {
                 // Namen des Landkreis setzen
                 landkreis = feature.properties.BEZ + ' ' + feature.properties.GEN;
                 // Detailansicht des Landkreises anzeigen
-                launchDetailedMap(e.target);
+                selectedLayer = e.target;
+                focusOnArea();
             }
 
         });
@@ -216,9 +222,6 @@ function main() {
         style: { color: '#6AB446', fillColor: '#6AB446' },
         onEachFeature: forAllKRs
     });
-
-    // Zurück-Knopf initialisieren
-    document.getElementById('return-button').addEventListener('click', launchBaseMap);
 
     // Checkbox umschalten, wenn auf Label geklickt
     document.getElementById('select-all').addEventListener('click', function (e) {
@@ -261,53 +264,14 @@ function main() {
     });
 
     // Übersichtskarte aller Landkreise initialisieren
-    launchBaseMap();
+    map.fitBounds(saxonyBox);
+    onZoomed();
 }
-
-
-// Funktion zur Initialisierung der Landkreisübersicht
-function launchBaseMap() {
-
-    // Zustandsvariable setzen
-    zoomedOut = true;
-
-    // Karte auf Sachsengrenzen ausrichten
-    fitToBounds([[50.15, 11.84], [51.70, 15.06]], false);
-
-    // Straßenkarte abdecken
-    streetCover.addTo(map).bringToBack();
-
-    // Die Layer, die angrenzende Landkreise abdeckt entfernen
-    if (coverLayer) map.removeLayer(coverLayer);
-
-    zuLandkreiseWechseln(document.querySelector('#selectLks input').checked);
-
-    // Falls eine Landkreis-Layer zuvor entfernt wurde, jetzt wieder hinzufügen
-    if (removedLayer) removedLayer.fire('mouseout').addTo(map);
-    // (das mouseOut Event ist dafür dass der Landkreis seinen unrsprünglichen Style annimmt)
-
-    // Marker verstecken
-    if (!document.querySelector('#select-all input').checked) {
-        for (let lk in markers) {
-            for (let i = 0; i < markers[lk].length; i++) markers[lk][i].removeFrom(map);
-        }
-    }
-
-    // Zurück-Knopf verstecken
-    document.getElementById('return-button').style.display = 'none';
-}
-
 
 // Funktion zur Initialisierung der Ansicht eines Landkreises
 // selectedLayer-Parameter ist Layer des gewählten Landkreises
-function launchDetailedMap(selectedLayer) {
-    
-    // Zustandsvariable setzen
-    zoomedOut = false;
+function focusOnArea() {
 
-    // Karte auf Grenzen des Landkreises ausrichten
-    fitToBounds(selectedLayer.getBounds(), true);
-    
     // Die GeoJSON-Koordinaten des Landkreises auslesen
     let coordinates = selectedLayer.feature.geometry.coordinates[0];
 
@@ -331,44 +295,52 @@ function launchDetailedMap(selectedLayer) {
         }
     }).addTo(map);
 
-    // globale Variable removedLayer auf ausgewählten Landkreis setzen
-    removedLayer = selectedLayer;
+    // Karte auf Grenzen des Landkreises ausrichten
+    map.fitBounds(selectedLayer.getBounds())
 
-    // Das angeklickte Landkreis-Polygon entfernen
-    // removedLayer.remove()
-    geojsonKR.remove();
-    geojsonLK.remove();
-
-    // Straßen sichtbar machen
-    streetCover.remove();
-
-    refreshMarker();
-
-    // Zurück-Knopf anzeigen
-    document.getElementById('return-button').style.display = 'block';
+    onZoomed();
 }
 
+function onZoomed() {
+    // maximale coords (breitendifferenz, längendifferenz)
+    let maxSpan = [saxonyBox[1][0] - saxonyBox[0][0], saxonyBox[1][1] - saxonyBox[0][1]];
+    // aktuelle coords (nach zoom)
+    let bounds = map.getBounds();
+    let currentSpan = [bounds._northEast.lat - bounds._southWest.lat, bounds._northEast.lng - bounds._southWest.lng];
+    // LK coords (ggf. null)
+    let selectedSpan = [0, 0];
+    if (selectedLayer !== null) {
+        bounds = selectedLayer.getBounds();
+        selectedSpan = [bounds._northEast.lat - bounds._southWest.lat, bounds._northEast.lng - bounds._southWest.lng];
+    }
+    if (currentSpan[0] >= maxSpan[0] && currentSpan[1] >= maxSpan[1]) map.setMinZoom(map.getZoom());
+    if (currentSpan[0] > maxSpan[0] * 0.6 && currentSpan[1] > maxSpan[1] * 0.6) mapMode0();
+    else if (currentSpan[0] > selectedSpan[0] * 1.4 && currentSpan[1] > selectedSpan[1] * 1.4) mapMode1();
+    else mapMode2();
+}
 
+function mapMode0() {
+    streetCover.addTo(map).bringToBack();
+    if (coverLayer) map.removeLayer(coverLayer);
+    geojsonLK.eachLayer(layer => { geojsonLK.resetStyle(layer) });
+    geojsonKR.eachLayer(layer => { geojsonKR.resetStyle(layer) });
+    zuLandkreiseWechseln(document.querySelector('#selectLks input').checked);
+    refreshMarker(true);
+}
 
-// Funktion zur Anpassung der Karte auf einen bestimmten Bereich
-// bounds-Parameter gibt Bereich vor, der sichtbar sein muss
-// allowZoom gibt an, ob reingezoomt werden darf
-function fitToBounds(bounds, allowZoom) {
+function mapMode1() {
+    if (coverLayer) map.removeLayer(coverLayer);
+    geojsonKR.remove();
+    geojsonLK.remove();
+    streetCover.remove();
+    refreshMarker(true);
+}
 
-    // aktuelle Restriktionen entfernen, um Änderungen der Ausrichtung zu ermöglichen
-    map.setMinZoom(0).setMaxZoom(18).setMaxBounds(null);
-
-    // Karte an neuen Bereich ausrichten
-    map.fitBounds(bounds);
-
-    // Aktuelle Zoomstufe auslesen
-    let zoom = map.getZoom();
-    
-    // Neue Begrenzung festlegen und weiteres Rauszoomen verhindern
-    map.setMinZoom(zoom).setMaxBounds(bounds);
-
-    // Wenn Zoomen komplett verboten sein soll, dann auch weiteres Reinzoomen verhindern
-    if (!allowZoom) map.setMaxZoom(zoom);
+function mapMode2() {
+    geojsonKR.remove();
+    geojsonLK.remove();
+    streetCover.remove();
+    refreshMarker(true);
 }
 
 function zuLandkreiseWechseln(bool) {
@@ -425,7 +397,7 @@ function openOverlay(url, auth) {
     overlay.style.display = 'flex';
 }
 
-function refreshMarker() {
+function refreshMarker(allowShow) {
 
     let all = document.querySelector('#select-all input').checked;
     let wb = document.querySelector('#filter-wb input').checked;
@@ -447,7 +419,7 @@ function refreshMarker() {
             } else if (opt.state == 1) {
                 if (oeb || (opt.size == 0 && oeb0) || (opt.size == 1 && oeb1) || (opt.size == 2 && oeb2)) show = true;
             }
-            if (!(zoomedOut || istInLandkreis(lk, landkreis))) show = false;
+            if (!(allowShow || istInLandkreis(lk, landkreis))) show = false;
             if (show) markers[lk][i].addTo(map);
             else markers[lk][i].removeFrom(map);
         };
