@@ -1,15 +1,13 @@
 // Die Karte
 let map;
 
-// Gibt an ob gerade alle Landkreise sichtbar sind oder nur einer
-let zoomedOut = true;
-
 // Die Layer, die die Landkreise um den ausgewähltem Landkreis abdeckt
 let coverLayer;
 
-// Die Layer des ausgewählten Landkreises (wird versteckt beim reinzoomen)
+// Die Layer des ausgewählten Landkreises
 let selectedLayer = null;
 
+// Name des ausgewählten Landkreises
 let landkreis = null;
 
 // Ein weißes Rechteck, das die Straßenkarte versteckt (im rausgezoomten Zustand)
@@ -29,6 +27,7 @@ const vectorInverter = [[0, 90], [180, 90], [180, -90], [0, -90], [-180, -90], [
 let geojsonLK;
 let geojsonKR;
 
+// Koordinaten der Box, welche Sachsen enthält
 const saxonyBox = [[50.15, 11.84], [51.70, 15.06]];
 
 function main() {
@@ -115,7 +114,7 @@ function main() {
         else if (bibodaten[i].lk != '') markers[bibodaten[i].lk] = [marker];
     }
     
-    // Bei Größenänderung der Karte (durch z.B. Änderung der Fenstergröße Karte neu ausrichten)
+    // Eventlistener für Karte: Bei Größenänderung und Zoomen
     map.on({
         resize: function(e) {
             map.setMinZoom(0);
@@ -135,141 +134,118 @@ function main() {
             className: 'tooltip'    // CSS-Klasse für Tooltips, siehe style.css
         }
         
+        // Extra-Klassen, um bei "abwegigen" Landkreisnamen die Position zu korrigieren
         if (lkName == 'Görlitz') lkProps.className += ' tooltipLKG';
         if (lkName == 'Nordsachsen') lkProps.className += ' tooltipLKN';
         if (lkName == 'Leipzig' && feature.properties.BEZ == 'Landkreis') lkName = 'LK Leipzig';
+        
+        // Beschriftung anbinden
         layer.bindTooltip(lkName, lkProps);
 
         // Eventlistener für die Landkreise
         layer.on({
-            
-            // MouseOver Event
             mouseover: function(e) {
                 // Polygon-Füllung ändern
                 e.target.setStyle({ fillOpacity: 0.6 });
             },
-
-            // MouseOut Event
             mouseout: function(e) {
                 // Style zurücksetzen
-                geojsonLK.eachLayer(layer => {
-                    geojsonLK.resetStyle(layer)
-                });
+                geojsonLK.eachLayer(layer => { geojsonLK.resetStyle(layer); });
             },
-
-            // Klick Event
             click: function(e) {
-                // Namen des Landkreis setzen
+                // Namen des Landkreis setzen und Layer merken
                 landkreis = feature.properties.BEZ + ' ' + feature.properties.GEN;
-                // Detailansicht des Landkreises anzeigen
-                selectedLayer = e.target
+                selectedLayer = e.target;
+                // Reinzoomen und Landkreis umranden
                 focusOnArea();
             }
 
         });
     }
 
-    // GeoJSON-Daten (in landkreisdaten-Variable, siehe saxony_accurate.js) einzeichnen
+    // GeoJSON-Daten (in landkreisdaten-Variable, siehe landkreise.js) einzeichnen
     geojsonLK = L.geoJson(landkreisdaten, { 
         style: { color: '#6AB446', fillColor: '#6AB446' },
         onEachFeature: forAllLKs
     });
 
-    // Definieren der Funktion, die für jedes Lankreis-Polygon ausgeführt wird
+    // Definieren der Funktion, die für jedes Kulturraum-Polygon ausgeführt wird
     let forAllKRs = function (feature, layer) {
 
-        // Beschriftungen der Landkreise als Tooltip einbinden
-        let lkName = feature.properties.GEN; /* LK Name im GeoJSON */
+        // Beschriftungen der Kulturräume als Tooltip einbinden
+        let krName = feature.properties.GEN; /* KR Name im GeoJSON */
         let lkProps = {
             direction: 'center',    // Zentriert
             permanent: true,        // die ganze Zeit sichtbar
             className: 'tooltip'    // CSS-Klasse für Tooltips, siehe style.css
         }
-        if (lkName == 'Meißen<br>Sächsische Schweiz<br>Osterzgebirge') lkProps.className += ' tooltipKRMSO';
-        if (lkName == 'Mittelsachsen<br>Erzgebirge') lkProps.className += ' tooltipKRME';
-        if (lkName == 'Leipziger Raum') lkProps.className += ' tooltipKRL';
-        layer.bindTooltip(lkName, lkProps);
 
-        // Eventlistener für die Landkreise
+        // Extra-Klassen, um bei "abwegigen" Kulturraumnamen die Position zu korrigieren
+        if (krName == 'Meißen<br>Sächsische Schweiz<br>Osterzgebirge') lkProps.className += ' tooltipKRMSO';
+        if (krName == 'Mittelsachsen<br>Erzgebirge') lkProps.className += ' tooltipKRME';
+        if (krName == 'Leipziger Raum') lkProps.className += ' tooltipKRL';
+        
+        // Tooltip anbinden
+        layer.bindTooltip(krName, lkProps);
+
+        // Eventlistener für die Kulturräume
         layer.on({
-
-            // MouseOver Event
             mouseover: function (e) {
                 // Polygon-Füllung ändern
                 e.target.setStyle({ fillOpacity: 0.6 });
             },
-
-            // MouseOut Event
             mouseout: function (e) {
                 // Style zurücksetzen
                 geojsonKR.eachLayer(layer => { geojsonKR.resetStyle(layer) });
             },
-
-            // Klick Event
             click: function (e) {
-                // Namen des Landkreis setzen
+                // Namen des Kulturraums setzen und Layer merken
                 landkreis = feature.properties.BEZ + ' ' + feature.properties.GEN;
-                // Detailansicht des Landkreises anzeigen
                 selectedLayer = e.target;
+                // Reinzoomen und Kulturraum umranden
                 focusOnArea();
             }
 
         });
     }
 
-    // GeoJSON-Daten (in landkreisdaten-Variable, siehe saxony_accurate.js) einzeichnen
+    // GeoJSON-Daten (in kulturraumdaten-Variable, siehe kulturraeume.js) einzeichnen
     geojsonKR = L.geoJson(kulturraumdaten, {
         style: { color: '#6AB446', fillColor: '#6AB446' },
         onEachFeature: forAllKRs
     });
 
-    // Checkbox umschalten, wenn auf Label geklickt
-    document.getElementById('select-all').addEventListener('click', function (e) {
-        if (this == e.target) {
-            this.querySelector('input').checked = !this.querySelector('input').checked;
-            this.querySelector('input').dispatchEvent(new Event('change'));
-        }
-    });
-
-    // Alle Bibos anzeigen wenn Checkbox checked
-    document.querySelector('#select-all input').checked = false;
-
+    // Event-Listener für die Switch zwischen Landkreisen und Kulturräumen
     document.getElementById('selectLks').addEventListener('click', function (e) {
-        if (this == e.target) {
-            if (!this.querySelector('input').checked) {
-                this.querySelector('input').checked = true;
-                this.querySelector('input').dispatchEvent(new Event('change'));
-            }
-        }
+        let input = this.querySelector('input');
+        if (!input.checked) input.checked = true;
+        input.dispatchEvent(new Event('change'));
     });
-    document.querySelector('#selectLks input').checked = true;
     document.querySelector('#selectLks input').addEventListener('change', function (e) {
         if (this.checked) zuLandkreiseWechseln(true);
     });
 
     document.getElementById('selectKrs').addEventListener('click', function (e) {
-        if (this == e.target) {
-            if (!this.querySelector('input').checked) {
-                this.querySelector('input').checked = true;
-                this.querySelector('input').dispatchEvent(new Event('change'));
-            }
-        }
+        let input = this.querySelector('input');
+        if (!input.checked) input.checked = true;
+        input.dispatchEvent(new Event('change'));
     });
     document.querySelector('#selectKrs input').addEventListener('change', function (e) {
         if (this.checked) zuLandkreiseWechseln(false);
     });
 
+    // Event-Listener für den Close-Button der Bildvorschau
     document.getElementById('overlay-close').addEventListener('click', function(evt) {
         document.getElementById('overlay').style.display = 'none';
     });
 
-    // Übersichtskarte aller Landkreise initialisieren
+    // Karte ausrichten und initiierendes Zoom-Event aufrufen
     map.fitBounds(saxonyBox);
     onZoomed();
 }
 
-// Funktion zur Initialisierung der Ansicht eines Landkreises
-// selectedLayer-Parameter ist Layer des gewählten Landkreises
+// Funktion zum Zoom auf ein bestimmtes Gebiet
+// selectedLayer-Parameter ist Layer des gewählten Gebiets
 function focusOnArea() {
 
     // Die GeoJSON-Koordinaten des Landkreises auslesen
@@ -298,27 +274,33 @@ function focusOnArea() {
     // Karte auf Grenzen des Landkreises ausrichten
     map.fitBounds(selectedLayer.getBounds())
 
+    // Zoom-Event auslösen
     onZoomed();
 }
 
+// Diese Funktion ermittelt, was von der Karte aktuell sichtbar ist
+// und entscheidet dann, ob die Übersichts-/Straßenkarte etc. angezeigt wird.
 function onZoomed() {
-    // maximale coords (breitendifferenz, längendifferenz)
+    // Breite und Höhe der Sachsenbox
     let maxSpan = [saxonyBox[1][0] - saxonyBox[0][0], saxonyBox[1][1] - saxonyBox[0][1]];
-    // aktuelle coords (nach zoom)
+    // Breite und Höhe des aktuellen Ausschnitts
     let bounds = map.getBounds();
     let currentSpan = [bounds._northEast.lat - bounds._southWest.lat, bounds._northEast.lng - bounds._southWest.lng];
-    // LK coords (ggf. null)
+    // Breite und Höhe des ausgewählten Gebietes (0 wenn keins ausgewählt)
     let selectedSpan = [0, 0];
     if (selectedLayer !== null) {
         bounds = selectedLayer.getBounds();
         selectedSpan = [bounds._northEast.lat - bounds._southWest.lat, bounds._northEast.lng - bounds._southWest.lng];
     }
+    // Falls schon ganz rausgezoomt, kein weiteres Rauszoomen zulassen
     if (currentSpan[0] >= maxSpan[0] && currentSpan[1] >= maxSpan[1]) map.setMinZoom(map.getZoom());
+    // Vergleich der Höhen und Breiten und damit Entscheidung, welcher Kartenmodus angezeigt wird
     if (currentSpan[0] > maxSpan[0] * 0.6 && currentSpan[1] > maxSpan[1] * 0.6) mapMode0();
     else if (currentSpan[0] > selectedSpan[0] * 1.4 && currentSpan[1] > selectedSpan[1] * 1.4) mapMode1();
     else mapMode2();
 }
 
+// Kartenmodus 0: Schematische Darstellung der Landkreise/Kulturräume, keine Straßenkarte
 function mapMode0() {
     streetCover.addTo(map).bringToBack();
     if (coverLayer) map.removeLayer(coverLayer);
@@ -328,6 +310,7 @@ function mapMode0() {
     refreshMarker(true);
 }
 
+// Kartenmodus 1: Darstellung der Straßenkarte, keine Einrahmung eines Gebietes
 function mapMode1() {
     if (coverLayer) map.removeLayer(coverLayer);
     geojsonKR.remove();
@@ -336,6 +319,7 @@ function mapMode1() {
     refreshMarker(true);
 }
 
+// Kartenmodus 2: Darstellung der Straßenkarte mit Rahmen um ausgewähltes Gebiet.
 function mapMode2() {
     geojsonKR.remove();
     geojsonLK.remove();
@@ -343,6 +327,7 @@ function mapMode2() {
     refreshMarker(true);
 }
 
+// Wechselfunktion zwischen Landkreisansicht und Kulturraumansicht
 function zuLandkreiseWechseln(bool) {
     if (bool) {
         geojsonKR.removeFrom(map);
@@ -353,6 +338,8 @@ function zuLandkreiseWechseln(bool) {
     }
 }
 
+// OBSOLET, bei Gelegenheit entfernen (zusammen mit allen Komponenten)
+// Prüft, ob der Landkreis einer Bibo Teil des ausgewählten Gebietes ist 
 function istInLandkreis(lk, gebiet) {
     if (lk == gebiet) return true;
     let lk_kr_map = {
@@ -385,6 +372,7 @@ function istInLandkreis(lk, gebiet) {
     return false;
 }
 
+// Öffnet die Bildvorschau
 function openOverlay(url, auth) {
     let overlay = document.getElementById('overlay');
     let img = document.getElementById('overlay-img');
@@ -397,6 +385,7 @@ function openOverlay(url, auth) {
     overlay.style.display = 'flex';
 }
 
+// Aktualisiert die Anzeige der Marker
 function refreshMarker(allowShow) {
 
     let all = document.querySelector('#select-all input').checked;
