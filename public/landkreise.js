@@ -1,4 +1,7 @@
 /**
+ * Datenbank aller Landkreise im GeoJSON-Format.
+ * Kann später in JSON-Datei verschoben werden und per AJAX vom Server bereitgestellt werden.
+ *
  * Data collected by Code for Germany
  * https://codefor.de/projekte/2013-08-05-hn-geojson-utilities.html
  * http://opendatalab.de/projects/geojson-utilities/

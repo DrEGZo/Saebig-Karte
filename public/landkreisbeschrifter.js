@@ -1,3 +1,8 @@
+/**
+ * Tool zur Zuweisung eines Landkreises zu jeder Bibo. Gibt Konsolenwarnung aus, falls in keinem oder in 2 Landkreisen.
+ * ACHTUNG: Input JSON, Output JSON!
+ */
+
 let fs = require('fs');
 let d3 = require('d3-geo');
 
@@ -27,8 +32,4 @@ for (let i = 0; i < bibos.length; i++) {
 }
 
 fs.writeFileSync(__dirname + '/data3.json', JSON.stringify(bibos));
-
-//console.log(daten.features[0].geometry.coordinates[0][0])
-
-//console.log(d3.geoContains(daten.features[0], [13.630135,51.088286]))
 

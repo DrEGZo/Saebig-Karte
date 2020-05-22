@@ -1,16 +1,14 @@
+/**
+ * Dieser Script ließt ein GeoJSON von Landkreisen ein
+ * und gibt ein GeoJSON von Kulturräumen aus.
+ * Input: lks.json, output: krs.json
+ * Nur auf Sachsen anwendbar.
+ */
+
 let turf = require('@turf/union');
 let fs = require('fs');
 
 let daten = JSON.parse(fs.readFileSync(__dirname + '/lks.json'));
-
-/* var poly1 = daten.features[0];
-var poly2 = daten.features[2];
-
-console.log(turf.default(poly1, poly2)); */
-
-/* for (let i = 0; i < daten.features.length; i++) {
-    console.log(i + ' ' + daten.features[i].properties.BEZ + ' ' + daten.features[i].properties.GEN)
-} */
 
 let result = {
     type: "FeatureCollection",
