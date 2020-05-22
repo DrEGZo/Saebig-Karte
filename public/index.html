@@ -34,10 +34,10 @@
         <div id="selectKrs"><input type="radio" name="lks">Kulturraumübersicht</div>
     </div>
     <div id="map-container">
-        <!-- <div id="search">
-            <input type="text" placeholder="Nach Bibliotheken suchen">
+        <div id="search">
+            <input type="text" placeholder="Nach Bibliotheken suchen" oninput="onZoomed()">
             <span></span>
-        </div> -->
+        </div>
         <div id="return-button"><button id="but_r"><p>Zurück</p></button></div>
         <div id="map"></div>
         <div id="overlay">
@@ -51,9 +51,6 @@
         <div id="select-all">
             <input type="checkbox" onchange="onZoomed()">
             <span>Alle Bibliotheken</span>
-        </div>
-        <div id="search">
-            <input type="text" onchange="onZoomed()">
         </div>
         <div id="filter">
             <div>

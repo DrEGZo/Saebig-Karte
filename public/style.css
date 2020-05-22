@@ -161,7 +161,7 @@ body {
     width: 0;
 }
 
-/* #search {
+#search {
     position: absolute;
     right: 10px;
     top: 10px;
@@ -188,7 +188,6 @@ body {
     height: 15px;
     width: 15px;
     border-radius: 15px;
-    cursor: pointer;
 }
 
 #search span::before {
@@ -198,7 +197,7 @@ body {
     height: 10px;
     background-color: #aaa;
     transform: rotate(45deg) translate(2px, 9px);
-} */
+}
 
 #header, #footer {
     flex: none;
