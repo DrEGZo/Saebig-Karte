@@ -19,7 +19,7 @@ let streetCover = L.rectangle([[0, 0], [90, 180]], {
 // Objekt für gesetzte Marker
 let markers = {}
 
-// Die Koordinaten, die nötig sind, um ein Polygon auf der Karte zu invertieren 
+// Die Koordinaten, die nötig sind, um ein Polygon auf der Karte zu invertieren
 // (wichtig für coverLayer)
 const vectorInverter = [[0, 90], [180, 90], [180, -90], [0, -90], [-180, -90], [-180, 0], [-180, 90], [0, 90]];
 
@@ -102,7 +102,9 @@ function main() {
         let marker = L.marker(bibodaten[i].coords, {
             icon: icons[bibodaten[i].state][bibodaten[i].size],
             state: bibodaten[i].state,
-            size: bibodaten[i].size
+            size: bibodaten[i].size,
+            name: bibodaten[i].name,
+            ort: bibodaten[i].ort
         });
         let markerContent = '<div class="markercontent"><div class="content-text">';
         markerContent += '<b>' + bibodaten[i].name + '</b><br>' + bibodaten[i].str + '<br>' + bibodaten[i].plz + ' ' + bibodaten[i].ort + '<br>';
@@ -113,7 +115,7 @@ function main() {
         if (bibodaten[i].lk in markers) markers[bibodaten[i].lk].push(marker);
         else if (bibodaten[i].lk != '') markers[bibodaten[i].lk] = [marker];
     }
-    
+
     // Eventlistener für Karte: Bei Größenänderung und Zoomen
     map.on({
         resize: function(e) {
@@ -125,7 +127,7 @@ function main() {
 
     // Definieren der Funktion, die für jedes Lankreis-Polygon ausgeführt wird
     let forAllLKs = function (feature, layer) {
-        
+
         // Beschriftungen der Landkreise als Tooltip einbinden
         let lkName = feature.properties.GEN; /* LK Name im GeoJSON */
         let lkProps = {
@@ -133,12 +135,12 @@ function main() {
             permanent: true,        // die ganze Zeit sichtbar
             className: 'tooltip'    // CSS-Klasse für Tooltips, siehe style.css
         }
-        
+
         // Extra-Klassen, um bei "abwegigen" Landkreisnamen die Position zu korrigieren
         if (lkName == 'Görlitz') lkProps.className += ' tooltipLKG';
         if (lkName == 'Nordsachsen') lkProps.className += ' tooltipLKN';
         if (lkName == 'Leipzig' && feature.properties.BEZ == 'Landkreis') lkName = 'LK Leipzig';
-        
+
         // Beschriftung anbinden
         layer.bindTooltip(lkName, lkProps);
 
@@ -164,7 +166,7 @@ function main() {
     }
 
     // GeoJSON-Daten (in landkreisdaten-Variable, siehe landkreise.js) einzeichnen
-    geojsonLK = L.geoJson(landkreisdaten, { 
+    geojsonLK = L.geoJson(landkreisdaten, {
         style: { color: '#6AB446', fillColor: '#6AB446' },
         onEachFeature: forAllLKs
     });
@@ -184,7 +186,7 @@ function main() {
         if (krName == 'Meißen<br>Sächsische Schweiz<br>Osterzgebirge') lkProps.className += ' tooltipKRMSO';
         if (krName == 'Mittelsachsen<br>Erzgebirge') lkProps.className += ' tooltipKRME';
         if (krName == 'Leipziger Raum') lkProps.className += ' tooltipKRL';
-        
+
         // Tooltip anbinden
         layer.bindTooltip(krName, lkProps);
 
@@ -339,7 +341,7 @@ function zuLandkreiseWechseln(bool) {
 }
 
 // OBSOLET, bei Gelegenheit entfernen (zusammen mit allen Komponenten)
-// Prüft, ob der Landkreis einer Bibo Teil des ausgewählten Gebietes ist 
+// Prüft, ob der Landkreis einer Bibo Teil des ausgewählten Gebietes ist
 function istInLandkreis(lk, gebiet) {
     if (lk == gebiet) return true;
     let lk_kr_map = {
@@ -385,6 +387,7 @@ function openOverlay(url, auth) {
     overlay.style.display = 'flex';
 }
 
+
 // Aktualisiert die Anzeige der Marker
 function refreshMarker(allowShow) {
 
@@ -398,23 +401,60 @@ function refreshMarker(allowShow) {
     let oeb1 = document.querySelector('#filter-oeb-1 input').checked;
     let oeb2 = document.querySelector('#filter-oeb-2 input').checked;
 
-    for (let lk in markers) {
-        for (let i = 0; i < markers[lk].length; i++) {
-            let show = false;
-            let opt = markers[lk][i].options;
-            if (all) show = true;
-            else if (opt.state == 0) {
-                if (wb || (opt.size == 0 && wb0) || (opt.size == 1 && wb1) || (opt.size == 2 && wb2)) show = true;
-            } else if (opt.state == 1) {
-                if (oeb || (opt.size == 0 && oeb0) || (opt.size == 1 && oeb1) || (opt.size == 2 && oeb2)) show = true;
-            }
-            if (!(allowShow || istInLandkreis(lk, landkreis))) show = false;
-            if (show) markers[lk][i].addTo(map);
-            else markers[lk][i].removeFrom(map);
-        };
+    let search = document.querySelector('#search input').value;
+
+
+    if (search) {
+      for (let lk in markers) {
+          for (let i = 0; i < markers[lk].length; i++) {
+              let show = false;
+              let opt = markers[lk][i].options;
+              if (all){
+                if (opt.name.includes(search)||opt.ort.includes(search)) {
+                  show = true;
+                }
+              }
+              else if (opt.state == 0) {
+                  if (wb || (opt.size == 0 && wb0) || (opt.size == 1 && wb1) || (opt.size == 2 && wb2)){
+                    if (opt.name.includes(search)||opt.ort.includes(search)) {
+                      show = true;
+                    }
+                  }
+              } else if (opt.state == 1) {
+                  if (oeb || (opt.size == 0 && oeb0) || (opt.size == 1 && oeb1) || (opt.size == 2 && oeb2)) {
+                    if (opt.name.includes(search)||opt.ort.includes(search)) {
+                      show = true;
+                    }
+                  }
+              }
+              if (!(allowShow || istInLandkreis(lk, landkreis))) show = false;
+              if (show) markers[lk][i].addTo(map);
+              else markers[lk][i].removeFrom(map);
+          };
+      }
+    }else {
+
+      for (let lk in markers) {
+          for (let i = 0; i < markers[lk].length; i++) {
+              let show = false;
+              let opt = markers[lk][i].options;
+              if (all) show = true;
+              else if (opt.state == 0) {
+                  if (wb || (opt.size == 0 && wb0) || (opt.size == 1 && wb1) || (opt.size == 2 && wb2)) show = true;
+              } else if (opt.state == 1) {
+                  if (oeb || (opt.size == 0 && oeb0) || (opt.size == 1 && oeb1) || (opt.size == 2 && oeb2)) show = true;
+              }
+              if (!(allowShow || istInLandkreis(lk, landkreis))) show = false;
+              if (show) markers[lk][i].addTo(map);
+              else markers[lk][i].removeFrom(map);
+          };
+      }
+
     }
-    
+
+
 }
+
 
 // Wenn DOM gelanden, main ausführen
 window.onload = main;
