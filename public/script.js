@@ -401,39 +401,18 @@ function refreshMarker(allowShow) {
     let oeb1 = document.querySelector('#filter-oeb-1 input').checked;
     let oeb2 = document.querySelector('#filter-oeb-2 input').checked;
 
-    let search = document.querySelector('#search input').value;
+    let search = document.querySelector('#search input').value.toUpperCase();
 
 
     if (search) {
-      for (let lk in markers) {
-          for (let i = 0; i < markers[lk].length; i++) {
-              let show = false;
-              let opt = markers[lk][i].options;
-              if (all){
-                if (opt.name.includes(search)||opt.ort.includes(search)) {
-                  show = true;
-                }
-              }
-              else if (opt.state == 0) {
-                  if (wb || (opt.size == 0 && wb0) || (opt.size == 1 && wb1) || (opt.size == 2 && wb2)){
-                    if (opt.name.includes(search)||opt.ort.includes(search)) {
-                      show = true;
-                    }
-                  }
-              } else if (opt.state == 1) {
-                  if (oeb || (opt.size == 0 && oeb0) || (opt.size == 1 && oeb1) || (opt.size == 2 && oeb2)) {
-                    if (opt.name.includes(search)||opt.ort.includes(search)) {
-                      show = true;
-                    }
-                  }
-              }
-              if (!(allowShow || istInLandkreis(lk, landkreis))) show = false;
-              if (show) markers[lk][i].addTo(map);
-              else markers[lk][i].removeFrom(map);
-          };
-      }
-    }else {
-
+      let searchresults = [];  //array mit den suchergebnissen
+      for (let i = 0; i < bibodaten.length; i++) {
+         if((bibodaten[i].name.toUpperCase().includes(search))||(bibodaten[i].ort.toUpperCase().includes(search))){
+            searchresults.push(bibodaten[i].name + " "+ bibodaten[i].ort);
+            console.log(searchresults);  //bitte danach entfernen
+         }
+        }
+}
       for (let lk in markers) {
           for (let i = 0; i < markers[lk].length; i++) {
               let show = false;
@@ -451,10 +430,6 @@ function refreshMarker(allowShow) {
       }
 
     }
-
-
-}
-
 
 // Wenn DOM gelanden, main ausführen
 window.onload = main;
