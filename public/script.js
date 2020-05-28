@@ -387,6 +387,10 @@ function openOverlay(url, auth) {
     overlay.style.display = 'flex';
 }
 
+//zoomt auf die betroffene Bibliothek
+function findLibrary(findme){
+    
+}
 
 // Aktualisiert die Anzeige der Marker
 function refreshMarker(allowShow) {
@@ -406,13 +410,30 @@ function refreshMarker(allowShow) {
 
     if (search) {
       let searchresults = [];  //array mit den suchergebnissen
+      let searchi = []; //array mit der stell in den bibodaten, war shcon spät, mir ist nichts besseres eingefallen
+      [...document.getElementsByClassName("dela")].map(n => n && n.remove());
       for (let i = 0; i < bibodaten.length; i++) {
          if((bibodaten[i].name.toUpperCase().includes(search))||(bibodaten[i].ort.toUpperCase().includes(search))){
-            searchresults.push(bibodaten[i].name + " "+ bibodaten[i].ort);
-            console.log(searchresults);  //bitte danach entfernen
+            searchresults.push(bibodaten[i]);
+            searchi.push(i);
          }
         }
-}
+      for (let b = 0; b < searchresults.length; b++){
+        if(b>9){
+            break;
+        }
+        lia = document.createElement("a");
+        lia.className = "dela";
+        lia.id = "a"+b;
+        lia.style = "display:block;";
+        lia.setAttribute("onclick","findLibrary('"+ searchi[b] +"');");
+        lia.innerHTML = searchresults[b].name + " " + searchresults[b].ort;
+        document.getElementById("search").appendChild(lia);
+      }
+    } else{
+        [...document.getElementsByClassName("dela")].map(n => n && n.remove());
+    }
+
       for (let lk in markers) {
           for (let i = 0; i < markers[lk].length; i++) {
               let show = false;
