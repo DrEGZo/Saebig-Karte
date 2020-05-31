@@ -387,6 +387,40 @@ function openOverlay(url, auth) {
     overlay.style.display = 'flex';
 }
 
+// Bei Eingabe in die Suchleiste
+function searchInput() {
+    let search = document.querySelector('#search input').value.toUpperCase();
+    let searchBox = document.getElementById('search-result');
+    if (search) {
+        let searchresults = [];  //array mit den suchergebnissen
+        let searchi = []; //array mit der stell in den bibodaten, war shcon spät, mir ist nichts besseres eingefallen
+        [...document.getElementsByClassName("dela")].map(n => n && n.remove());
+        for (let i = 0; i < bibodaten.length; i++) {
+            if ((bibodaten[i].name.toUpperCase().includes(search)) || (bibodaten[i].ort.toUpperCase().includes(search))) {
+                searchresults.push(bibodaten[i]);
+                searchi.push(i);
+            }
+        }
+        if (searchresults.length > 0) searchBox.style.display = 'block';
+        else searchBox.style.display = 'none';
+        for (let b = 0; b < searchresults.length; b++) {
+            if (b > 9) {
+                break;
+            }
+            lia = document.createElement("a");
+            lia.className = "dela";
+            lia.id = "a" + b;
+            lia.setAttribute("onclick", "findLibrary('" + searchi[b] + "');");
+            lia.innerHTML = searchresults[b].name + " " + searchresults[b].ort;
+            document.getElementById("search-result").appendChild(lia);
+        }
+    } else {
+        [...document.getElementsByClassName("dela")].map(n => n && n.remove());
+        searchBox.style.display = 'none';
+    }
+    refreshMarker();
+}
+
 //zoomt auf die betroffene Bibliothek
 function findLibrary(findme){
     let coords = bibodaten[findme].coords;
@@ -411,37 +445,6 @@ function refreshMarker(allowShow) {
     let oeb0 = document.querySelector('#filter-oeb-0 input').checked;
     let oeb1 = document.querySelector('#filter-oeb-1 input').checked;
     let oeb2 = document.querySelector('#filter-oeb-2 input').checked;
-
-    let search = document.querySelector('#search input').value.toUpperCase();
-
-    let searchBox = document.getElementById('search-result');
-    if (search) {
-      let searchresults = [];  //array mit den suchergebnissen
-      let searchi = []; //array mit der stell in den bibodaten, war shcon spät, mir ist nichts besseres eingefallen
-      [...document.getElementsByClassName("dela")].map(n => n && n.remove());
-      for (let i = 0; i < bibodaten.length; i++) {
-         if((bibodaten[i].name.toUpperCase().includes(search))||(bibodaten[i].ort.toUpperCase().includes(search))){
-            searchresults.push(bibodaten[i]);
-            searchi.push(i);
-         }
-        }
-        if (searchresults.length > 0) searchBox.style.display = 'block';
-        else searchBox.style.display = 'none';
-      for (let b = 0; b < searchresults.length; b++){
-        if(b>9){
-            break;
-        }
-        lia = document.createElement("a");
-        lia.className = "dela";
-        lia.id = "a"+b;
-        lia.setAttribute("onclick","findLibrary('"+ searchi[b] +"');");
-        lia.innerHTML = searchresults[b].name + " " + searchresults[b].ort;
-        document.getElementById("search-result").appendChild(lia);
-      }
-    } else{
-        [...document.getElementsByClassName("dela")].map(n => n && n.remove());
-        searchBox.style.display = 'none';
-    }
 
       for (let lk in markers) {
           for (let i = 0; i < markers[lk].length; i++) {
