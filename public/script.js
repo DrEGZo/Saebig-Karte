@@ -418,6 +418,9 @@ function refreshMarker(allowShow) {
             searchi.push(i);
          }
         }
+        let searchBox = document.getElementById('search-result');
+        if (searchresults.length > 0) searchBox.style.display = 'block';
+        else searchBox.style.display = 'none';
       for (let b = 0; b < searchresults.length; b++){
         if(b>9){
             break;
@@ -425,10 +428,9 @@ function refreshMarker(allowShow) {
         lia = document.createElement("a");
         lia.className = "dela";
         lia.id = "a"+b;
-        lia.style = "display:block;";
         lia.setAttribute("onclick","findLibrary('"+ searchi[b] +"');");
         lia.innerHTML = searchresults[b].name + " " + searchresults[b].ort;
-        document.getElementById("search").appendChild(lia);
+        document.getElementById("search-result").appendChild(lia);
       }
     } else{
         [...document.getElementsByClassName("dela")].map(n => n && n.remove());

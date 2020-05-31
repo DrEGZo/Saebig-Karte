@@ -182,6 +182,10 @@ body {
     width: 250px;
 }
 
+#search input:focus {
+    outline: none;
+}
+
 #search span {
     display: inline-block;
     border: 3px solid #aaa;
@@ -197,6 +201,27 @@ body {
     height: 10px;
     background-color: #aaa;
     transform: rotate(45deg) translate(2px, 9px);
+}
+
+#search-result {
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 105%;
+    border: 2px solid #ddd;
+}
+
+.dela {
+    display: block;
+    background-color: #fff;
+    padding: 8px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.dela:hover {
+    background-color: #ddd;
 }
 
 #header, #footer {
