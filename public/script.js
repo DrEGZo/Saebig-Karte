@@ -30,6 +30,8 @@ let geojsonKR;
 // Koordinaten der Box, welche Sachsen enthält
 const saxonyBox = [[50.15, 11.84], [51.70, 15.06]];
 
+let searchBibo = null;
+
 function main() {
 
     // Karte in DOM einfügen und Eigenschaften festlegen
@@ -104,7 +106,8 @@ function main() {
             state: bibodaten[i].state,
             size: bibodaten[i].size,
             name: bibodaten[i].name,
-            ort: bibodaten[i].ort
+            ort: bibodaten[i].ort,
+            index: i
         });
         let markerContent = '<div class="markercontent"><div class="content-text">';
         markerContent += '<b>' + bibodaten[i].name + '</b><br>' + bibodaten[i].str + '<br>' + bibodaten[i].plz + ' ' + bibodaten[i].ort + '<br>';
@@ -239,6 +242,14 @@ function main() {
     // Event-Listener für den Close-Button der Bildvorschau
     document.getElementById('overlay-close').addEventListener('click', function(evt) {
         document.getElementById('overlay').style.display = 'none';
+    });
+
+    // Event-Listener für die Suche
+    let searchInput = document.querySelector('#search input');
+    searchInput.addEventListener('input', onSearchInput);
+    searchInput.addEventListener('focus', onSearchInput);
+    searchInput.addEventListener('blur', () => {
+        document.getElementById('search-result').style.display = 'none';
     });
 
     // Karte ausrichten und initiierendes Zoom-Event aufrufen
@@ -388,7 +399,8 @@ function openOverlay(url, auth) {
 }
 
 // Bei Eingabe in die Suchleiste
-function searchInput() {
+function onSearchInput() {
+    searchBibo = null;
     let search = document.querySelector('#search input').value.toUpperCase();
     let searchBox = document.getElementById('search-result');
     if (search) {
@@ -410,7 +422,7 @@ function searchInput() {
             lia = document.createElement("a");
             lia.className = "dela";
             lia.id = "a" + b;
-            lia.setAttribute("onclick", "findLibrary('" + searchi[b] + "');");
+            lia.setAttribute("onmousedown", "findLibrary('" + searchi[b] + "');");
             lia.innerHTML = searchresults[b].name + " " + searchresults[b].ort;
             document.getElementById("search-result").appendChild(lia);
         }
@@ -423,13 +435,22 @@ function searchInput() {
 
 //zoomt auf die betroffene Bibliothek
 function findLibrary(findme){
+    searchBibo = findme;
     let coords = bibodaten[findme].coords;
     let zoomBox = [
         [coords[0] - 0.0015, coords[1] - 0.0015],
         [coords[0] + 0.0015, coords[1] + 0.0015]
     ];
     map.fitBounds(zoomBox);
-    document.querySelector('#search input').value = null;
+    for (let lk in markers) {
+        for (let i = 0; i < markers[lk].length; i++) {
+            let opt = markers[lk][i].options;
+            if (findme == opt.index) {
+                markers[lk][i].addTo(map);
+                markers[lk][i].openPopup();
+            }
+        };
+    }
     onZoomed();
 }
 
@@ -450,7 +471,8 @@ function refreshMarker(allowShow) {
           for (let i = 0; i < markers[lk].length; i++) {
               let show = false;
               let opt = markers[lk][i].options;
-              if (all) show = true;
+              if (searchBibo == opt.index) show = true;
+              else if (all) show = true;
               else if (opt.state == 0) {
                   if (wb || (opt.size == 0 && wb0) || (opt.size == 1 && wb1) || (opt.size == 2 && wb2)) show = true;
               } else if (opt.state == 1) {
