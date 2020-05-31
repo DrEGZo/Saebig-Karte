@@ -389,7 +389,14 @@ function openOverlay(url, auth) {
 
 //zoomt auf die betroffene Bibliothek
 function findLibrary(findme){
-    
+    let coords = bibodaten[findme].coords;
+    let zoomBox = [
+        [coords[0] - 0.0015, coords[1] - 0.0015],
+        [coords[0] + 0.0015, coords[1] + 0.0015]
+    ];
+    map.fitBounds(zoomBox);
+    document.querySelector('#search input').value = null;
+    onZoomed();
 }
 
 // Aktualisiert die Anzeige der Marker
@@ -407,7 +414,7 @@ function refreshMarker(allowShow) {
 
     let search = document.querySelector('#search input').value.toUpperCase();
 
-
+    let searchBox = document.getElementById('search-result');
     if (search) {
       let searchresults = [];  //array mit den suchergebnissen
       let searchi = []; //array mit der stell in den bibodaten, war shcon spät, mir ist nichts besseres eingefallen
@@ -418,7 +425,6 @@ function refreshMarker(allowShow) {
             searchi.push(i);
          }
         }
-        let searchBox = document.getElementById('search-result');
         if (searchresults.length > 0) searchBox.style.display = 'block';
         else searchBox.style.display = 'none';
       for (let b = 0; b < searchresults.length; b++){
@@ -434,6 +440,7 @@ function refreshMarker(allowShow) {
       }
     } else{
         [...document.getElementsByClassName("dela")].map(n => n && n.remove());
+        searchBox.style.display = 'none';
     }
 
       for (let lk in markers) {
