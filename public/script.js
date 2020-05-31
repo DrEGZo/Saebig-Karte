@@ -467,24 +467,24 @@ function refreshMarker(allowShow) {
     let oeb1 = document.querySelector('#filter-oeb-1 input').checked;
     let oeb2 = document.querySelector('#filter-oeb-2 input').checked;
 
-      for (let lk in markers) {
-          for (let i = 0; i < markers[lk].length; i++) {
-              let show = false;
-              let opt = markers[lk][i].options;
-              if (searchBibo == opt.index) show = true;
-              else if (all) show = true;
-              else if (opt.state == 0) {
-                  if (wb || (opt.size == 0 && wb0) || (opt.size == 1 && wb1) || (opt.size == 2 && wb2)) show = true;
-              } else if (opt.state == 1) {
-                  if (oeb || (opt.size == 0 && oeb0) || (opt.size == 1 && oeb1) || (opt.size == 2 && oeb2)) show = true;
-              }
-              if (!(allowShow || istInLandkreis(lk, landkreis))) show = false;
-              if (show) markers[lk][i].addTo(map);
-              else markers[lk][i].removeFrom(map);
-          };
-      }
-
+    for (let lk in markers) {
+        for (let i = 0; i < markers[lk].length; i++) {
+            let show = false;
+            let opt = markers[lk][i].options;
+            if (searchBibo == opt.index) show = true;
+            else if (all) show = true;
+            else if (opt.state == 0) {
+                if (wb || (opt.size == 0 && wb0) || (opt.size == 1 && wb1) || (opt.size == 2 && wb2)) show = true;
+            } else if (opt.state == 1) {
+                if (oeb || (opt.size == 0 && oeb0) || (opt.size == 1 && oeb1) || (opt.size == 2 && oeb2)) show = true;
+            }
+            if (!(allowShow || istInLandkreis(lk, landkreis))) show = false;
+            if (show) markers[lk][i].addTo(map);
+            else markers[lk][i].removeFrom(map);
+        };
     }
+
+}
 
 // Wenn DOM gelanden, main ausführen
 window.onload = main;
