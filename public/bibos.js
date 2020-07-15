@@ -185,6 +185,111 @@ const bibodaten = [
         "img": "http://www.tchobanvoss.de/gfx_scroll_images/col_DR_2405_01_blickpunkt_studio_2.jpg"
     },
     {
+        "name": "Bibliothek der Hochschule Meißen (FH) und Fortbildungszentrum",
+        "str": "Herbert-Böhme-Straße 11",
+        "plz": "01662",
+        "ort": "Meißen",
+        "state": 0,
+        "size": 1,
+        "web": "https://www.hsf.sachsen.de/einrichtungen/bibliothek/",
+        "coords": [
+            51.159010,
+            13.488875
+        ],
+        "lk": "Landkreis Meißen",
+        "img": "http://sfhdresden.de/img/bildung-bibliothek-fhsv-meissen-07.jpg"
+    },
+    {
+        "name": "Bibliothek der Westsächsischen Hochschule",
+        "str": "Klosterstraße 7",
+        "plz": "08056",
+        "ort": "Zwickau",
+        "state": 0,
+        "size": 1,
+        "web": "https://www.fh-zwickau.de/bib/",
+        "coords": [
+            50.715696,
+            12.495914
+        ],
+        "lk": "Landkreis Zwickau",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Bibliothek_der_Wests%C3%A4chsischen_Hochschule_Zwickau.jpg/1920px-Bibliothek_der_Wests%C3%A4chsischen_Hochschule_Zwickau.jpg"
+    },
+    {
+        "name": "Zweigbibliothek der FH",
+        "str": "Scheffelstraße 39",
+        "plz": "08066",
+        "ort": "Zwickau",
+        "state": 0,
+        "size": 0,
+        "web": "https://www.fh-zwickau.de/bib/wir-ueber-uns/zweigbibliotheken/zb-scheffelstrasse/",
+        "coords": [
+            50.733439,
+            12.505158
+        ],
+        "lk": "Kreisfreie Stadt Dresden",
+        "img": "https://www.fh-zwickau.de/fileadmin/_processed_/6/3/csm_scheffelstrasse_gr_4fb07d1633.jpg"
+    },
+    {
+        "name": "Bibliothek der Fakultät Angewandte Kunst der FH Zwickau",
+        "str": "Goethestraße 1",
+        "plz": "08289",
+        "ort": "Schneeberg",
+        "state": 0,
+        "size": 0,
+        "web": "https://www.fh-zwickau.de/aks/weitere-informationen/bibliothek/",
+        "coords": [
+            50.602588,
+            12.643091
+        ],
+        "lk": "Kreisfreie Stadt Dresden",
+        "img": ""
+    },
+    {
+        "name": "Zweigbibliothek der FH Zwickau",
+        "str": "Adorfer Straße 38",
+        "plz": "08258",
+        "ort": "Markneukirchen",
+        "state": 0,
+        "size": 0,
+        "web": "https://www.fh-zwickau.de/aks/weitere-informationen/bibliothek/",
+        "coords": [
+            50.310687,
+            12.318898
+        ],
+        "lk": "Kreisfreie Stadt Dresden",
+        "img": ""
+    },
+    {
+        "name": "Zweigbibliothek der FH Zwickau",
+        "str": "Klinkhardtstraße 30",
+        "plz": "08468",
+        "ort": "Reichenbach",
+        "state": 0,
+        "size": 0,
+        "web": "https://www.fh-zwickau.de/bib/wir-ueber-uns/zweigbibliotheken/",
+        "coords": [
+            50.623985,
+            12.290676
+        ],
+        "lk": "Kreisfreie Stadt Dresden",
+        "img": ""
+    },
+    {
+        "name": "Ratsschulbibliothek",
+        "str": "Lessingstraße 1",
+        "plz": "08058",
+        "ort": "Zwickau",
+        "state": 0,
+        "size": 0,
+        "web": "https://www.ratsschulbibliothek.de/",
+        "coords": [
+            50.724926,
+            12.487005
+        ],
+        "lk": "Kreisfreie Stadt Dresden",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Kunstsammlungen_Zwickau_5_2011_01.JPG/800px-Kunstsammlungen_Zwickau_5_2011_01.JPG"
+    },
+    {
         "name": "Bereichsbibliothek DrePunct der SLUB",
         "str": "Zellescher Weg 17",
         "plz": "01069",
