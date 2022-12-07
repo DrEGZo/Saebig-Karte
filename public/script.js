@@ -48,11 +48,11 @@ function main() {
     });
 
     // Straßenkarte laden und in Karte einfügen
-    L.tileLayer('https://api.maptiler.com/maps/streets/{z}/{x}/{y}.png?key=R7Y2sHW2hgzFomqlOY4W', {
-        tileSize: 512,
-        zoomOffset: -1,
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        //tileSize: 128,
+        //zoomOffset: -1,
         attribution: '<a href="https://www.maptiler.com/copyright/" target="_blank">© MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">© OpenStreetMap contributors</a>',
-        crossOrigin: true
+        //crossOrigin: true
     }).addTo(map);
 
     // Erstellen der Marker Icons
